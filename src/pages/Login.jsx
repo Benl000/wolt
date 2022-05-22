@@ -1,5 +1,5 @@
 export const Login = () => {
     return (
-        <div>Login page</div>
-    )
-}
+        <p>ben is the kink of the world</p>
+    );
+};
