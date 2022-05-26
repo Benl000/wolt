@@ -4,7 +4,6 @@ const INITIAL_STATE = {
 };
 
 export function restaurantReducer(state = INITIAL_STATE, action) {
-    console.log(action);
     switch (action.type) {
         case 'SET_RESTAURANTS':
             return {

@@ -4,7 +4,6 @@ export function loadRestaurants() {
     return async (dispatch) => {
         try {
             const restaurants = await restaurantService.query();
-            console.log('action', restaurants);
             dispatch({ type: 'SET_RESTAURANTS', restaurants });
         } catch (err) {
             console.log(err);
