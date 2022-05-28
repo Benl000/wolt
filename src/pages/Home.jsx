@@ -8,12 +8,16 @@ export const Home = () => {
     // const [restaurants, setRestaurants] = useState(null);
 
     useEffect(() => {
-        dispatch(loadRestaurants());
+        try {
+            dispatch(loadRestaurants());
+        } catch (err) {
+            console.log(err);
+        }
     }, []);
 
     return restaurants ? (
         <div>
-            <pre>{JSON.stringify(restaurants, null, 2)}</pre>
+            <pre>{JSON.stringify(restaurants[0].results[0], null, 2)}</pre>
         </div>
-    ) : null
-}
+    ) : null;
+};

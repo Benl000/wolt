@@ -1,0 +1,46 @@
+.header {
+    display: flex;
+    background-color: $clr1;
+    height: calc(4.375rem - 1px);
+    border-color: $clr2;
+    border-width: 0px 0px 1px;
+    border-style: solid;
+    align-items: center;
+    justify-content: center;
+    &-main {
+        max-width: 1550px;
+        margin: 0px auto;
+        display: flex;
+        width: calc(100vw - 60px);
+        align-items: center;
+        justify-content: space-between;
+        & input {
+            height: 2.5rem;
+            border-radius: 1.25rem;
+            background-color: $clr2;
+            caret-color: $clr3;
+            font-size: 0.875rem;
+            font-weight: 500;
+            padding-inline: 2.5rem;
+            border: none;
+            &:focus {
+                outline: none;
+                box-shadow: $clr3 0px 0px 0px 3px;
+            }
+            &::placeholder {
+                color: $clr5;
+            }
+        }
+        nav {
+            & > * {
+                padding: 0.4rem 1rem;
+                background-color: $clr1;
+                border: none;
+            }
+            & .signup-btn {
+                border: 1px solid #eee;
+                border-radius: 2px;
+            }
+        }
+    }
+}
