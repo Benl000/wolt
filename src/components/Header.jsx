@@ -1,6 +1,7 @@
 import woltLogo from '../assets/svgs/woltLogo.svg';
 import profileLogo from '../assets/svgs/profile.svg';
-import arrowLogo from '../assets/svgs/arrow_header_btn.svg';
+import arrowLogo from '../assets/svgs/arrowHeaderBtn.svg';
+import searchLogo from '../assets/svgs/magnifying-glass.svg';
 
 export const Header = () => {
     return (
@@ -10,6 +11,7 @@ export const Header = () => {
                     <img className='logo' src={woltLogo} />
                 </section>
                 <section className='header-main-search'>
+                    <img className='searchLogo' src={searchLogo} />
                     <input type="text" placeholder='Search in Wolt...' />
                 </section>
                 <nav className='header-main-nav'>
@@ -35,4 +37,4 @@ export const Header = () => {
             </section>
         </header>
     );
-}
+};

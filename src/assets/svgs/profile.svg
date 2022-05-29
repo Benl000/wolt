@@ -1,5 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 41 41" class="icon image-icon user" aria-label="Icon user"
-    data-reactroot="">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 41 41" aria-label="Icon user" data-reactroot="">
     <g transform="translate(1 1)" stroke="#CCC" stroke-width="2" fill="none" fill-rule="evenodd">
         <path
             d="M19 26h0c-3.866 0-7-3.152-7-7.04v-1.92c0-3.888 3.134-7.04 7-7.04h0c3.866 0 7 3.152 7 7.04v1.92c0 3.888-3.134 7.04-7 7.04z"
