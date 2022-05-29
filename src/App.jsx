@@ -1,8 +1,8 @@
 import { HashRouter as Router, Route, Routes, Link } from 'react-router-dom';
-import { Home } from './pages/Home';
-import { Login } from './pages/Login';
+import { Discovery } from './pages/Discovery';
 import './assets/styles/main.scss';
-import Header from './components/Header';
+import { Header } from './components/Header';
+import { Category } from './pages/Category';
 
 export function App() {
   return (
@@ -10,10 +10,9 @@ export function App() {
       <div className="App">
         <Header />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/login" element={<Login />} />
+          <Route path="/" element={<Discovery />} />
+          <Route path="/pizza" element={<Category params={'pizza'} />} />
         </Routes>
-        <Link to='/login'>Login</Link>
       </div>
     </Router>
   );

@@ -1,6 +1,7 @@
 const INITIAL_STATE = {
     restaurants: null,
-    restaurant: null
+    restaurant: null,
+    categories: ['Pizza', 'Sweet', 'Sushi', 'Burger']
 };
 
 export function restaurantReducer(state = INITIAL_STATE, action) {
