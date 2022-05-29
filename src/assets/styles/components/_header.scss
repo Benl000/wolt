@@ -14,32 +14,71 @@
         width: calc(100vw - 60px);
         align-items: center;
         justify-content: space-between;
-        & input {
-            height: 2.5rem;
-            border-radius: 1.25rem;
-            background-color: $clr2;
-            caret-color: $clr3;
-            font-size: 0.875rem;
-            font-weight: 500;
-            padding-inline: 2.5rem;
-            border: none;
-            &:focus {
-                outline: none;
-                box-shadow: $clr3 0px 0px 0px 3px;
-            }
-            &::placeholder {
-                color: $clr5;
+        &-logo {
+            flex: 1 0 0%;
+            position: relative;
+            right: 1rem;
+            top: 0.1rem;
+            display: flex;
+            justify-content: start;
+            & .logo {
+                width: 7.5rem;
+                height: 4.25rem;
             }
         }
-        nav {
-            & > * {
-                padding: 0.4rem 1rem;
+        &-search {
+            flex: 2 1 0%;
+            display: flex;
+            justify-content: center;
+            & input {
+                height: 2.5rem;
+                border-radius: 1.25rem;
+                background-color: $clr2;
+                caret-color: $clr3;
+                font-size: 0.875rem;
+                font-weight: 500;
+                padding-inline: 2.5rem;
+                border: none;
+                &:focus {
+                    outline: none;
+                    box-shadow: $clr3 0px 0px 0px 3px;
+                }
+                &::placeholder {
+                    color: $clr5;
+                }
+            }
+        }
+        &-nav {
+            flex: 1 0 0%;
+            display: flex;
+            justify-content: flex-end;
+            div {
+                display: flex;
+            }
+            button {
                 background-color: $clr1;
                 border: none;
+                position: relative;
             }
-            & .signup-btn {
+            .lang-btn,
+            .profile-btn {
+                display: flex;
+                align-items: center;
+            }
+            & .signup-btn span {
+                padding: 0.4rem 1rem;
                 border: 1px solid #eee;
                 border-radius: 2px;
+            }
+            .arrowLogo {
+                width: 10px;
+                transition: transform 0.15s ease-in-out;
+                transform: rotate(0);
+                margin: 0.3rem 0.5rem 0;
+            }
+            .profileLogo {
+                width: 2rem;
+                height: 2rem;
             }
         }
     }
