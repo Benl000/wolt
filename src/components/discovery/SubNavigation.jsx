@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 import { ReactComponent as DiscoveryLogo } from '../../assets/svgs/discoveryBtn.svg';
 import { ReactComponent as RestaurantsLogo } from '../../assets/svgs/restaurantsBtn.svg';
 
@@ -8,14 +9,14 @@ export const SubNavigation = () => {
                 1
             </section>
             <section className='discovery-nav-center'>
-                <button>
+                <NavLink className='discovery-nav-center-link' to={'/'}>
                     <DiscoveryLogo />
                     <span>Discovery</span>
-                </button>
-                <button>
+                </NavLink>
+                <NavLink className='discovery-nav-center-link' to={'/restaurants'}>
                     <RestaurantsLogo />
                     <span>Restaurants</span>
-                </button>
+                </NavLink>
             </section>
             <section className='discovery-nav-end'>
                 3
