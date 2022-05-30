@@ -5,7 +5,7 @@ export const CategoriesPreview = ({ category }) => {
     const navigate = useNavigate();
 
     const goTo = (categoryId) => {
-        navigate(`/${categoryId}`);
+        navigate(`/category/${categoryId}`);
     };
 
     return (
