@@ -11,7 +11,7 @@ export function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Discovery />} />
-          <Route path="/pizza" element={<Category params={'pizza'} />} />
+          <Route path="/category/:type" element={<Category />} />
         </Routes>
       </div>
     </Router>

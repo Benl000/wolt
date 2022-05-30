@@ -1,14 +1,16 @@
 import { useEffect, useState } from 'react';
+import { useParams } from 'react-router-dom';
 
-export const Category = ({ params }) => {
-    const [restaurants, setRestaurants] = useState(null)
+export const Category = () => {
+    const { type } = useParams()
+    console.log(type);
+    // const [restaurants, setRestaurants] = useState(null)
 
     useEffect(() => {
-        fetch('https://restaurant-api.wolt.com/v1/pages/venue-list/category-pizza?lon=34.80746574626252&lat=31.902428004772347')
-            .then(res => console.log(res))
+        const x = fetch('restaurant-api.wolt.com/v1/pages/venue-list/category-street_food?lon=34.78698525756491&lat=32.087236876497585')
+        console.log(x);
     }, [])
 
-    console.log(params);
     return (
         <div>CATEGORY PAGE</div>
     )
