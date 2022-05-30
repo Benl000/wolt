@@ -8,6 +8,40 @@
     &-start {
         display: flex;
         min-width: 0px;
+        flex: 1 1 0%;
+        button {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            color: $clr3;
+            border: none;
+            background-color: $clr1;
+            padding-left: 0;
+            div {
+                background-color: $clr9;
+                min-width: 2.5rem;
+                min-height: 2.5rem;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                padding-left: 5px;
+                margin-inline-end: 10px;
+            }
+            .location-logo {
+                width: 20px;
+                margin: 0 4px;
+                fill: $clr3;
+                margin-inline-end: 0.5rem;
+            }
+            span {
+                overflow: hidden;
+                text-overflow: ellipsis;
+                font-size: 0.875rem;
+                line-height: 1.25rem;
+                font-weight: 500;
+            }
+        }
     }
     &-center {
         flex: 2 1 0%;
@@ -48,5 +82,8 @@
                 fill: $clr1;
             }
         }
+    }
+    &-end {
+        flex: 1 1 0%;
     }
 }
