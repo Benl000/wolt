@@ -30,6 +30,12 @@
             flex: 2 1 0%;
             display: flex;
             justify-content: center;
+            & img {
+                width: 1rem;
+                inset-inline-start: 1rem;
+                transform: translateX(200%);
+                margin-top: 2px;
+            }
             & input {
                 height: 2.5rem;
                 border-radius: 1.25rem;
@@ -46,6 +52,9 @@
                 &::placeholder {
                     color: $clr5;
                 }
+                &:hover {
+                    background-color: $clr6;
+                }
             }
         }
         &-nav {
@@ -54,6 +63,17 @@
             justify-content: flex-end;
             div {
                 display: flex;
+                position: relative;
+            }
+            @media screen and (max-width: 1314px) {
+                div {
+                    width: 250px;
+                }
+            }
+            @media screen and (max-width: 1024px) {
+                div {
+                    display: none;
+                }
             }
             button {
                 background-color: $clr1;
