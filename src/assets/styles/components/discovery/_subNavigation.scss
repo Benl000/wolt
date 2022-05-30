@@ -1,0 +1,40 @@
+.discovery-nav {
+    padding: 1.5rem 30px;
+    max-width: 1550px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    &-start {
+        display: flex;
+        min-width: 0px;
+    }
+    &-center {
+        flex: 2 1 0%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        button {
+            display: flex;
+            align-items: center;
+            border-radius: 5rem;
+            transition: box-shadow 250ms ease-out 0s, background 150ms ease-out 0s, color 150ms ease-out 0s;
+            padding: 0.5rem 1rem;
+            background: #009de0;
+            color: rgb(255, 255, 255);
+            border: none;
+            & :first-child {
+                width: 20px;
+                fill: aliceblue;
+                margin-left: 5px;
+            }
+            span {
+                padding: 0.2rem 5px;
+                line-height: 1.25rem;
+                font-style: normal;
+                font-stretch: normal;
+                text-transform: none;
+                font-weight: 500;
+            }
+        }
+    }
+}
