@@ -1,7 +1,7 @@
 const INITIAL_STATE = {
     restaurants: null,
     restaurant: null,
-    categories: ['Pizza', 'Sweet', 'Sushi', 'Burger']
+    categories: null
 };
 
 export function restaurantReducer(state = INITIAL_STATE, action) {
@@ -33,6 +33,11 @@ export function restaurantReducer(state = INITIAL_STATE, action) {
                 restaurant: state.restaurant.map((restaurant) =>
                     restaurant._id === action.restaurant._id ? action.restaurant : restaurant
                 ),
+            };
+        case 'SET_CATEGORIES':
+            return {
+                ...state,
+                categories: [...action.categories]
             };
         default:
             return state;

@@ -5,8 +5,8 @@ export const Categories = ({ categories }) => {
         <>
             <div>
                 Categories
-                <ul>{categories && categories.map((category, idx) =>
-                    <CategoriesPreview key={idx} category={category} />)}</ul>
+                <ul>{categories && categories.map(category =>
+                    <CategoriesPreview key={category.id} category={category} />)}</ul>
             </div>
         </>
     )

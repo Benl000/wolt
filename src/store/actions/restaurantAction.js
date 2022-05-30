@@ -21,3 +21,14 @@ export function loadRestaurant(id) {
         }
     };
 }
+
+export function loadCategories() {
+    return async (dispatch) => {
+        try {
+            const categories = await restaurantService.getCategories();
+            dispatch({ type: 'SET_CATEGORIES', categories });
+        } catch (err) {
+            console.log(err);
+        }
+    };
+}

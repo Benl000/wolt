@@ -6,10 +6,15 @@ export const Category = () => {
     console.log(type);
     // const [restaurants, setRestaurants] = useState(null)
 
-    useEffect(() => {
-        const x = fetch('restaurant-api.wolt.com/v1/pages/venue-list/category-street_food?lon=34.78698525756491&lat=32.087236876497585')
-        console.log(x);
-    }, [])
+    // useEffect(() => {
+    // fetch('restaurant-api.wolt.com/v1/pages/venue-list/category-street_food?lon=34.78698525756491&lat=32.087236876497585')
+    //     .then(data => {
+    //         console.log(data);
+    //         // var x = data.json()
+    //         // x.then(res => console.log(res))
+    //         // console.log(x);
+    //     })
+    // }, [])
 
     return (
         <div>CATEGORY PAGE</div>

@@ -1,11 +1,15 @@
 import { storageService } from './async-storage.service'
+import categories from '../data/category'
 
 export const restaurantService = {
-    query
+    query,
+    getCategories
 }
 
 async function query() {
-    const restaurants = await storageService.query()
-    console.log(restaurants);
-    return restaurants
+    return await storageService.query()
+}
+
+function getCategories() {
+    return categories
 }

@@ -10,7 +10,10 @@ export const CategoriesPreview = ({ category }) => {
 
     return (
         <>
-            <div onClick={() => goTo('pizza')}>{category}</div>
+            <li>
+                <img src={category.img} alt="" />
+                <div onClick={() => goTo(category.id)}>{category.name}</div>
+            </li>
         </>
     )
 }
