@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
+import { ReactComponent as PrevArrow } from './../../assets/svgs/HeroCarousel/carouselPrevArrow.svg';
+import { ReactComponent as NextArrow } from './../../assets/svgs/HeroCarousel/carouselNextArrow.svg';
+
 // import { withKnobs, boolean, number, text } from '@storybook/addon-knobs';
 
 
@@ -56,7 +59,7 @@ export const HeroCarousel = () => {
     const arrowStyles = {
         position: 'absolute',
         zIndex: 2,
-        top: 'calc(50% - 75px)',
+        top: 'calc(50% - 15px)',
         width: 30,
         height: 30,
         cursor: 'pointer',
@@ -66,8 +69,29 @@ export const HeroCarousel = () => {
         <Carousel 
         style={{position: 'relative'}}
         showIndicators={false}
+        infiniteLoop
+
+        renderArrowPrev={(onClickHandler) => {
+            return <div onClick={onClickHandler} style={{...arrowStyles, left: '15px'}}>
+                
+                {/* <button type="button" aria-label="Previous item" class="IconButton__Root-sc-jshws7-0 iGnpCZ"> */}
+
+                <PrevArrow style={{width: '17.5px' , height: '17.5px'}}/>
+                
+                {/* </button> */}
+                </div>
+                
+        }}
+
         renderArrowNext={(onClickHandler) => {
-            return <div onClick={onClickHandler} style={{...arrowStyles, right: '15px'}}><img style={{width: '50px' , height: '50px'}} src="https://placekitten.com/200/200" alt="kitty"/></div>
+            return <div onClick={onClickHandler} style={{...arrowStyles, right: '15px'}}>
+                
+                {/* <button type="button" aria-label="Previous item" class="IconButton__Root-sc-jshws7-0 iGnpCZ"> */}
+
+                <NextArrow  style={{width: '17.5px' , height: '17.5px'}}/>
+                
+                {/* </button> */}
+                </div>
                 
         }}
         showThumbs={false}
