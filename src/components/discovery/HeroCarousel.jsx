@@ -69,6 +69,7 @@ export const HeroCarousel = () => {
         <Carousel 
         style={{position: 'relative'}}
         showIndicators={false}
+        showStatus={false}
         infiniteLoop
 
         renderArrowPrev={(onClickHandler) => {
