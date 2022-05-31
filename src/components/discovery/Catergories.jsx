@@ -1,4 +1,4 @@
-import { CategoriesPreview } from './CatergoriesPreview'
+import { CategoriesPreview } from './CatergoriesPreview';
 
 export const Categories = ({ categories }) => {
     return (
@@ -9,5 +9,5 @@ export const Categories = ({ categories }) => {
                     <CategoriesPreview key={category.id} category={category} />)}</ul>
             </div>
         </>
-    )
-}
+    );
+};

@@ -4,28 +4,64 @@
     margin: auto;
     display: flex;
     justify-content: space-between;
+    column-gap: 2rem;
     &-start {
         display: flex;
         min-width: 0px;
+        flex: 1 1 0%;
+        button {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            color: $clr3;
+            border: none;
+            background-color: $clr1;
+            padding-left: 0;
+            div {
+                background-color: $clr9;
+                min-width: 2.5rem;
+                min-height: 2.5rem;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                padding-left: 5px;
+                margin-inline-end: 10px;
+            }
+            .location-logo {
+                width: 20px;
+                margin: 0 4px;
+                fill: $clr3;
+                margin-inline-end: 0.5rem;
+            }
+            span {
+                overflow: hidden;
+                text-overflow: ellipsis;
+                font-size: 0.875rem;
+                line-height: 1.25rem;
+                font-weight: 500;
+            }
+        }
     }
     &-center {
         flex: 2 1 0%;
         align-items: center;
         display: flex;
         justify-content: center;
-        button {
+        gap: 0.5rem;
+        &-link {
             display: flex;
             align-items: center;
             border-radius: 5rem;
             transition: box-shadow 250ms ease-out 0s, background 150ms ease-out 0s, color 150ms ease-out 0s;
-            padding: 0.5rem 1rem;
-            background: #009de0;
-            color: rgb(255, 255, 255);
+            padding: 0.4rem 0.6rem;
+            background: $clr1;
+            color: $clr8;
             border: none;
             & :first-child {
                 width: 20px;
-                fill: aliceblue;
-                margin-left: 5px;
+                fill: $clr8;
+                margin: 0 4px;
             }
             span {
                 padding: 0.2rem 5px;
@@ -35,6 +71,19 @@
                 text-transform: none;
                 font-weight: 500;
             }
+            &:hover {
+                box-shadow: rgb(0 0 0 / 6%) 0px 0px 0.125rem 0px, rgb(0 0 0 / 12%) 0px 0.125rem 0.125rem 0px;
+            }
         }
+        .active {
+            background: $clr3;
+            color: $clr1;
+            & :first-child {
+                fill: $clr1;
+            }
+        }
+    }
+    &-end {
+        flex: 1 1 0%;
     }
 }
