@@ -1,13 +1,13 @@
 import { CategoriesPreview } from './CatergoriesPreview';
-// import "slick-carousel/slick/slick.css";
-// import "slick-carousel/slick/slick-theme.css";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
 export const CategoriesList = ({ categories }) => {
     const settings = {
         infinite: true,
         slidesToShow: 5,
-        slidesToScroll: 1,
+        // slidesToScroll: 1,
         autoplay: false,
         arrows: true,
         useTransform: false,
