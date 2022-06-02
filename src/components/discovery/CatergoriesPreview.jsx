@@ -9,11 +9,9 @@ export const CategoriesPreview = ({ category }) => {
     };
 
     return (
-        <>
-            <li>
-                <img src={category.img} alt="" />
-                <div onClick={() => goTo(category.id)}>{category.name}</div>
-            </li>
-        </>
-    )
-}
+        <section className="category-preview">
+            <img src={category.img} alt="" />
+            <h2 onClick={() => goTo(category.id)}>{category.name}</h2>
+        </section>
+    );
+};

@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { loadCategories, loadRestaurants } from '../store/actions/restaurantAction';
 import { SubNavigation } from '../components/discovery/SubNavigation';
 import { HeroCarousel } from '../components/discovery/HeroCarousel';
-import { Categories } from '../components/discovery/Catergories';
+import { CategoriesList } from '../components/discovery/CatergoriesList';
 
 export const Discovery = () => {
     const dispatch = useDispatch();
@@ -13,19 +13,21 @@ export const Discovery = () => {
 
     useEffect(() => {
         try {
-            dispatch(loadRestaurants())
-            dispatch(loadCategories())
+            dispatch(loadRestaurants());
+            dispatch(loadCategories());
         } catch (err) {
             console.log(err);
         }
     }, []);
 
     return restaurants && categories ? (
-        <div>
+        <>
             <SubNavigation />
-            <HeroCarousel />
-            <Categories categories={categories.slice(0, 10)} />
-            {/* <pre>{JSON.stringify(restaurants, null, 2)}</pre> */}
-        </div>
+            <section className="discovery-page">
+                <HeroCarousel />
+                <CategoriesList categories={categories.slice(0, 10)} />
+                {/* <pre>{JSON.stringify(restaurants, null, 2)}</pre> */}
+            </section>
+        </>
     ) : null;
 };
