@@ -12,5 +12,9 @@
 
 // Components
 @import "components/header";
-@import "components/categories-preview";
+
+// Discovery
+@import "components/discovery/discovery-page";
+@import "components/discovery/categories-list";
+@import "components/discovery/categories-preview";
 @import "components/discovery/subNavigation";
