@@ -63,8 +63,10 @@ export const HeroCarousel = () => {
         width: 40,
         height: 40,
         cursor: 'pointer',
-        background: '#009de014',
-        border: 'none'
+        // backgroundColor: '#999',
+        backgroundColor: '#009de014',
+        border: 'none',
+        borderRadius: '50%'
 
     };
 
@@ -75,8 +77,8 @@ export const HeroCarousel = () => {
             showStatus={false}
             showThumbs={false}
             infiniteLoop
-            // centerMode
-            // centerSlidePercentage={('centerSlidePercentage', 40)}
+            centerMode
+            centerSlidePercentage={('centerSlidePercentage', 60)}
             // centerSlidePercentage={number('centerSlidePercentage', 80, {}, mainGroupId)}
             // {...getConfigurableProps()}
 
