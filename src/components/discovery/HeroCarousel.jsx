@@ -63,10 +63,14 @@ export const HeroCarousel = () => {
         width: '2.5rem',
         height: '2.5rem',
         cursor: 'pointer',
+        background: 'none #ebf7fd',
         // backgroundColor: '#999',
-        backgroundColor: '#009de014',
+        // backgroundColor: '#009de014',
         border: 'none',
-        borderRadius: '50%'
+        borderRadius: '50%',
+        transition: 'background-color 120ms ease-out 0s'
+
+        // #ebf7fd
 
     };
 
