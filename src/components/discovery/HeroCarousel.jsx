@@ -60,8 +60,8 @@ export const HeroCarousel = () => {
         position: 'absolute',
         zIndex: 2,
         top: 'calc(50% - 15px)',
-        width: 40,
-        height: 40,
+        width: '2.5rem',
+        height: '2.5rem',
         cursor: 'pointer',
         // backgroundColor: '#999',
         backgroundColor: '#009de014',
@@ -86,7 +86,7 @@ export const HeroCarousel = () => {
             renderArrowPrev={(onClickHandler) => {
                 return <button onClick={onClickHandler} style={{ ...arrowStyles, left: '10px' }} type="button" aria-label="Previous item">
 
-                    <PrevArrow style={{ width: '17.5px', height: '17.5px' }} />
+                    <PrevArrow style={{ width: '17.5px', height: '17.5px', fill: '#009de0' }} />
 
                 </button>;
             }}
@@ -94,7 +94,7 @@ export const HeroCarousel = () => {
             renderArrowNext={(onClickHandler) => {
                 return <button onClick={onClickHandler} style={{ ...arrowStyles, right: '10px' }} type="button" aria-label="Next item">
 
-                    <NextArrow style={{ width: '17.5px', height: '17.5px' }} />
+                    <NextArrow style={{ width: '17.5px', height: '17.5px', fill: '#009de0' }} />
 
                 </button>;
 
