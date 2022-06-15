@@ -1,5 +1,27 @@
 .category-preview {
-    width: 243px;
-    min-width: 243px;
     margin-inline-end: 16px;
+    overflow: hidden;
+    border-radius: 0.5rem;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(0 0 0 / 6%) 0px 0px 0.125rem 0px, rgb(0 0 0 / 12%) 0px 0.125rem 0.125rem 0px;
+    transition: box-shadow 0.3s cubic-bezier(0.45, 0, 0.55, 1) 0s, background 100ms ease-out 0s;
+
+    &-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        white-space: nowrap;
+        padding: 1rem;
+        & h3 {
+            font-size: 1.125rem;
+            line-height: 1.5rem;
+            font-style: normal;
+            font-stretch: normal;
+            text-transform: none;
+            font-weight: 500;
+            text-align: start;
+            text-overflow: ellipsis;
+            overflow: hidden;
+        }
+    }
 }

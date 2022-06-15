@@ -1,5 +1,5 @@
 .category-list {
-    .header {
+    &-header {
         display: flex;
         justify-content: flex-start;
         h1 {
@@ -11,16 +11,22 @@
             font-style: normal;
             font-stretch: normal;
             text-transform: none;
-            white-space: nowrap;
+            // white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
             margin: 0px;
         }
     }
     &-slider {
-        overflow: hidden;
-        width: calc(100% + 1rem);
-        padding: 1rem 0.5rem;
-        margin: -1rem -0.5rem;
+        // background-color: aqua;
+        // padding-bottom: 5px;
+        // overflow: hidden;
+        // width: calc(100% + 1rem);
+        padding: 1rem 0.2rem;
+        // margin: -1rem -0.5rem;
     }
 }
+
+// .slick-slide :first-child {
+//     width: fit-content;
+// }
