@@ -4,6 +4,7 @@ import { loadCategories, loadRestaurants } from '../store/actions/restaurantActi
 import { SubNavigation } from '../components/discovery/SubNavigation';
 import { HeroCarousel } from '../components/discovery/HeroCarousel';
 import { CategoriesList } from '../components/discovery/CatergoriesList';
+import { RestaurantsCarouselList } from '../components/discovery/RestaurantsCarouselList';
 
 export const Discovery = () => {
     const dispatch = useDispatch();
@@ -26,6 +27,7 @@ export const Discovery = () => {
             <section className="discovery-page">
                 <HeroCarousel />
                 <CategoriesList categories={categories.slice(0, 10)} />
+                <RestaurantsCarouselList restaurants={restaurants} />
                 {/* <pre>{JSON.stringify(restaurants, null, 2)}</pre> */}
             </section>
         </>

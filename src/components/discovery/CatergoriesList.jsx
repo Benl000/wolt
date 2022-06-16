@@ -7,11 +7,9 @@ export const CategoriesList = ({ categories }) => {
     var settings = {
         dots: false,
         infinite: false,
-        speed: 500,
         slidesToShow: 6,
-        slidesToScroll: 1,
+        swipeToSlide: true,
         arrows: true,
-        initialSlide: 0,
         responsive: [
             {
                 breakpoint: 1200,
