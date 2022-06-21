@@ -4,7 +4,7 @@
     border-radius: 0.5rem;
     background-color: rgb(255, 255, 255);
     box-shadow: rgb(0 0 0 / 6%) 0px 0px 0.125rem 0px, rgb(0 0 0 / 12%) 0px 0.125rem 0.125rem 0px;
-    transition: box-shadow 0.3s cubic-bezier(0.45, 0, 0.55, 1) 0s, background 100ms ease-out 0s;
+    // transition: box-shadow 0.3s cubic-bezier(0.45, 0, 0.55, 1) 0s, background 100ms ease-out 0s;
 
     &-header {
         display: flex;
@@ -23,5 +23,11 @@
             text-overflow: ellipsis;
             overflow: hidden;
         }
+    }
+
+    &:hover {
+        cursor: pointer;
+        transform: scale(1.05) translateZ(0);
+        transition: 0.3s cubic-bezier(0.45, 0, 0.55, 1) 0s;
     }
 }
