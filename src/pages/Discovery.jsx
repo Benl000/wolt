@@ -2,7 +2,8 @@ import { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { loadCategories, loadRestaurants } from '../store/actions/restaurantAction';
 import { SubNavigation } from '../components/discovery/SubNavigation';
-import { HeroCarousel } from '../components/discovery/HeroCarousel';
+// import { HeroCarousel } from '../components/discovery/HeroCarousel';
+import { HeroCarouselList } from '../components/discovery/heroCarouselList';
 import { CategoriesList } from '../components/discovery/CatergoriesList';
 import { RestaurantsCarouselList } from '../components/discovery/RestaurantsCarouselList';
 
@@ -25,7 +26,8 @@ export const Discovery = () => {
         <>
             <SubNavigation />
             <section className="discovery-page">
-                <HeroCarousel />
+                <HeroCarouselList />
+                {/* <HeroCarousel /> */}
                 <CategoriesList categories={categories.slice(0, 10)} />
                 <RestaurantsCarouselList restaurants={restaurants} />
                 <RestaurantsCarouselList restaurants={restaurants} />

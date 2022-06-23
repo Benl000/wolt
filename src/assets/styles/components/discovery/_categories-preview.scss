@@ -15,20 +15,36 @@
     }
     &-header {
         display: flex;
+        -webkit-box-pack: justify;
         justify-content: space-between;
+        -webkit-box-align: center;
         align-items: center;
         white-space: nowrap;
         padding: 1rem;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        justify-content: center;
+        -webkit-box-align: stretch;
+        align-items: stretch;
+        overflow: hidden;
         & h3 {
             font-size: 1.125rem;
             line-height: 1.5rem;
-            font-style: normal;
-            font-stretch: normal;
-            text-transform: none;
             font-weight: 500;
             text-align: start;
             text-overflow: ellipsis;
             overflow: hidden;
+        }
+        & h4 {
+            font-size: 0.875rem;
+            color: rgba(32, 33, 37, 0.64);
+            text-align: start;
+            margin: 0.25rem 0px 0px;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            min-height: 1.25rem;
         }
     }
 

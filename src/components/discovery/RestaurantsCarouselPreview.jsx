@@ -18,19 +18,18 @@ export const RestaurantsCarouselPreview = ({ restaurant }) => {
                     <h6>{currResturant.short_description[0].value}</h6>
                 </div>
                 <div className="time">
-                    <h4>
-                        35-45
-                    </h4>
-                    <h6>
-                        min
-                    </h6>
+                    <h4>{currResturant.completion_estimates.delivery}</h4>
+                    <h6>min</h6>
                 </div>
             </div>
             <div className="restaurant-preview-footer">
                 <div className="footer-container">
                     <span className="footer-container_deliveryCost">
                         <span>🚴‍♀️</span>
-                        10.00 ·
+                        {(currResturant.delivery_specs.delivery_pricing.base_price / 100).toLocaleString('en-US', {
+                            style: 'currency',
+                            currency: (currResturant.currency),
+                        })} ·
                     </span>
                     <span className="footer-container_cost">
                         $$$$ ·
