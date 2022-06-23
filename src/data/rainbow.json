@@ -1,0 +1,991 @@
+{
+    "results": [
+        {
+            "active_menu": {
+                "$oid": "5c02c882661f37000a5c84fe"
+            },
+            "address": "שלמה אבן גבירול 88",
+            "alive": 1,
+            "allowed_payment_methods": [
+                "card"
+            ],
+            "always_available": false,
+            "bank_account_type": "IBAN",
+            "cart_view_enabled": false,
+            "categories": [
+                {
+                    "link_slug": "category-vegan:tel aviv",
+                    "name": "טבעוני",
+                    "primary": true,
+                    "slug": "vegan"
+                },
+                {
+                    "link_slug": "category-burgers:tel aviv",
+                    "name": "המבורגר",
+                    "primary": false,
+                    "slug": "burgers"
+                },
+                {
+                    "link_slug": "category-vegetarian:tel aviv",
+                    "name": "צמחוני",
+                    "primary": false,
+                    "slug": "vegetarian"
+                }
+            ],
+            "city": "Tel Aviv",
+            "city_id": "5bc0905a63cca509a71168ee",
+            "comment_disabled": false,
+            "completion_estimates": {
+                "delivery": "20-40",
+                "delivery_rush": "20-40",
+                "normal": "10-30",
+                "order_estimates_in_use": true,
+                "rush": "10-30"
+            },
+            "country": "ISR",
+            "currency": "ILS",
+            "customer_support_phone": "",
+            "delivery_methods": [
+                "homedelivery",
+                "takeaway"
+            ],
+            "delivery_specs": {
+                "courier_restrictions": 0,
+                "custom_geo_range": null,
+                "delivery_enabled": true,
+                "delivery_pricing": {
+                    "base_price": 1000,
+                    "distance_ranges": [
+                        {
+                            "a": 0,
+                            "b": 0,
+                            "max": 1000,
+                            "min": 0
+                        },
+                        {
+                            "a": 200,
+                            "b": 0,
+                            "max": 2000,
+                            "min": 1000
+                        },
+                        {
+                            "a": 400,
+                            "b": 0,
+                            "max": 3000,
+                            "min": 2000
+                        },
+                        {
+                            "a": 600,
+                            "b": 0,
+                            "max": 4000,
+                            "min": 3000
+                        },
+                        {
+                            "a": 800,
+                            "b": 0,
+                            "max": 0,
+                            "min": 4000
+                        }
+                    ],
+                    "meta": {},
+                    "price_multiplier": 1,
+                    "price_ranges": [
+                        {
+                            "a": 5000,
+                            "b": -1,
+                            "max": 5000,
+                            "min": 0
+                        },
+                        {
+                            "a": 0,
+                            "b": 0,
+                            "max": 0,
+                            "min": 5000
+                        }
+                    ],
+                    "tax": 0.17
+                },
+                "delivery_times": {
+                    "friday": [],
+                    "monday": [
+                        {
+                            "type": "open",
+                            "value": {
+                                "$date": 43200000
+                            }
+                        },
+                        {
+                            "type": "close",
+                            "value": {
+                                "$date": 82800000
+                            }
+                        }
+                    ],
+                    "saturday": [
+                        {
+                            "type": "open",
+                            "value": {
+                                "$date": 61200000
+                            }
+                        },
+                        {
+                            "type": "close",
+                            "value": {
+                                "$date": 82800000
+                            }
+                        }
+                    ],
+                    "sunday": [
+                        {
+                            "type": "open",
+                            "value": {
+                                "$date": 43200000
+                            }
+                        },
+                        {
+                            "type": "close",
+                            "value": {
+                                "$date": 82800000
+                            }
+                        }
+                    ],
+                    "thursday": [
+                        {
+                            "type": "open",
+                            "value": {
+                                "$date": 43200000
+                            }
+                        },
+                        {
+                            "type": "close",
+                            "value": {
+                                "$date": 82800000
+                            }
+                        }
+                    ],
+                    "tuesday": [
+                        {
+                            "type": "open",
+                            "value": {
+                                "$date": 43200000
+                            }
+                        },
+                        {
+                            "type": "close",
+                            "value": {
+                                "$date": 82800000
+                            }
+                        }
+                    ],
+                    "wednesday": [
+                        {
+                            "type": "open",
+                            "value": {
+                                "$date": 43200000
+                            }
+                        },
+                        {
+                            "type": "close",
+                            "value": {
+                                "$date": 82800000
+                            }
+                        }
+                    ]
+                },
+                "forbidden_capabilities": [
+                    "COURIER_ID_74141",
+                    "COURIER_ID_57762"
+                ],
+                "geo_range": {
+                    "coordinates": [
+                        [
+                            [
+                                34.77748647810051,
+                                32.037897239120596
+                            ],
+                            [
+                                34.77115386699412,
+                                32.03842569418126
+                            ],
+                            [
+                                34.761202372887006,
+                                32.040983324724266
+                            ],
+                            [
+                                34.752029952039436,
+                                32.045136843599515
+                            ],
+                            [
+                                34.74596977941112,
+                                32.0493496994435
+                            ],
+                            [
+                                34.746327007593095,
+                                32.04972555378897
+                            ],
+                            [
+                                34.74654213128355,
+                                32.05039667814022
+                            ],
+                            [
+                                34.74670199996498,
+                                32.05073043445701
+                            ],
+                            [
+                                34.747021677168675,
+                                32.050952800213835
+                            ],
+                            [
+                                34.74709510803223,
+                                32.051298352918195
+                            ],
+                            [
+                                34.74752426147461,
+                                32.052971537030864
+                            ],
+                            [
+                                34.74898338317871,
+                                32.05464469054932
+                            ],
+                            [
+                                34.75001335144043,
+                                32.056972505418514
+                            ],
+                            [
+                                34.751858711242676,
+                                32.05577223327246
+                            ],
+                            [
+                                34.752631187438965,
+                                32.05602683777075
+                            ],
+                            [
+                                34.75327491760254,
+                                32.055917721643944
+                            ],
+                            [
+                                34.75396156311035,
+                                32.05602683777075
+                            ],
+                            [
+                                34.75447654724121,
+                                32.05595409370069
+                            ],
+                            [
+                                34.754390716552734,
+                                32.05613595376744
+                            ],
+                            [
+                                34.75477695465088,
+                                32.05653604464182
+                            ],
+                            [
+                                34.755120277404785,
+                                32.05659060235278
+                            ],
+                            [
+                                34.75518465042114,
+                                32.05668153179874
+                            ],
+                            [
+                                34.755377769470215,
+                                32.057045248678854
+                            ],
+                            [
+                                34.75576400756836,
+                                32.057463521303454
+                            ],
+                            [
+                                34.756386280059814,
+                                32.05840917410126
+                            ],
+                            [
+                                34.75748062133789,
+                                32.061118778946806
+                            ],
+                            [
+                                34.75851058959961,
+                                32.066574115690266
+                            ],
+                            [
+                                34.75954055786133,
+                                32.07101088295881
+                            ],
+                            [
+                                34.760141372680664,
+                                32.07450195832265
+                            ],
+                            [
+                                34.761600494384766,
+                                32.076901995312426
+                            ],
+                            [
+                                34.76280212402344,
+                                32.079374694796144
+                            ],
+                            [
+                                34.76529121398926,
+                                32.086065193329354
+                            ],
+                            [
+                                34.76889610290527,
+                                32.09602731058061
+                            ],
+                            [
+                                34.77200746536255,
+                                32.099044817872
+                            ],
+                            [
+                                34.77346658706665,
+                                32.09989915423916
+                            ],
+                            [
+                                34.77559089660644,
+                                32.10253482246267
+                            ],
+                            [
+                                34.775848388671875,
+                                32.10417071620696
+                            ],
+                            [
+                                34.77499008178711,
+                                32.10446153869364
+                            ],
+                            [
+                                34.7746467590332,
+                                32.1051885908585
+                            ],
+                            [
+                                34.77378845214844,
+                                32.10577022842266
+                            ],
+                            [
+                                34.773445129394524,
+                                32.106133750018955
+                            ],
+                            [
+                                34.773543359607345,
+                                32.10687427929026
+                            ],
+                            [
+                                34.775319297896715,
+                                32.10958600015689
+                            ],
+                            [
+                                34.77583160892678,
+                                32.1109995487883
+                            ],
+                            [
+                                34.776062965393066,
+                                32.11202259825589
+                            ],
+                            [
+                                34.77705001831055,
+                                32.11543941013382
+                            ],
+                            [
+                                34.77825164794922,
+                                32.11820184538593
+                            ],
+                            [
+                                34.78048324584961,
+                                32.12169111778177
+                            ],
+                            [
+                                34.78288650512695,
+                                32.123435703953525
+                            ],
+                            [
+                                34.784407650020945,
+                                32.12725182708429
+                            ],
+                            [
+                                34.791861095238815,
+                                32.126629832773745
+                            ],
+                            [
+                                34.801821059883046,
+                                32.12406980448802
+                            ],
+                            [
+                                34.81099914055905,
+                                32.11991269713796
+                            ],
+                            [
+                                34.81904230657822,
+                                32.11431847066669
+                            ],
+                            [
+                                34.82564135105669,
+                                32.1075023493208
+                            ],
+                            [
+                                34.83054279058689,
+                                32.09972651390234
+                            ],
+                            [
+                                34.83355858888267,
+                                32.091289989567336
+                            ],
+                            [
+                                34.834573333467254,
+                                32.08251712338301
+                            ],
+                            [
+                                34.83354859721042,
+                                32.07374509917282
+                            ],
+                            [
+                                34.83052432838174,
+                                32.065310972577535
+                            ],
+                            [
+                                34.82561722901889,
+                                32.05753872563091
+                            ],
+                            [
+                                34.819016197067164,
+                                32.05072683717728
+                            ],
+                            [
+                                34.810975018511094,
+                                32.045136843599515
+                            ],
+                            [
+                                34.801802597663524,
+                                32.040983324724266
+                            ],
+                            [
+                                34.797825306640846,
+                                32.03996112234053
+                            ],
+                            [
+                                34.7963239293652,
+                                32.041246041466195
+                            ],
+                            [
+                                34.795343891251775,
+                                32.04017366705628
+                            ],
+                            [
+                                34.79126003288769,
+                                32.04074583926161
+                            ],
+                            [
+                                34.78966313575796,
+                                32.043167918622125
+                            ],
+                            [
+                                34.7878411790596,
+                                32.046813389480455
+                            ],
+                            [
+                                34.786429307824505,
+                                32.04681706781702
+                            ],
+                            [
+                                34.78574656775265,
+                                32.04587744360947
+                            ],
+                            [
+                                34.78522534473984,
+                                32.0452342411188
+                            ],
+                            [
+                                34.78493752980856,
+                                32.045118285646126
+                            ],
+                            [
+                                34.78425585401299,
+                                32.04427131827924
+                            ],
+                            [
+                                34.78364082124286,
+                                32.043673024657984
+                            ],
+                            [
+                                34.782843589782715,
+                                32.04351400722718
+                            ],
+                            [
+                                34.781856536865234,
+                                32.04184065020709
+                            ],
+                            [
+                                34.78116989135742,
+                                32.04082207008816
+                            ],
+                            [
+                                34.78044033050537,
+                                32.039876235544256
+                            ],
+                            [
+                                34.77941036224365,
+                                32.03889401240586
+                            ],
+                            [
+                                34.77855205535888,
+                                32.03827557020884
+                            ],
+                            [
+                                34.77761173583721,
+                                32.03796496243802
+                            ],
+                            [
+                                34.77748647810051,
+                                32.037897239120596
+                            ]
+                        ]
+                    ],
+                    "type": "Polygon"
+                },
+                "postcode_range": [],
+                "price": {
+                    "tax": 0.17
+                },
+                "require_street_address": true,
+                "required_capabilities": [
+                    "AUTO_ASSIGN",
+                    "AUTO_ASSIGN",
+                    "AUTO_ASSIGN",
+                    "AUTO_ASSIGN",
+                    "AUTO_ASSIGN",
+                    "AUTO_ASSIGN",
+                    "AUTO_ASSIGN",
+                    "AUTO_ASSIGN",
+                    "AUTO_ASSIGN",
+                    "AUTO_ASSIGN",
+                    "AUTO_ASSIGN",
+                    "AUTO_ASSIGN",
+                    "AUTO_ASSIGN",
+                    "AUTO_ASSIGN",
+                    "AUTO_ASSIGN",
+                    "AUTO_ASSIGN",
+                    "AUTO_ASSIGN",
+                    "AUTO_ASSIGN",
+                    "AUTO_ASSIGN"
+                ],
+                "road_range": 0,
+                "road_range_mode": "driving",
+                "service_time": {
+                    "bike": 180,
+                    "car": 300
+                },
+                "use_default_autogenerated_geo_range": true,
+                "use_default_delivery_pricing": true
+            },
+            "description": [
+                {
+                    "lang": "en",
+                    "value": "100% Vegan Burger Joint "
+                },
+                {
+                    "lang": "he",
+                    "value": "ריינבו המבורגר טבעוני"
+                }
+            ],
+            "discounts": [],
+            "dropoff_note_prefix": "",
+            "estimates": {
+                "delivery": {
+                    "mean": 12
+                },
+                "pickup": {
+                    "mean": 5
+                },
+                "preparation": {
+                    "max": 30,
+                    "mean": 20,
+                    "min": 10
+                },
+                "total": {
+                    "max": 40,
+                    "mean": 30,
+                    "min": 20
+                }
+            },
+            "favourite": false,
+            "food_tags": [
+                "טבעוני",
+                "בורגר",
+                "צמחוני"
+            ],
+            "group_order_enabled": true,
+            "high_volume_venue": false,
+            "id": {
+                "$oid": "5c02beb0c5e8cf0009e7419f"
+            },
+            "ipad_free": false,
+            "is_marketplace_v2": false,
+            "is_wolt_plus": false,
+            "item_cards_enabled": false,
+            "itemid": {
+                "$oid": "5c02beb0c5e8cf0009e7419f"
+            },
+            "listimage": "https://prod-wolt-venue-images-cdn.wolt.com/5c02beb0c5e8cf0009e7419f/6868143a-6b7e-11eb-b902-72fef6a8740a_1__1__min.jpg",
+            "listimage_blurhash": "j9NHORN3PKmY4h8zPtPbT;Hth4Pc",
+            "location": {
+                "coordinates": [
+                    34.78150248527526,
+                    32.08252818446518
+                ],
+                "type": "Point"
+            },
+            "mainimage": "https://prod-wolt-venue-images-cdn.wolt.com/5c02beb0c5e8cf0009e7419f/29ac5a6e-e0b2-11ea-9107-56ddea6215e9_1.jpg",
+            "mainimage_blurhash": "j2JoxFYhTu00Y0RQXd;;9eT;g0;D",
+            "menu_layout": "regular",
+            "merchant": {
+                "$oid": "5c02bd8f84f994000c12c552"
+            },
+            "name": [
+                {
+                    "lang": "en",
+                    "value": "Rainbow 🌈 Ibn Gabirol"
+                },
+                {
+                    "lang": "he",
+                    "value": "‫ריינבו 🌈 אבן גבירול"
+                }
+            ],
+            "ncd_allowed": true,
+            "online": true,
+            "opening_times": {
+                "friday": [],
+                "monday": [
+                    {
+                        "type": "open",
+                        "value": {
+                            "$date": 43200000
+                        }
+                    },
+                    {
+                        "type": "close",
+                        "value": {
+                            "$date": 82800000
+                        }
+                    }
+                ],
+                "saturday": [
+                    {
+                        "type": "open",
+                        "value": {
+                            "$date": 61200000
+                        }
+                    },
+                    {
+                        "type": "close",
+                        "value": {
+                            "$date": 82800000
+                        }
+                    }
+                ],
+                "sunday": [
+                    {
+                        "type": "open",
+                        "value": {
+                            "$date": 43200000
+                        }
+                    },
+                    {
+                        "type": "close",
+                        "value": {
+                            "$date": 82800000
+                        }
+                    }
+                ],
+                "thursday": [
+                    {
+                        "type": "open",
+                        "value": {
+                            "$date": 43200000
+                        }
+                    },
+                    {
+                        "type": "close",
+                        "value": {
+                            "$date": 82800000
+                        }
+                    }
+                ],
+                "tuesday": [
+                    {
+                        "type": "open",
+                        "value": {
+                            "$date": 43200000
+                        }
+                    },
+                    {
+                        "type": "close",
+                        "value": {
+                            "$date": 82800000
+                        }
+                    }
+                ],
+                "wednesday": [
+                    {
+                        "type": "open",
+                        "value": {
+                            "$date": 43200000
+                        }
+                    },
+                    {
+                        "type": "close",
+                        "value": {
+                            "$date": 82800000
+                        }
+                    }
+                ]
+            },
+            "phone": "+97235223040",
+            "post_code": "6404612",
+            "preorder_enabled": true,
+            "preorder_only": false,
+            "preorder_times": {
+                "delivery": {
+                    "friday": [],
+                    "monday": [
+                        {
+                            "type": "open",
+                            "value": {
+                                "$date": 45900000
+                            }
+                        },
+                        {
+                            "type": "close",
+                            "value": {
+                                "$date": 82800000
+                            }
+                        }
+                    ],
+                    "saturday": [
+                        {
+                            "type": "open",
+                            "value": {
+                                "$date": 63900000
+                            }
+                        },
+                        {
+                            "type": "close",
+                            "value": {
+                                "$date": 82800000
+                            }
+                        }
+                    ],
+                    "sunday": [
+                        {
+                            "type": "open",
+                            "value": {
+                                "$date": 45900000
+                            }
+                        },
+                        {
+                            "type": "close",
+                            "value": {
+                                "$date": 82800000
+                            }
+                        }
+                    ],
+                    "thursday": [
+                        {
+                            "type": "open",
+                            "value": {
+                                "$date": 45900000
+                            }
+                        },
+                        {
+                            "type": "close",
+                            "value": {
+                                "$date": 82800000
+                            }
+                        }
+                    ],
+                    "tuesday": [
+                        {
+                            "type": "open",
+                            "value": {
+                                "$date": 45900000
+                            }
+                        },
+                        {
+                            "type": "close",
+                            "value": {
+                                "$date": 82800000
+                            }
+                        }
+                    ],
+                    "wednesday": [
+                        {
+                            "type": "open",
+                            "value": {
+                                "$date": 45900000
+                            }
+                        },
+                        {
+                            "type": "close",
+                            "value": {
+                                "$date": 82800000
+                            }
+                        }
+                    ]
+                },
+                "maximum_days": 7,
+                "minimum_time_limit": 7200,
+                "minimum_time_limits": {
+                    "delivery": 3600,
+                    "eatin": 2400,
+                    "takeaway": 2400
+                },
+                "takeaway": {
+                    "friday": [],
+                    "monday": [
+                        {
+                            "type": "open",
+                            "value": {
+                                "$date": 45000000
+                            }
+                        },
+                        {
+                            "type": "close",
+                            "value": {
+                                "$date": 81900000
+                            }
+                        }
+                    ],
+                    "saturday": [
+                        {
+                            "type": "open",
+                            "value": {
+                                "$date": 63000000
+                            }
+                        },
+                        {
+                            "type": "close",
+                            "value": {
+                                "$date": 81900000
+                            }
+                        }
+                    ],
+                    "sunday": [
+                        {
+                            "type": "open",
+                            "value": {
+                                "$date": 45000000
+                            }
+                        },
+                        {
+                            "type": "close",
+                            "value": {
+                                "$date": 81900000
+                            }
+                        }
+                    ],
+                    "thursday": [
+                        {
+                            "type": "open",
+                            "value": {
+                                "$date": 45000000
+                            }
+                        },
+                        {
+                            "type": "close",
+                            "value": {
+                                "$date": 81900000
+                            }
+                        }
+                    ],
+                    "tuesday": [
+                        {
+                            "type": "open",
+                            "value": {
+                                "$date": 45000000
+                            }
+                        },
+                        {
+                            "type": "close",
+                            "value": {
+                                "$date": 81900000
+                            }
+                        }
+                    ],
+                    "wednesday": [
+                        {
+                            "type": "open",
+                            "value": {
+                                "$date": 45000000
+                            }
+                        },
+                        {
+                            "type": "close",
+                            "value": {
+                                "$date": 81900000
+                            }
+                        }
+                    ]
+                },
+                "time_step": 300
+            },
+            "presence": "brick_and_mortar",
+            "price_range": 2,
+            "product_line": "restaurant",
+            "public_url": "https://wolt.com/he/isr/tel-aviv/restaurant/rainbow",
+            "public_visible": true,
+            "rating": {
+                "negative_percentage": 2,
+                "neutral_percentage": 10,
+                "positive_percentage": 88,
+                "rating": 4,
+                "score": 9,
+                "text": "מצויין",
+                "volume": 500
+            },
+            "ratings_and_reviews_enabled": false,
+            "relevancy": 11.24042139700853,
+            "relevancy_from_purchases": 3.101053492521325,
+            "rush": {
+                "queue_minutes": false,
+                "status": false
+            },
+            "service_fee_description": "דמי השירות עוזרים לנו לספק שירות מעולה, בעזרתם אנו מכסים מגוון עלויות הקשורות לתפעול האופרטיבי שלנו.",
+            "short_description": [
+                {
+                    "lang": "en",
+                    "value": "100% Vegan Burger Joint"
+                },
+                {
+                    "lang": "he",
+                    "value": "ריינבו המבורגר טבעוני"
+                }
+            ],
+            "show_allergy_disclaimer_on_menu": false,
+            "show_delivery_info_on_merchant": false,
+            "show_delivery_price_on_merchant": false,
+            "show_item_bottom_sheet": false,
+            "show_phone_number_on_merchant": true,
+            "slug": "rainbow",
+            "status": "VENUE_PUBLISHED",
+            "tag_text": "VEGAN 🌱",
+            "tags": [
+                {},
+                {},
+                {}
+            ],
+            "timezone": "Asia/Jerusalem",
+            "timezone_name": "Asia/Jerusalem",
+            "tipping": {
+                "currency": "ILS",
+                "max_amount": 10000,
+                "min_amount": 500,
+                "tip_amounts": [
+                    500,
+                    1000,
+                    1500
+                ],
+                "type": "pre_tipping_amount"
+            },
+            "type": "purchase",
+            "website": "https://www.facebook.com/rainbowpitta/",
+            "wolt_delivery": true
+        }
+    ],
+    "status": "OK"
+}

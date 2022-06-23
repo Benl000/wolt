@@ -1,4 +1,4 @@
-.category-list {
+.restaurant-list {
     &-header {
         display: flex;
         justify-content: flex-start;
@@ -6,6 +6,7 @@
         display: flex;
         flex-direction: row;
         padding: 1rem 0;
+        margin-top: 1.5rem;
         justify-content: space-between;
         align-items: center;
         height: 4.5rem;
@@ -18,7 +19,6 @@
             font-style: normal;
             font-stretch: normal;
             text-transform: none;
-            // white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
             margin: 0px;
@@ -28,8 +28,13 @@
         padding: 1rem 0.2rem;
         margin: -1rem -0.5rem;
 
-        .slick-list {
-            overflow: visible;
+        .slick-track {
+            padding-bottom: 5px;
+        }
+        @media screen and (max-width: 1600px) {
+            .slick-list {
+                overflow: visible;
+            }
         }
         .slick-arrow::before {
             color: aqua;

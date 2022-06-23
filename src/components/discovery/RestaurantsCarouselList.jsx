@@ -7,22 +7,28 @@ export const RestaurantsCarouselList = ({ restaurants }) => {
     var settings = {
         dots: false,
         infinite: false,
-        slidesToShow: 6,
+        slidesToShow: 4,
         swipeToSlide: true,
         arrows: true,
         responsive: [
             {
                 breakpoint: 1200,
                 settings: {
-                    slidesToShow: 5,
+                    slidesToShow: 3,
                 }
-            }
+            },
+            {
+                breakpoint: 640,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
         ]
     };
     return (
         <section className="restaurant-list">
             <div className="restaurant-list-header">
-                <h1> restaurants</h1>
+                <h1>Restaurants</h1>
             </div>
             <Slider className="restaurant-list-slider" {...settings}>
                 {restaurants && restaurants.map(restaurant =>

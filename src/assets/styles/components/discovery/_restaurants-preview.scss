@@ -1,0 +1,94 @@
+.restaurant-preview {
+    margin-inline-end: 16px;
+    overflow: hidden;
+    border-radius: 0.5rem;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(0 0 0 / 6%) 0px 0px 0.125rem 0px, rgb(0 0 0 / 12%) 0px 0.125rem 0.125rem 0px;
+
+    img {
+        // position: absolute;
+        top: 0px;
+        left: 0px;
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        inset: 0px;
+        // padding-top: 46%;
+    }
+
+    &-header {
+        display: flex;
+        white-space: nowrap;
+        padding: 1rem;
+        align-items: center;
+        justify-content: space-between;
+
+        .headlines {
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+
+            & h3 {
+                font-size: 1.125rem;
+                line-height: 1.5rem;
+                font-weight: 500;
+                text-overflow: ellipsis;
+                overflow: hidden;
+            }
+            & h6 {
+                font-size: 0.875rem;
+                color: rgba(32, 33, 37, 0.64);
+                margin: 0.25rem 0px 0px;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                min-height: 1.25rem;
+            }
+        }
+
+        .time {
+            padding: 0.25rem 0.5rem;
+            margin-left: 14px;
+            background-color: rgba(0, 157, 224, 0.08);
+            color: rgb(0, 157, 224);
+            border-radius: 0.5rem;
+
+            & h4 {
+                font-size: 0.875rem;
+            }
+
+            & h6 {
+                font-size: 0.75rem;
+                text-align: center;
+                line-height: 1rem;
+                color: rgba(0, 157, 224, 0.64);
+            }
+        }
+
+        @media screen and (max-width: 640px) {
+            .time {
+                display: none;
+            }
+        }
+    }
+
+    &-footer {
+        font-size: 0.75rem;
+        line-height: 1rem;
+        display: flex;
+        height: 2rem;
+        border-top: 0.0625rem dashed rgba(32, 33, 37, 0.12);
+        color: rgba(32, 33, 37, 0.64);
+        padding: 0px 1rem;
+
+        .footer-container {
+            white-space: nowrap;
+            display: flex;
+            align-items: center;
+            width: 100%;
+
+            & > * {
+                margin-inline-start: 0.25rem;
+            }
+        }
+    }
+}

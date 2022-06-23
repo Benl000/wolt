@@ -28,7 +28,8 @@ export const Discovery = () => {
                 <HeroCarousel />
                 <CategoriesList categories={categories.slice(0, 10)} />
                 <RestaurantsCarouselList restaurants={restaurants} />
-                {/* <pre>{JSON.stringify(restaurants, null, 2)}</pre> */}
+                <RestaurantsCarouselList restaurants={restaurants} />
+                <RestaurantsCarouselList restaurants={restaurants} />
             </section>
         </>
     ) : null;

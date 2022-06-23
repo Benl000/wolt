@@ -1,0 +1,4718 @@
+{
+    "categories": [
+        {
+            "description": "",
+            "id": "000000000000000000000002",
+            "image": null,
+            "image_blurhash": null,
+            "item_count": 0,
+            "layout": "grouped",
+            "name": "Wolt"
+        },
+        {
+            "description": "",
+            "id": "5f41227d5f1e6e5504fe83fa",
+            "image": null,
+            "image_blurhash": null,
+            "item_count": 1,
+            "layout": "grouped",
+            "name": "הודעה חשובה!"
+        },
+        {
+            "description": "שינינו קצת את התצוגה של הבורגרים - להתמצאות קלה יותר התוספות והספיישלים המוכרים מופיעים כתוספות בתוך מסך האפשרויות *ספיישל הוואי לא מגיע עם עגבניה וחמוצים, ספיישל אמריקן לא מגיע עם ירקות כלל (למעט סלט הקולסלאו)",
+            "id": "60e71ca02843e773add0981c",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c02c882661f37000a5c84fe/2346a9a8-e003-11eb-b62b-2a70f72cc4f4_______.jpeg",
+            "image_blurhash": "jbQJjm;;fLcP9tllh4LcT;h5kxPc",
+            "item_count": 7,
+            "layout": "grouped",
+            "name": "נבחרת הבורגרים שלנו"
+        },
+        {
+            "description": "סלט ״טונה״ טבעונית על בסיס חלבון סויה עם מיונז טבעוני, בצל, סלרי, חמוצים ושמיר",
+            "id": "6190bf232eb97aafb9a65d61",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c02c882661f37000a5c84fe/1adc72ee-7517-11ec-aea6-0e73b8fc6dcb_img_2765.jpeg",
+            "image_blurhash": "jiRIL48PX;OX;;KmlWGHX;PccOlm",
+            "item_count": 2,
+            "layout": "grouped",
+            "name": "ספיישל VUNA"
+        },
+        {
+            "description": "",
+            "id": "5c02c9e70441fd000b6d9b60",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e36bc4539d84a39ee8fc759/2e915c1e-e0b7-11ea-81e0-3a82300c0121______.jpeg",
+            "image_blurhash": "jfUJLd;:HLd5vdllp4KXrLhnsOOS",
+            "item_count": 5,
+            "layout": "grouped",
+            "name": "מנות צד"
+        },
+        {
+            "description": "",
+            "id": "5ee226628dd57b991e1727c0",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e36bc4539d84a39ee8fc759/3e013494-e0b7-11ea-a56f-fa4139f5ecb8____________.jpeg",
+            "image_blurhash": "jaQZnk;K;;cPLcllllPc;;h48hPc",
+            "item_count": 3,
+            "layout": "grouped",
+            "name": "רטבים אקסטרה"
+        },
+        {
+            "description": "הריינבו עושה לכם שולחן חג במרפסת או בחצר, חג שמשלב את הטבע והאהבה עם התאווה ללחמניית המבורגר, נקניקייה ואפילו עראיס אלף האיים ומיונז שאנחנו מכינים שיתאים גם למי שבהריון וגם לכל ביריון כל הקטגוריה מתאימה לצלייה במחבת, על המנגל, בתנור או בכל דרך יצירתית",
+            "id": "627191eebf10ee7ff6e5af06",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c02c882661f37000a5c84fe/5180b54e-cba7-11ec-ac2e-be7eb06a5f64________6.jpeg",
+            "image_blurhash": "j9KqClrs4zPu8PkP8hCZ4zIPT;Jb",
+            "item_count": 9,
+            "layout": "grouped",
+            "name": "המעדנייה שלנו"
+        },
+        {
+            "description": "לאירוח מושלם",
+            "id": "62718a7abf10ee7ff6e5aa11",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c02c882661f37000a5c84fe/87c3a7e0-cba9-11ec-827d-527de3bb338b______________.jpeg",
+            "image_blurhash": "j5GF1QexT;vLbsgN41OZfvkinfcY",
+            "item_count": 9,
+            "layout": "grouped",
+            "name": "‫לחמניות וסלטים 🍔🎉"
+        },
+        {
+            "description": "",
+            "id": "5c02ca11995cd8000abdb62c",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c02c882661f37000a5c84fe/04d07904-60ab-11eb-b642-62ff6c3ecb66_coca_cola_zero_can_330ml_.jpeg",
+            "image_blurhash": "jgZu;LBT;;GHqXupFlBTLcupl4BT",
+            "item_count": 5,
+            "layout": "grouped",
+            "name": "שתייה"
+        }
+    ],
+    "extra_info_popup": null,
+    "id": "5c02c882661f37000a5c84fe",
+    "items": [
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 0,
+            "category": "5f41227d5f1e6e5504fe83fa",
+            "checksum": "4c81bfc06f1fa11f14819ef6761508be",
+            "description": "",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "5f82cacb50cd80a91f6b71a1",
+            "image": null,
+            "image_blurhash": null,
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "לא ניתן לבקש אקסטרה רטבים בהערות החופשיות",
+            "no_contact_delivery_allowed": true,
+            "options": [],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 4600,
+            "category": "60e71ca02843e773add0981c",
+            "checksum": "68c094e9014deaad1424b5c5f50f07ce",
+            "description": "בורגר על בסיס סויה, פטריות שמפניון ושיטאקי בלחמניה עם רוטב אלף האיים, חסה, עגבניה, מלפפון חמוץ ובצל סגול",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "60e71cf73893c799a88c7027",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c02c882661f37000a5c84fe/2346a9a8-e003-11eb-b62b-2a70f72cc4f4_______.jpeg",
+            "image_blurhash": "jbQJjm;;fLcP9tllh4LcT;h5kxPc",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "ריינבורגר",
+            "no_contact_delivery_allowed": true,
+            "options": [
+                {
+                    "free_selections": 0,
+                    "id": "60e722d7969199dc0d59991f",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 1,
+                    "minimum_total_selections": 1,
+                    "name": "רגיל / דאבל ריינבורגר",
+                    "parent": "60e71fb192d83188bb6c67f7",
+                    "required_option_selections": []
+                },
+                {
+                    "free_selections": 0,
+                    "id": "60e722d825cff1e4ff22dbea",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 1,
+                    "minimum_total_selections": 1,
+                    "name": "שדרוג להמבורגר",
+                    "parent": "60e72193bbcaf9741199a64e",
+                    "required_option_selections": []
+                },
+                {
+                    "free_selections": 0,
+                    "id": "60e722d8d56dafcc5ff33a66",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 8,
+                    "minimum_total_selections": 0,
+                    "name": " תוספות להמבורגר",
+                    "parent": "5f4a4721a2fde90b7b30fc16",
+                    "required_option_selections": [
+                        "60e72193bbcaf9741199a649"
+                    ]
+                },
+                {
+                    "free_selections": 0,
+                    "id": "60e722d82843e773add0a4c5",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 8,
+                    "minimum_total_selections": 0,
+                    "name": "תוספות לצ׳יזבורגר",
+                    "parent": "600d5bf760cf9e1904ea830c",
+                    "required_option_selections": [
+                        "60e72193bbcaf9741199a64a"
+                    ]
+                },
+                {
+                    "free_selections": 0,
+                    "id": "60e722d9017b2805afe63938",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 5,
+                    "minimum_total_selections": 0,
+                    "name": "תוספות לקינג בורגר",
+                    "parent": "600d5c5cbc5dfb1e4a505796",
+                    "required_option_selections": [
+                        "60e72193bbcaf9741199a64b"
+                    ]
+                },
+                {
+                    "free_selections": 0,
+                    "id": "60e7232123d8b2d7a98069ee",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 4,
+                    "minimum_total_selections": 0,
+                    "name": "שינויים בספיישל הוואי",
+                    "parent": "601fa69a24f4607b627f9c26",
+                    "required_option_selections": [
+                        "60e72193bbcaf9741199a64c"
+                    ]
+                },
+                {
+                    "free_selections": 0,
+                    "id": "60e723385e7aaf702c0bf4ad",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 7,
+                    "minimum_total_selections": 0,
+                    "name": "שינויים במנה",
+                    "parent": "5f4a4721a2fde90b7b30fc0b",
+                    "required_option_selections": [
+                        "60e72193bbcaf9741199a649",
+                        "60e72193bbcaf9741199a64a",
+                        "60e72193bbcaf9741199a64b"
+                    ]
+                },
+                {
+                    "free_selections": 0,
+                    "id": "60e72358c856f3b4205aae6f",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 1,
+                    "minimum_total_selections": 1,
+                    "name": "אקסטרה רוטב בצד",
+                    "parent": "60e721c26c59281b202009ee",
+                    "required_option_selections": []
+                }
+            ],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [
+                {
+                    "id": "popular",
+                    "name": "פופולרי",
+                    "style": {
+                        "background_color": "#009de0",
+                        "decoration": "star",
+                        "text_color": "#ffffff"
+                    }
+                }
+            ],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 4600,
+            "category": "60e71ca02843e773add0981c",
+            "checksum": "ab5c65baf02a7a5a4f1621953b71c695",
+            "description": "בורגר על בסיס סויה וסלק בלחמניה עם רוטב אלף האיים, חסה, עגבניה, מלפפון חמוץ ובצל סגול",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "60e7238238ff11a26d8d4b6d",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c02c882661f37000a5c84fe/08fda142-e007-11eb-a730-2acf966eae75________.jpeg",
+            "image_blurhash": "jbQtfl;;T;8P9dlll4LcX;h5gxPb",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "ריינביט",
+            "no_contact_delivery_allowed": true,
+            "options": [
+                {
+                    "free_selections": 0,
+                    "id": "60e723a5ddc4bd27d9b08dac",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 1,
+                    "minimum_total_selections": 1,
+                    "name": "רגיל / דאבל ריינביט",
+                    "parent": "60e71f448356a3c5fde19e40",
+                    "required_option_selections": []
+                },
+                {
+                    "free_selections": 0,
+                    "id": "60e723a5101bbfb918e63a44",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 1,
+                    "minimum_total_selections": 1,
+                    "name": "שדרוג להמבורגר",
+                    "parent": "60e72193bbcaf9741199a64e",
+                    "required_option_selections": []
+                },
+                {
+                    "free_selections": 0,
+                    "id": "60e723a6a7b2a324c409aa27",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 8,
+                    "minimum_total_selections": 0,
+                    "name": " תוספות להמבורגר",
+                    "parent": "5f4a4721a2fde90b7b30fc16",
+                    "required_option_selections": [
+                        "60e72193bbcaf9741199a649"
+                    ]
+                },
+                {
+                    "free_selections": 0,
+                    "id": "60e723a6afe1ccc21d4a89e0",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 8,
+                    "minimum_total_selections": 0,
+                    "name": "תוספות לצ׳יזבורגר",
+                    "parent": "600d5bf760cf9e1904ea830c",
+                    "required_option_selections": [
+                        "60e72193bbcaf9741199a64a"
+                    ]
+                },
+                {
+                    "free_selections": 0,
+                    "id": "60e723eb5e7aaf702c0bf5dc",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 5,
+                    "minimum_total_selections": 0,
+                    "name": "תוספות לקינג בורגר",
+                    "parent": "600d5c5cbc5dfb1e4a505796",
+                    "required_option_selections": [
+                        "60e72193bbcaf9741199a64b"
+                    ]
+                },
+                {
+                    "free_selections": 0,
+                    "id": "60e723ecb4c6f267fe682da3",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 4,
+                    "minimum_total_selections": 0,
+                    "name": "שינויים בספיישל הוואי",
+                    "parent": "601fa69a24f4607b627f9c26",
+                    "required_option_selections": [
+                        "60e72193bbcaf9741199a64c"
+                    ]
+                },
+                {
+                    "free_selections": 0,
+                    "id": "60e723ec872c34c75f07b816",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 7,
+                    "minimum_total_selections": 0,
+                    "name": "שינויים במנה",
+                    "parent": "5f4a4721a2fde90b7b30fc0b",
+                    "required_option_selections": [
+                        "60e72193bbcaf9741199a649",
+                        "60e72193bbcaf9741199a64a",
+                        "60e72193bbcaf9741199a64b"
+                    ]
+                },
+                {
+                    "free_selections": 0,
+                    "id": "60e723ed3e93b9cede36ab45",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 1,
+                    "minimum_total_selections": 1,
+                    "name": "אקסטרה רוטב בצד",
+                    "parent": "60e721c26c59281b202009ee",
+                    "required_option_selections": []
+                }
+            ],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 5200,
+            "category": "60e71ca02843e773add0981c",
+            "checksum": "30de7847c07d32cfd370c4a5184ad836",
+            "description": "בורגר על בסיס חלבון חיטה וסויה בלחמניה עם רוטב אלף האיים, חסה, עגבניה, מלפפון חמוץ ובצל סגול",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "60e725931ea910651850f978",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c02c882661f37000a5c84fe/44167884-e008-11eb-b666-f2ac28e9e8d6______.jpeg",
+            "image_blurhash": "jbQJjk;;T;8Pfeh4gPPcT;llkyKW",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "סנסשיונאל",
+            "no_contact_delivery_allowed": true,
+            "options": [
+                {
+                    "free_selections": 0,
+                    "id": "60e725f4effd90a4fb8da297",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 1,
+                    "minimum_total_selections": 1,
+                    "name": "רגיל / דאבל סנסשיונאל",
+                    "parent": "60e72016c0148bf67c7e4c1d",
+                    "required_option_selections": []
+                },
+                {
+                    "free_selections": 0,
+                    "id": "60e725f44cdaa61e4bca3cdb",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 1,
+                    "minimum_total_selections": 1,
+                    "name": "שדרוג להמבורגר",
+                    "parent": "60e72193bbcaf9741199a64e",
+                    "required_option_selections": []
+                },
+                {
+                    "free_selections": 0,
+                    "id": "60e725f56c59281b202012fe",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 8,
+                    "minimum_total_selections": 0,
+                    "name": " תוספות להמבורגר",
+                    "parent": "5f4a4721a2fde90b7b30fc16",
+                    "required_option_selections": [
+                        "60e72193bbcaf9741199a649"
+                    ]
+                },
+                {
+                    "free_selections": 0,
+                    "id": "60e725f523f44f5a6aef4ebb",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 8,
+                    "minimum_total_selections": 0,
+                    "name": "תוספות לצ׳יזבורגר",
+                    "parent": "600d5bf760cf9e1904ea830c",
+                    "required_option_selections": [
+                        "60e72193bbcaf9741199a64a"
+                    ]
+                },
+                {
+                    "free_selections": 0,
+                    "id": "60e725f5aacc321fb099b08a",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 5,
+                    "minimum_total_selections": 0,
+                    "name": "תוספות לקינג בורגר",
+                    "parent": "600d5c5cbc5dfb1e4a505796",
+                    "required_option_selections": [
+                        "60e72193bbcaf9741199a64b"
+                    ]
+                },
+                {
+                    "free_selections": 0,
+                    "id": "60e725f6018c8a647d81b86d",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 4,
+                    "minimum_total_selections": 0,
+                    "name": "שינויים בספיישל הוואי",
+                    "parent": "601fa69a24f4607b627f9c26",
+                    "required_option_selections": [
+                        "60e72193bbcaf9741199a64c"
+                    ]
+                },
+                {
+                    "free_selections": 0,
+                    "id": "60e725f6654f8d860e59a274",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 7,
+                    "minimum_total_selections": 0,
+                    "name": "שינויים במנה",
+                    "parent": "5f4a4721a2fde90b7b30fc0b",
+                    "required_option_selections": [
+                        "60e72193bbcaf9741199a649",
+                        "60e72193bbcaf9741199a64a",
+                        "60e72193bbcaf9741199a64b"
+                    ]
+                },
+                {
+                    "free_selections": 0,
+                    "id": "60e725f7c0148bf67c7e58fb",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 1,
+                    "minimum_total_selections": 1,
+                    "name": "אקסטרה רוטב בצד",
+                    "parent": "60e721c26c59281b202009ee",
+                    "required_option_selections": []
+                }
+            ],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 5500,
+            "category": "60e71ca02843e773add0981c",
+            "checksum": "98bbc3eb9e2611c6043551bff7b303d6",
+            "description": "בורגר על בסיס חלבון אפונה בלחמניה עם רוטב אלף האיים, חסה, עגבניה, מלפפון חמוץ ובצל סגול",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "6203804327f37c1a11a42036",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c02c882661f37000a5c84fe/39f8576e-8b34-11ec-b31d-9eff2e446c2b_6e72b96a_451d_11ec_8a77_a6a98e3b9c20_image0.jpeg",
+            "image_blurhash": "jePY6XcPT;TsTtKXlkllX;KGcyln",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "רידיפיין מיט בורגר",
+            "no_contact_delivery_allowed": true,
+            "options": [
+                {
+                    "free_selections": 0,
+                    "id": "62065144bade005bea082798",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 1,
+                    "minimum_total_selections": 1,
+                    "name": "רגיל / דאבל רידיפיין",
+                    "parent": "6183abe0c843a460aac6136f",
+                    "required_option_selections": []
+                },
+                {
+                    "free_selections": 0,
+                    "id": "62065145124f21b98f0d6a78",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 1,
+                    "minimum_total_selections": 1,
+                    "name": "שדרוג להמבורגר",
+                    "parent": "60e72193bbcaf9741199a64e",
+                    "required_option_selections": []
+                },
+                {
+                    "free_selections": 0,
+                    "id": "62065145f3bba33a1462bf43",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 8,
+                    "minimum_total_selections": 0,
+                    "name": " תוספות להמבורגר",
+                    "parent": "5f4a4721a2fde90b7b30fc16",
+                    "required_option_selections": [
+                        "60e72193bbcaf9741199a649"
+                    ]
+                },
+                {
+                    "free_selections": 0,
+                    "id": "620651468f69b2e06838f10c",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 8,
+                    "minimum_total_selections": 0,
+                    "name": "תוספות לצ׳יזבורגר",
+                    "parent": "600d5bf760cf9e1904ea830c",
+                    "required_option_selections": [
+                        "60e72193bbcaf9741199a64a"
+                    ]
+                },
+                {
+                    "free_selections": 0,
+                    "id": "62065146fb4c9cc05cc0b74f",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 6,
+                    "minimum_total_selections": 0,
+                    "name": "תוספות לקינג בורגר",
+                    "parent": "600d5c5cbc5dfb1e4a505796",
+                    "required_option_selections": [
+                        "60e72193bbcaf9741199a64b"
+                    ]
+                },
+                {
+                    "free_selections": 0,
+                    "id": "62065147f13f3fbfdde626a3",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 4,
+                    "minimum_total_selections": 0,
+                    "name": "שינויים בספיישל הוואי",
+                    "parent": "601fa69a24f4607b627f9c26",
+                    "required_option_selections": [
+                        "60e72193bbcaf9741199a64c"
+                    ]
+                },
+                {
+                    "free_selections": 0,
+                    "id": "62065147ed5f1e632af1c8eb",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 7,
+                    "minimum_total_selections": 0,
+                    "name": "שינויים במנה",
+                    "parent": "5f4a4721a2fde90b7b30fc0b",
+                    "required_option_selections": [
+                        "60e72193bbcaf9741199a649",
+                        "60e72193bbcaf9741199a64a",
+                        "60e72193bbcaf9741199a64b"
+                    ]
+                },
+                {
+                    "free_selections": 0,
+                    "id": "62065148e3f5096be0f311a4",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 1,
+                    "minimum_total_selections": 1,
+                    "name": "אקסטרה רוטב בצד",
+                    "parent": "60e721c26c59281b202009ee",
+                    "required_option_selections": []
+                }
+            ],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [
+                {
+                    "id": "popular",
+                    "name": "פופולרי",
+                    "style": {
+                        "background_color": "#009de0",
+                        "decoration": "star",
+                        "text_color": "#ffffff"
+                    }
+                }
+            ],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 5800,
+            "category": "60e71ca02843e773add0981c",
+            "checksum": "199f03b0a4d59a81e9d2388bfcacde9a",
+            "description": "בורגר על בסיס חלבון אפונה בלחמניה עם רוטב אלף האיים, חסה, עגבניה, מלפפון חמוץ ובצל סגול",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "60e727c2d8692f74c5eaecbc",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c02c882661f37000a5c84fe/91be9a7a-e009-11eb-a938-c676b8b73a84______.jpeg",
+            "image_blurhash": "jcPJ7j;KX;d5a:hlgPPbX;lWgyJl",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "ביונד מיט",
+            "no_contact_delivery_allowed": true,
+            "options": [
+                {
+                    "free_selections": 0,
+                    "id": "60e72897a401907715c06dae",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 1,
+                    "minimum_total_selections": 1,
+                    "name": "רגיל / דאבל ביונד",
+                    "parent": "60e7204a9f4353501844a6fb",
+                    "required_option_selections": []
+                },
+                {
+                    "free_selections": 0,
+                    "id": "60e7289792dbd8183850ed0f",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 1,
+                    "minimum_total_selections": 1,
+                    "name": "שדרוג להמבורגר",
+                    "parent": "60e72193bbcaf9741199a64e",
+                    "required_option_selections": []
+                },
+                {
+                    "free_selections": 0,
+                    "id": "60e72897e5a872fe0a07bd4a",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 8,
+                    "minimum_total_selections": 0,
+                    "name": " תוספות להמבורגר",
+                    "parent": "5f4a4721a2fde90b7b30fc16",
+                    "required_option_selections": [
+                        "60e72193bbcaf9741199a649"
+                    ]
+                },
+                {
+                    "free_selections": 0,
+                    "id": "60e7289808cfb9bc286829b4",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 8,
+                    "minimum_total_selections": 0,
+                    "name": "תוספות לצ׳יזבורגר",
+                    "parent": "600d5bf760cf9e1904ea830c",
+                    "required_option_selections": [
+                        "60e72193bbcaf9741199a64a"
+                    ]
+                },
+                {
+                    "free_selections": 0,
+                    "id": "60e72898e74d578b4d0bfb78",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 5,
+                    "minimum_total_selections": 0,
+                    "name": "תוספות לקינג בורגר",
+                    "parent": "600d5c5cbc5dfb1e4a505796",
+                    "required_option_selections": [
+                        "60e72193bbcaf9741199a64b"
+                    ]
+                },
+                {
+                    "free_selections": 0,
+                    "id": "60e728991ea910651850ff02",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 4,
+                    "minimum_total_selections": 0,
+                    "name": "שינויים בספיישל הוואי",
+                    "parent": "601fa69a24f4607b627f9c26",
+                    "required_option_selections": [
+                        "60e72193bbcaf9741199a64c"
+                    ]
+                },
+                {
+                    "free_selections": 0,
+                    "id": "60e7289a2843e773add0afa5",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 7,
+                    "minimum_total_selections": 0,
+                    "name": "שינויים במנה",
+                    "parent": "5f4a4721a2fde90b7b30fc0b",
+                    "required_option_selections": [
+                        "60e72193bbcaf9741199a649",
+                        "60e72193bbcaf9741199a64a",
+                        "60e72193bbcaf9741199a64b"
+                    ]
+                },
+                {
+                    "free_selections": 0,
+                    "id": "60e728aec55c7b529b36be31",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 1,
+                    "minimum_total_selections": 1,
+                    "name": "אקסטרה רוטב בצד",
+                    "parent": "60e721c26c59281b202009ee",
+                    "required_option_selections": []
+                }
+            ],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [
+                {
+                    "id": "popular",
+                    "name": "פופולרי",
+                    "style": {
+                        "background_color": "#009de0",
+                        "decoration": "star",
+                        "text_color": "#ffffff"
+                    }
+                }
+            ],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 4600,
+            "category": "60e71ca02843e773add0981c",
+            "checksum": "9607449aad4401a4b5ec4aaf86268924",
+            "description": "שניצל על בסיס חלבון חיטה ואפונה בלחמניה עם מיונז חרדל, חסה, עגבניה, מלפפון חמוץ ובצל סגול",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "60e727f7d70b0bb7d64fe3d9",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c02c882661f37000a5c84fe/748cd33c-f822-11eb-a706-9ed36209424e_20210725083518_img_9947.jpeg",
+            "image_blurhash": "jfSZbdcPX;SWcyKXGXl5X;KFcylX",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "שניצל",
+            "no_contact_delivery_allowed": true,
+            "options": [
+                {
+                    "free_selections": 0,
+                    "id": "60e729e1e4dbd9d037f34c9b",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 1,
+                    "minimum_total_selections": 1,
+                    "name": "רגיל / דאבל שניצל",
+                    "parent": "60e7212b8356a3c5fde1a1e0",
+                    "required_option_selections": []
+                },
+                {
+                    "free_selections": 0,
+                    "id": "60e729e17ea0e797f1826ae9",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 1,
+                    "minimum_total_selections": 1,
+                    "name": "שדרוג להמבורגר",
+                    "parent": "60e72193bbcaf9741199a64e",
+                    "required_option_selections": []
+                },
+                {
+                    "free_selections": 0,
+                    "id": "60e729e2ebd6de6c314a8450",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 8,
+                    "minimum_total_selections": 0,
+                    "name": " תוספות להמבורגר",
+                    "parent": "5f4a4721a2fde90b7b30fc16",
+                    "required_option_selections": [
+                        "60e72193bbcaf9741199a649"
+                    ]
+                },
+                {
+                    "free_selections": 0,
+                    "id": "60e729e2872c34c75f07c54f",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 8,
+                    "minimum_total_selections": 0,
+                    "name": "תוספות לצ׳יזבורגר",
+                    "parent": "600d5bf760cf9e1904ea830c",
+                    "required_option_selections": [
+                        "60e72193bbcaf9741199a64a"
+                    ]
+                },
+                {
+                    "free_selections": 0,
+                    "id": "60e729e33e93b9cede36b781",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 5,
+                    "minimum_total_selections": 0,
+                    "name": "תוספות לקינג בורגר",
+                    "parent": "600d5c5cbc5dfb1e4a505796",
+                    "required_option_selections": [
+                        "60e72193bbcaf9741199a64b"
+                    ]
+                },
+                {
+                    "free_selections": 0,
+                    "id": "60e729e39774bc5431e17901",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 4,
+                    "minimum_total_selections": 0,
+                    "name": "שינויים בספיישל הוואי",
+                    "parent": "601fa69a24f4607b627f9c26",
+                    "required_option_selections": [
+                        "60e72193bbcaf9741199a64c"
+                    ]
+                },
+                {
+                    "free_selections": 0,
+                    "id": "60e729e43893c799a88c8941",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 7,
+                    "minimum_total_selections": 0,
+                    "name": "שינויים בשניצל",
+                    "parent": "60e72223872c34c75f07b3b5",
+                    "required_option_selections": [
+                        "60e72193bbcaf9741199a649",
+                        "60e72193bbcaf9741199a64a",
+                        "60e72193bbcaf9741199a64b"
+                    ]
+                },
+                {
+                    "free_selections": 0,
+                    "id": "60e729e494f347ff7fca41aa",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 1,
+                    "minimum_total_selections": 1,
+                    "name": "אקסטרה רוטב בצד",
+                    "parent": "60e721c26c59281b202009ee",
+                    "required_option_selections": []
+                }
+            ],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [
+                {
+                    "id": "popular",
+                    "name": "פופולרי",
+                    "style": {
+                        "background_color": "#009de0",
+                        "decoration": "star",
+                        "text_color": "#ffffff"
+                    }
+                }
+            ],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 6300,
+            "category": "60e71ca02843e773add0981c",
+            "checksum": "441cfd44ef7b5d7865de37a525d5ff08",
+            "description": "המבורגר לבחירה בלחמניה עם סלט קולסלאו טבעוני, ביקון מחלבון אפונה ובצל מקורמל",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "620380448b7d10f7748da495",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e36bc4539d84a39ee8fc759/f10e3d62-8984-11ec-93ea-aa83f588cc15_08fda142_e007_11eb_a730_2acf966eae75________.jpeg",
+            "image_blurhash": "jbQtfl;;T;8P9dlll4LcX;h5gxPb",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "ספיישל אמריקן",
+            "no_contact_delivery_allowed": true,
+            "options": [
+                {
+                    "free_selections": 0,
+                    "id": "620651d98bc08528d7f2ab04",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 1,
+                    "minimum_total_selections": 1,
+                    "name": "בורגר לבחירה",
+                    "parent": "6182c62f1494350b76252924",
+                    "required_option_selections": []
+                },
+                {
+                    "free_selections": 0,
+                    "id": "620651f41e52c429afecdc4c",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 1,
+                    "minimum_total_selections": 1,
+                    "name": "רגיל / דאבל ריינבורגר",
+                    "parent": "60e71fb192d83188bb6c67f7",
+                    "required_option_selections": [
+                        "6182c62f1494350b7625291e"
+                    ]
+                },
+                {
+                    "free_selections": 0,
+                    "id": "620651f4b630a75081b9eff9",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 1,
+                    "minimum_total_selections": 1,
+                    "name": "רגיל / דאבל ריינביט",
+                    "parent": "60e71f448356a3c5fde19e40",
+                    "required_option_selections": [
+                        "6182c62f1494350b7625291f"
+                    ]
+                },
+                {
+                    "free_selections": 0,
+                    "id": "620651f63168d22ed24aed11",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 1,
+                    "minimum_total_selections": 1,
+                    "name": "רגיל / דאבל סנסשיונאל",
+                    "parent": "60e72016c0148bf67c7e4c1d",
+                    "required_option_selections": [
+                        "6182c62f1494350b76252921"
+                    ]
+                },
+                {
+                    "free_selections": 0,
+                    "id": "620651f78bc08528d7f2ab38",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 1,
+                    "minimum_total_selections": 1,
+                    "name": "רגיל / דאבל רידיפיין",
+                    "parent": "6183abe0c843a460aac6136f",
+                    "required_option_selections": [
+                        "6182c62f1494350b76252922"
+                    ]
+                },
+                {
+                    "free_selections": 0,
+                    "id": "620651f7de8657978f9454ee",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 1,
+                    "minimum_total_selections": 1,
+                    "name": "רגיל / דאבל ביונד",
+                    "parent": "60e7204a9f4353501844a6fb",
+                    "required_option_selections": [
+                        "6182c62f1494350b76252923"
+                    ]
+                },
+                {
+                    "free_selections": 0,
+                    "id": "620654d372abd31191a96ba1",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 1,
+                    "minimum_total_selections": 1,
+                    "name": "אקסטרה רוטב בצד",
+                    "parent": "60e721c26c59281b202009ee",
+                    "required_option_selections": []
+                }
+            ],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 4000,
+            "category": "6190bf232eb97aafb9a65d61",
+            "checksum": "bda84bd6ab89bca4f0fff39369250351",
+            "description": "סלט טונה טבעוני על בסיס חלבון סויה עם מיונז טבעוני, בצל, סלרי, שמיר וחמוצים בלחמניה עם חסה, עגבניה, בצל סגול, חמוצים ומיונז *חדש! המנה מוגשת בלחמנית ג'בטה צרפתית",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "6190c02ee92617748001303c",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c02c882661f37000a5c84fe/1adc72ee-7517-11ec-aea6-0e73b8fc6dcb_img_2765.jpeg",
+            "image_blurhash": "jiRIL48PX;OX;;KmlWGHX;PccOlm",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "כריך וונה בג'בטה",
+            "no_contact_delivery_allowed": true,
+            "options": [
+                {
+                    "free_selections": 0,
+                    "id": "6190c0bc55e5ef61595456c3",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 7,
+                    "minimum_total_selections": 0,
+                    "name": "שינויים בכריך וונה",
+                    "parent": "6190c0b93f99d76db4d015a4",
+                    "required_option_selections": []
+                }
+            ],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 5400,
+            "category": "6190bf232eb97aafb9a65d61",
+            "checksum": "e7b4484a6b13d4b4a76aa2e66329a287",
+            "description": "סלט טונה טבעוני על בסיס חלבון סויה עם מיונז טבעוני, בצל, סלרי, שמיר וחמוצים עם ביצת עין טבעונית וגבינת צ׳דר מותכת בלחמניה עם חסה, עגבניה, בצל סגול, חמוצים *חדש! המנה מוגשת בלחמנית ג'בטה צרפתית",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "6190c05c9902f13fc999e8c7",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c02c882661f37000a5c84fe/274ebf82-7517-11ec-91e7-727f43cf68f6_img_2770.jpeg",
+            "image_blurhash": "jlQsiXd4TLKW;;KXlkGFPuPckPlE",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "VUNA KING",
+            "no_contact_delivery_allowed": true,
+            "options": [
+                {
+                    "free_selections": 0,
+                    "id": "6190c0c5386e4302193ae7be",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 7,
+                    "minimum_total_selections": 0,
+                    "name": "שינויים בכריך וונה",
+                    "parent": "6190c0b93f99d76db4d015a4",
+                    "required_option_selections": []
+                }
+            ],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 1600,
+            "category": "5c02c9e70441fd000b6d9b60",
+            "checksum": "368b29d8e793f86e3a2a71d32c1b4dc3",
+            "description": "צ'יפס קלאסי אקסטרה קריספי",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "5f4a4721a2fde90b7b30fc51",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e36bc4539d84a39ee8fc759/2e915c1e-e0b7-11ea-81e0-3a82300c0121______.jpeg",
+            "image_blurhash": "jfUJLd;:HLd5vdllp4KXrLhnsOOS",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "צ'יפס קריספי",
+            "no_contact_delivery_allowed": true,
+            "options": [
+                {
+                    "free_selections": 2,
+                    "id": "5ed74b5444b063cdcf305a5e",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 2,
+                    "minimum_total_selections": 1,
+                    "name": "בחרו רטבים",
+                    "parent": "5f4a4721a2fde90b7b30fc35",
+                    "required_option_selections": []
+                }
+            ],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 2000,
+            "category": "5c02c9e70441fd000b6d9b60",
+            "checksum": "4b08bce1a653508902686f21c12b8957",
+            "description": "9 יח'",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "5f4a4721a2fde90b7b30fc57",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e36bc4539d84a39ee8fc759/0a38a854-e0b7-11ea-bbae-3e76480e2d79__________.jpeg",
+            "image_blurhash": "jeSJ7d;:X;hlKYllllKXT;h5chKT",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "טבעות בצל",
+            "no_contact_delivery_allowed": true,
+            "options": [
+                {
+                    "free_selections": 2,
+                    "id": "5ed74b868e7bd91c5109437f",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 2,
+                    "minimum_total_selections": 1,
+                    "name": "בחרו רטבים",
+                    "parent": "5f4a4721a2fde90b7b30fc35",
+                    "required_option_selections": []
+                }
+            ],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 1600,
+            "category": "5c02c9e70441fd000b6d9b60",
+            "checksum": "70d6d93e35d51b5fb1349bfbc681d048",
+            "description": "כרוב לבן, גזר ובצל במיונז גפרורי שקדים מלמעלה ",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "5f4a4721a2fde90b7b30fc54",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e36bc4539d84a39ee8fc759/1b16985c-e0b7-11ea-b9bd-7af62221369d____________.jpeg",
+            "image_blurhash": "jaVuju;KT;d5d5pCplLcT;hlkxPa",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "סלט קולסלאו",
+            "no_contact_delivery_allowed": true,
+            "options": [
+                {
+                    "free_selections": 0,
+                    "id": "5f992e737502fae3f95c2b18",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 1,
+                    "minimum_total_selections": 1,
+                    "name": "סכו״ם למנה?",
+                    "parent": "5f992e4ad8be1951d5409704",
+                    "required_option_selections": []
+                }
+            ],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 1600,
+            "category": "5c02c9e70441fd000b6d9b60",
+            "checksum": "6cb3346fbc1296be447d30063fd96727",
+            "description": "‫מיקס עלי בייבי, שרי, גזר וחמוציות בתיבול לימון, שמן, מלח ופלפל (התיבול מוגש בנפרד) ",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "5f4a4721a2fde90b7b30fc59",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e36bc4539d84a39ee8fc759/1f13ba34-e0b7-11ea-b68a-fa4139f5ecb8_______.jpeg",
+            "image_blurhash": "jdTJLnXKX;hmmXpCFmKXX;hlchOD",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "סלט חי",
+            "no_contact_delivery_allowed": true,
+            "options": [
+                {
+                    "free_selections": 0,
+                    "id": "5f992e7b87eb0627834097ef",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 1,
+                    "minimum_total_selections": 1,
+                    "name": "סכו״ם למנה?",
+                    "parent": "5f992e4ad8be1951d5409704",
+                    "required_option_selections": []
+                }
+            ],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 3500,
+            "category": "5c02c9e70441fd000b6d9b60",
+            "checksum": "3f60de7f0360aeebf6c7b0a24dcbb890",
+            "description": "נאגטס על בסיס חלבון חיטה ואפונה עם ציפוי אקסטרה קריספי 8 יח׳",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "610bbb1883b2ec6d5d6001e0",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c02c882661f37000a5c84fe/84c43e90-068a-11ec-adc0-c67dc4a9cd36______.jpeg",
+            "image_blurhash": "jeOGWxcyPLhlX;PcFkplX;GXh4NB",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "נאגטס",
+            "no_contact_delivery_allowed": true,
+            "options": [
+                {
+                    "free_selections": 0,
+                    "id": "610bbb4be4a5f267f96001ac",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 2,
+                    "minimum_total_selections": 1,
+                    "name": "בחרו רטבים",
+                    "parent": "5f4a4721a2fde90b7b30fc35",
+                    "required_option_selections": []
+                }
+            ],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [
+                {
+                    "id": "popular",
+                    "name": "פופולרי",
+                    "style": {
+                        "background_color": "#009de0",
+                        "decoration": "star",
+                        "text_color": "#ffffff"
+                    }
+                }
+            ],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 100,
+            "category": "5ee226628dd57b991e1727c0",
+            "checksum": "3609e4d803cf0df498ad3af767c33f70",
+            "description": "קטשופ היינץ",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "5f4a4721a2fde90b7b30fc5b",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e36bc4539d84a39ee8fc759/3e013494-e0b7-11ea-a56f-fa4139f5ecb8____________.jpeg",
+            "image_blurhash": "jaQZnk;K;;cPLcllllPc;;h48hPc",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "קוקוט קטשופ",
+            "no_contact_delivery_allowed": true,
+            "options": [],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 100,
+            "category": "5ee226628dd57b991e1727c0",
+            "checksum": "e0e087d4d7fd2f3e601bc83c8e89fee9",
+            "description": "מיונז שאנחנו מכינים על בסיס שמן חמניות וחלב סויה אורגני ",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "5f4a4721a2fde90b7b30fc5c",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e36bc4539d84a39ee8fc759/393539ce-e0b7-11ea-ad6f-7af62221369d_____________.jpeg",
+            "image_blurhash": "j5SJ;u;;X;4yHdh4lkTt;;cPcOXt",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "קוקוט מיונז",
+            "no_contact_delivery_allowed": true,
+            "options": [],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 100,
+            "category": "5ee226628dd57b991e1727c0",
+            "checksum": "21e4773c348576f60f65c3c35af64563",
+            "description": "אלף האיים שאנחנו מכינים על בסיס שמן חמניות וחלב סויה אורגני",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "5f4a4721a2fde90b7b30fc5d",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e36bc4539d84a39ee8fc759/344d3650-e0b7-11ea-a0c3-9239e64f3e18________________.jpeg",
+            "image_blurhash": "j6TdPp;;L;8yHch4plTtT;cPIxTt",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "קוקוט אלף האיים",
+            "no_contact_delivery_allowed": true,
+            "options": [],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 3800,
+            "category": "627191eebf10ee7ff6e5af06",
+            "checksum": "39e994cab152610aeba6b628587e71f7",
+            "description": "בורגר הבית שלנו על בסיס פטריות וסויה",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "62718b1cc9237817bf5eecb6",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c02c882661f37000a5c84fe/5180b54e-cba7-11ec-ac2e-be7eb06a5f64________6.jpeg",
+            "image_blurhash": "j9KqClrs4zPu8PkP8hCZ4zIPT;Jb",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "המבורגר ריינבורגר - 2 יח׳",
+            "no_contact_delivery_allowed": true,
+            "options": [],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 3800,
+            "category": "627191eebf10ee7ff6e5af06",
+            "checksum": "76b25f614a28573e7b9f477c452c69d4",
+            "description": "בורגר תוצרת בית על בסיס סלק וסויה",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "62718b61be988cb5e7720678",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c02c882661f37000a5c84fe/6eecad54-cba7-11ec-9621-32de8ece596e_____.jpeg",
+            "image_blurhash": "j7IG2gP:54jd8xJz80Ld0hIyT;SY",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "המבורגר ריינביט - 2 יח׳",
+            "no_contact_delivery_allowed": true,
+            "options": [],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 3800,
+            "category": "627191eebf10ee7ff6e5af06",
+            "checksum": "7b35de2e7103653c850559f078efafdd",
+            "description": "בורגר תוצרת בית על בסיס סויה ותבלינים בסגנון ספרדי",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "62718ba8132d76acc8896f2d",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c02c882661f37000a5c84fe/7f148d64-cba7-11ec-8c0e-129bee286e64______.jpeg",
+            "image_blurhash": "j5GFq2L:0iLL8xmQ80Pd01QOX;N4",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "המבורגר ספרדי - 2 יח׳",
+            "no_contact_delivery_allowed": true,
+            "options": [],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 3800,
+            "category": "627191eebf10ee7ff6e5af06",
+            "checksum": "75ddaaa43bb27415daf29f2ee0266226",
+            "description": "בורגר עסיסי על בסיס חלבון חיטה במתכון חדש *מתאים גם לקרניסטים🦏",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "62718c27debc941a30256269",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c02c882661f37000a5c84fe/474fee7c-cba8-11ec-bae1-be7eb06a5f64__________.jpeg",
+            "image_blurhash": "j4H9W8bJfJPL92gx40XL0iQhnvJJ",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "המבורגר סנסשיונאל - 2 יח׳",
+            "no_contact_delivery_allowed": true,
+            "options": [],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 3800,
+            "category": "627191eebf10ee7ff6e5af06",
+            "checksum": "05713fa2ca144f13484b35758f31b44e",
+            "description": "בורגר עסיסי, תוצרת חברה ישראלית, על בסיס חלבון אפונה *מתאים גם לקרניסטים🦏",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "62718c8f5c8046b970c6051d",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c02c882661f37000a5c84fe/5e23e46e-cba8-11ec-8c23-a6ba2ae9e3ca_____________.jpeg",
+            "image_blurhash": "j4IpO6fkD;nv4ycy00XL7vMhjfO:",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "המבורגר רידיפיין מיט - 2 יח׳",
+            "no_contact_delivery_allowed": true,
+            "options": [],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 3800,
+            "category": "627191eebf10ee7ff6e5af06",
+            "checksum": "05676ecf370fe1f2883921129048bdca",
+            "description": "בורגר על בסיס חלבון אפונה. אחד הבורגרים הפופולריים אצלנו *מתאים גם לקרניסטים🦏",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "62718d0edb8e95ffc65ef5aa",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c02c882661f37000a5c84fe/ecc907c6-cba8-11ec-be45-46096baaa1d7___________.jpeg",
+            "image_blurhash": "j5JWujH:0P8z4ggx41XL0zEhLLTL",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "המבורגר ביונד מיט - 2 יח׳",
+            "no_contact_delivery_allowed": true,
+            "options": [],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 3800,
+            "category": "627191eebf10ee7ff6e5af06",
+            "checksum": "890873fe905c170a7b65886a73c4e55a",
+            "description": "שניצל על בסיס חלבון חיטה ואפונה, בציפוי קורנפלקס מותג הולנדי בשם Blue Butcher",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "627190f7cda5d9ccc7598abf",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c02c882661f37000a5c84fe/0233c7fe-cba9-11ec-850a-622bd0d1129c______.jpeg",
+            "image_blurhash": "j5JpW0f:bvrv4ykx80Tv0LMzPuNr",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "שניצל הקצב הכחול - 2 יח׳",
+            "no_contact_delivery_allowed": true,
+            "options": [],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 5000,
+            "category": "627191eebf10ee7ff6e5af06",
+            "checksum": "a456a7a52305b06ea47eb2d8b60e45b0",
+            "description": "פיתה במילוי תערובת על בסיס עדשים מבית עראיס מחנה יהודה",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "62718eaedebc941a302563e1",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c02c882661f37000a5c84fe/0dee975e-cba9-11ec-8072-1e7ef1f8297c______.jpeg",
+            "image_blurhash": "j7Mr6t;;bK0z8wTp40hs4Qchnv;K",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "עראיס טבעוני - 300 גר׳",
+            "no_contact_delivery_allowed": true,
+            "options": [],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 3800,
+            "category": "627191eebf10ee7ff6e5af06",
+            "checksum": "44ed3f8fba1338898f70c0cede203cac",
+            "description": "נקניקיות תוצרת בית על בסיס חלבון סויה. קצת חריפות *מתאים גם לקרניסטים🦏",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "6271900c474c961cec59c8fd",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c02c882661f37000a5c84fe/22abcc2a-cba9-11ec-a2e4-129bee286e64________________.jpeg",
+            "image_blurhash": "j4HFC4fAjrX;4OKP00Tv0jQhPLMZ",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "נקניקיות ריינבו בסגנון מרגז - 2 יח׳",
+            "no_contact_delivery_allowed": true,
+            "options": [],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 3500,
+            "category": "62718a7abf10ee7ff6e5aa11",
+            "checksum": "df67136f52e355752d10981ffef435fc",
+            "description": "סלט טונה טבעוני על בסיס חלבון סויה ואפונה עם מיונז טבעוני, בצל, סלרי, שמיר וחמוצים בלחמניה עם חסה, עגבניה, בצל סגול, חמוצים ומיונז",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "62719a9fe57407509471c65b",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c02c882661f37000a5c84fe/87c3a7e0-cba9-11ec-827d-527de3bb338b______________.jpeg",
+            "image_blurhash": "j5GF1QexT;vLbsgN41OZfvkinfcY",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "סלט וונה במשקל",
+            "no_contact_delivery_allowed": true,
+            "options": [
+                {
+                    "free_selections": 0,
+                    "id": "62719c12c9237817bf5ef679",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 1,
+                    "minimum_total_selections": 1,
+                    "name": "משקל לבחירה (סלט וונה)",
+                    "parent": "62719a89cb835c7962bff8dc",
+                    "required_option_selections": []
+                }
+            ],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 2500,
+            "category": "62718a7abf10ee7ff6e5aa11",
+            "checksum": "824b92414fbf2cff7ed75bd395693d92",
+            "description": "טונה טבעונית על בסיס חלבון סויה ואפונה מבית סנסשיונאל. לתיבול ביתי",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "627199bfc9237817bf5ef5a8",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c02c882661f37000a5c84fe/a013ad40-cba9-11ec-ac63-c67dbd7285e5_________________.jpeg",
+            "image_blurhash": "j9KVW0dzLLTu8QoP8hKZLLoAi:ps",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "וונה נקי במשקל",
+            "no_contact_delivery_allowed": true,
+            "options": [
+                {
+                    "free_selections": 0,
+                    "id": "62719c1a26fdc41a826d67d7",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 1,
+                    "minimum_total_selections": 1,
+                    "name": "משקל לבחירה",
+                    "parent": "6271991f3dec0786d46db1dd",
+                    "required_option_selections": []
+                }
+            ],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 1000,
+            "category": "62718a7abf10ee7ff6e5aa11",
+            "checksum": "a837f36a68e7d0c1ed5fc92900664c6f",
+            "description": "לחמניות מקמח לבן, כמו שאנחנו מגישים ברגיל. הכי טעימות בעולם",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "62719291474c961cec59ce00",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c02c882661f37000a5c84fe/003314fe-cbaa-11ec-a8a5-aa00508c82cf_____________2.jpeg",
+            "image_blurhash": "j9LFV;ezfLPural341Pe7LIzOJps",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "לחמניות בורגר - 2 יח׳",
+            "no_contact_delivery_allowed": true,
+            "options": [],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 600,
+            "category": "62718a7abf10ee7ff6e5aa11",
+            "checksum": "17902abe26e50d5cf715d85e9e4a9205",
+            "description": "ג׳בטה צרפתית מקמח לבן",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "6272bb4e9de099df6f9fa8b3",
+            "image": null,
+            "image_blurhash": null,
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "ג׳בטה צרפתית - 1 יח׳",
+            "no_contact_delivery_allowed": true,
+            "options": [],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 1800,
+            "category": "62718a7abf10ee7ff6e5aa11",
+            "checksum": "015f78e457dfad3a68223a5ff57e5e4b",
+            "description": "רוטב אלף האיים תוצרת בית, על בסיס שמן חמניות וחלב סויה אורגני",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "62719648e57407509471c343",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c02c882661f37000a5c84fe/390171cc-cbaa-11ec-9394-129bee286e64__________.jpeg",
+            "image_blurhash": "j6DUtKdifLjePacO4hOZHLgznfFI",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "אלף האיים במשקל",
+            "no_contact_delivery_allowed": true,
+            "options": [
+                {
+                    "free_selections": 0,
+                    "id": "62719c88cb835c7962bff991",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 1,
+                    "minimum_total_selections": 1,
+                    "name": "משקל לבחירה (רטבים)",
+                    "parent": "62719640e57407509471c33b",
+                    "required_option_selections": []
+                }
+            ],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 1800,
+            "category": "62718a7abf10ee7ff6e5aa11",
+            "checksum": "03c472a32e2b0f1dc2e74f30cd4d4bdd",
+            "description": "מיונז תוצרת בית, על בסיס שמן חמניות וחלב סויה אורגני",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "62719692f8efd5635b5eaa6e",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c02c882661f37000a5c84fe/4f2f464a-cbaa-11ec-88bd-622bd0d1129c______.jpeg",
+            "image_blurhash": "j6Jp:5j2T:rej;gx40TePLgidehd",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "מיונז במשקל",
+            "no_contact_delivery_allowed": true,
+            "options": [
+                {
+                    "free_selections": 0,
+                    "id": "62719c8e9ad20f770355d567",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 1,
+                    "minimum_total_selections": 1,
+                    "name": "משקל לבחירה (רטבים)",
+                    "parent": "62719640e57407509471c33b",
+                    "required_option_selections": []
+                }
+            ],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 1800,
+            "category": "62718a7abf10ee7ff6e5aa11",
+            "checksum": "05bd9d1f373d867c2b8b85fb63e799db",
+            "description": "קטשופ היינץ",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "627196c8789b6fea2f6d72a7",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c02c882661f37000a5c84fe/5dcd6ea2-cbaa-11ec-ac81-5a363c4afd6d______.jpeg",
+            "image_blurhash": "jaMqCfd2PLnevLcy8zJHXLhdPeh4",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "קטשופ במשקל",
+            "no_contact_delivery_allowed": true,
+            "options": [
+                {
+                    "free_selections": 0,
+                    "id": "62719c95f8efd5635b5eaf59",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 1,
+                    "minimum_total_selections": 1,
+                    "name": "משקל לבחירה (רטבים)",
+                    "parent": "62719640e57407509471c33b",
+                    "required_option_selections": []
+                }
+            ],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 3000,
+            "category": "62718a7abf10ee7ff6e5aa11",
+            "checksum": "ddc530cb4946ff77d04d830b9f4fe622",
+            "description": "ביקון על בסיס חלבון אפונה במרינדה מעושנת, בדיוק כמו התוספת הפופלרית להמבורגר שלנו",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "6271a69126fdc41a826d7089",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c02c882661f37000a5c84fe/a922287a-cbaa-11ec-aaab-1e7ef1f8297c______.jpeg",
+            "image_blurhash": "j5LqCmL;f;8yHt4042XLbvchTvhJ",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "ביקון טבעוני - 125 גרם",
+            "no_contact_delivery_allowed": true,
+            "options": [],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 3000,
+            "category": "62718a7abf10ee7ff6e5aa11",
+            "checksum": "bf1fc6cb6f582bcbc8341cea6b213e9e",
+            "description": "גבינת צ׳דר טבעונית על בסיס שמן קוקוס, משדרג כל המבורגר",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "6271a7db9ad20f770355e369",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c02c882661f37000a5c84fe/d9605656-cbaa-11ec-8bf8-622bd0d1129c____.jpeg",
+            "image_blurhash": "j4K9JYfA2LL;00KP80SZ0LIiX;Xt",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "גבינת צ׳דר טבעונית - 150 גרם",
+            "no_contact_delivery_allowed": true,
+            "options": [],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 800,
+            "category": "5c02ca11995cd8000abdb62c",
+            "checksum": "ec28afef26f5bb40a9ca3bc05633291f",
+            "description": "0,33",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "5f4a4721a2fde90b7b30fc46",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c02c882661f37000a5c84fe/04d07904-60ab-11eb-b642-62ff6c3ecb66_coca_cola_zero_can_330ml_.jpeg",
+            "image_blurhash": "jgZu;LBT;;GHqXupFlBTLcupl4BT",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "קוקה קולה זירו",
+            "no_contact_delivery_allowed": true,
+            "options": [],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 800,
+            "category": "5c02ca11995cd8000abdb62c",
+            "checksum": "3fd3e6819acd3af157c2cbcd50dd396e",
+            "description": "0,25",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "5f4a4721a2fde90b7b30fc4d",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c02c882661f37000a5c84fe/9f3e4dee-4f86-11eb-ba3f-bac339106963_kinley_soda_250_ml.jpeg",
+            "image_blurhash": "j5:vDWu9;;KXTttTcPCplCtUKFCp",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "סודה",
+            "no_contact_delivery_allowed": true,
+            "options": [],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 800,
+            "category": "5c02ca11995cd8000abdb62c",
+            "checksum": "b9793ff83e71db40df93d0c85eda2080",
+            "description": "0,33",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "5f4a4721a2fde90b7b30fc4a",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c02c882661f37000a5c84fe/197adeda-60ab-11eb-a9e5-82097c4d1cdc_53003_wolt_8500x4800_sprite_can_zero.jpeg",
+            "image_blurhash": "jfX;fMBD;;GXmBGGJHlBGruopRFD",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "דיאט ספרייט",
+            "no_contact_delivery_allowed": true,
+            "options": [],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 800,
+            "category": "5c02ca11995cd8000abdb62c",
+            "checksum": "f5165d804ba6642d3c603b2196c0b074",
+            "description": "0,50",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "5f4a4721a2fde90b7b30fc4b",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c02c882661f37000a5c84fe/bde92c00-4f86-11eb-9a5f-66edc19b2e03________________.jpeg",
+            "image_blurhash": "j5:;DWBT;;KXPtCpgPtCPcCpllpC",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "מים מינרליים",
+            "no_contact_delivery_allowed": true,
+            "options": [],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 52,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 1900,
+            "category": "5c02ca11995cd8000abdb62c",
+            "checksum": "a4bfd6126333294a4b976483c92be941",
+            "description": "0,33",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "5f4a4721a2fde90b7b30fc53",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c02c882661f37000a5c84fe/f000bd48-f3af-11eb-9ca7-eab20d7315e3_______.jpeg?overlay=isr-softalcohol",
+            "image_blurhash": "jaZ;nRGG;;GFPcxTh4CpLcCpl4tT",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "בירה טובורג",
+            "no_contact_delivery_allowed": true,
+            "options": [],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1
+                    ],
+                    "available_end_date": 81000000,
+                    "available_start_date": 21600000,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                },
+                {
+                    "available_days_of_week": [
+                        2
+                    ],
+                    "available_end_date": 81000000,
+                    "available_start_date": 21600000,
+                    "visible_days_of_week": [],
+                    "visible_end_date": 0,
+                    "visible_start_date": 0
+                },
+                {
+                    "available_days_of_week": [
+                        3
+                    ],
+                    "available_end_date": 81000000,
+                    "available_start_date": 21600000,
+                    "visible_days_of_week": [],
+                    "visible_end_date": 0,
+                    "visible_start_date": 0
+                },
+                {
+                    "available_days_of_week": [
+                        4
+                    ],
+                    "available_end_date": 81000000,
+                    "available_start_date": 21600000,
+                    "visible_days_of_week": [],
+                    "visible_end_date": 0,
+                    "visible_start_date": 0
+                },
+                {
+                    "available_days_of_week": [
+                        5
+                    ],
+                    "available_end_date": 81000000,
+                    "available_start_date": 21600000,
+                    "visible_days_of_week": [],
+                    "visible_end_date": 0,
+                    "visible_start_date": 0
+                },
+                {
+                    "available_days_of_week": [
+                        6
+                    ],
+                    "available_end_date": 81000000,
+                    "available_start_date": 21600000,
+                    "visible_days_of_week": [],
+                    "visible_end_date": 0,
+                    "visible_start_date": 0
+                },
+                {
+                    "available_days_of_week": [
+                        7
+                    ],
+                    "available_end_date": 81000000,
+                    "available_start_date": 21600000,
+                    "visible_days_of_week": [],
+                    "visible_end_date": 0,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        }
+    ],
+    "language": "he",
+    "languages": [
+        {
+            "autotranslated": false,
+            "language": "he",
+            "name": "עברית",
+            "primary": true
+        },
+        {
+            "autotranslated": true,
+            "language": "en",
+            "name": "אנגלית",
+            "primary": false
+        },
+        {
+            "autotranslated": true,
+            "language": "fr",
+            "name": "צרפתית",
+            "primary": false
+        },
+        {
+            "autotranslated": true,
+            "language": "ru",
+            "name": "רוסית",
+            "primary": false
+        },
+        {
+            "autotranslated": true,
+            "language": "ar",
+            "name": "ערבית",
+            "primary": false
+        }
+    ],
+    "name": "Rainbow 🌈 Ibn Gabirol",
+    "options": [
+        {
+            "defaultvalue": "5f4a4721a2fde90b7b30fc1b",
+            "has_extra_info": false,
+            "id": "5f4a4721a2fde90b7b30fc16",
+            "name": " תוספות להמבורגר",
+            "type": "Multichoice",
+            "values": [
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "5f4a4721a2fde90b7b30fc17",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "פלפל חריף",
+                    "price": 300
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "5f4a4721a2fde90b7b30fc18",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "עגבניה צלויה",
+                    "price": 400
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "5f4a4721a2fde90b7b30fc19",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "בצל מקורמל",
+                    "price": 400
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "5f4a4721a2fde90b7b30fc1a",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "אננס",
+                    "price": 500
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "5f4a4721a2fde90b7b30fc1b",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "גבינת צדר טבעונית",
+                    "price": 600
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "5f4a4721a2fde90b7b30fc1c",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "ביקון",
+                    "price": 1000
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "5f4a4721a2fde90b7b30fc1d",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "בצה+צדר",
+                    "price": 1400
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "5f4a4721a2fde90b7b30fc1e",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "בצה+צ'דר+ביקון",
+                    "price": 2000
+                }
+            ]
+        },
+        {
+            "defaultvalue": "5f4a4721a2fde90b7b30fc0f",
+            "has_extra_info": false,
+            "id": "5f4a4721a2fde90b7b30fc0b",
+            "name": "שינויים במנה",
+            "type": "Multichoice",
+            "values": [
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "5f4a4721a2fde90b7b30fc0c",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "ללא אלף האיים",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "5f4a4721a2fde90b7b30fc0d",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "אלף האיים בצד",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "5f4a4721a2fde90b7b30fc0e",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "ללא ירקות כלל",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "5f4a4721a2fde90b7b30fc0f",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "ללא חסה",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "5f4a4721a2fde90b7b30fc10",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "ללא עגבניה",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "5f4a4721a2fde90b7b30fc11",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "ללא בצל סגול",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "5f4a4721a2fde90b7b30fc12",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "ללא מלפפון חמוץ",
+                    "price": 0
+                }
+            ]
+        },
+        {
+            "defaultvalue": "5f4a4721a2fde90b7b30fc37",
+            "has_extra_info": false,
+            "id": "5f4a4721a2fde90b7b30fc35",
+            "name": "בחרו רטבים",
+            "type": "Multichoice",
+            "values": [
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "5f4a4721a2fde90b7b30fc37",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "קטשופ",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "5f9fe332f3c8a8c541089f07",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "קטשופ",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "5f4a4721a2fde90b7b30fc36",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "מיונז",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "5f9fe332f3c8a8c541089f08",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "מיונז",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "5f4a4721a2fde90b7b30fc38",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "אלף האיים",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "5f9fe332f3c8a8c541089f09",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "אלף האיים",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "5f4a4721a2fde90b7b30fc39",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "בלי רטבים",
+                    "price": 0
+                }
+            ]
+        },
+        {
+            "defaultvalue": "5f992e4ad8be1951d5409702",
+            "has_extra_info": false,
+            "id": "5f992e4ad8be1951d5409704",
+            "name": "סכו״ם למנה?",
+            "type": "Choice",
+            "values": [
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "5f992e4ad8be1951d5409702",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "כן סכו"ם",
+    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "5f992e4ad8be1951d5409703",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "לא סכו"ם",
+    "price": 0
+                }
+            ]
+        },
+        {
+            "defaultvalue": "600d5bf760cf9e1904ea8304",
+            "has_extra_info": false,
+            "id": "600d5bf760cf9e1904ea830c",
+            "name": "תוספות לצ׳יזבורגר",
+            "type": "Multichoice",
+            "values": [
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "600d5bf760cf9e1904ea8304",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "פלפל חריף",
+                    "price": 300
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "600d5bf760cf9e1904ea8305",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "עגבניה צלויה",
+                    "price": 400
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "600d5bf760cf9e1904ea8306",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "בצל מקורמל",
+                    "price": 400
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "600d5bf760cf9e1904ea8307",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "אננס",
+                    "price": 500
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "600d5bf760cf9e1904ea8308",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "גבינת צ'דר נוספת",
+                    "price": 600
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "600d5bf760cf9e1904ea8309",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "ביקון",
+                    "price": 1000
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "600d5bf760cf9e1904ea830a",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "בצה+צדר",
+                    "price": 1400
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "600d5bf760cf9e1904ea830b",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "בצה+צ'דר+ביקון",
+                    "price": 2000
+                }
+            ]
+        },
+        {
+            "defaultvalue": "600d5c5cbc5dfb1e4a505791",
+            "has_extra_info": false,
+            "id": "600d5c5cbc5dfb1e4a505796",
+            "name": "תוספות לקינג בורגר",
+            "type": "Multichoice",
+            "values": [
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "600d5c5cbc5dfb1e4a505791",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "פלפל חריף",
+                    "price": 300
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "600d5c5cbc5dfb1e4a505792",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "עגבניה צלויה",
+                    "price": 400
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "600d5c5cbc5dfb1e4a505793",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "בצל מקורמל",
+                    "price": 400
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "60fd0b9afcf24ff99d6b7816",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "אננס",
+                    "price": 500
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "600d5c5cbc5dfb1e4a505794",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "גבינת צ׳דר נוספת",
+                    "price": 600
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "600d5c5cbc5dfb1e4a505795",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "אקסטרה ביקון",
+                    "price": 1000
+                }
+            ]
+        },
+        {
+            "defaultvalue": "601fa69a24f4607b627f9c25",
+            "has_extra_info": false,
+            "id": "601fa69a24f4607b627f9c26",
+            "name": "שינויים בספיישל הוואי",
+            "type": "Multichoice",
+            "values": [
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "601fa69a24f4607b627f9c25",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 0,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "בלי חסה",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "601fa6b5814dc8c8fb91c2cd",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 0,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "בלי בצל",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "601fa6b5814dc8c8fb91c2ce",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 0,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "בלי מיונז חרדל",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "601fa6b5814dc8c8fb91c2cf",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 0,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "בלי חריף",
+                    "price": 0
+                }
+            ]
+        },
+        {
+            "defaultvalue": "60e71f448356a3c5fde19e3e",
+            "has_extra_info": false,
+            "id": "60e71f448356a3c5fde19e40",
+            "name": "רגיל / דאבל ריינביט",
+            "type": "Bool",
+            "values": [
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": true,
+                    "id": "60e71f448356a3c5fde19e3e",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "רגיל",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "60e71f448356a3c5fde19e3f",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "דאבל ריינביט",
+                    "price": 1400
+                }
+            ]
+        },
+        {
+            "defaultvalue": "60e71fb192d83188bb6c67f5",
+            "has_extra_info": false,
+            "id": "60e71fb192d83188bb6c67f7",
+            "name": "רגיל / דאבל ריינבורגר",
+            "type": "Bool",
+            "values": [
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": true,
+                    "id": "60e71fb192d83188bb6c67f5",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "רגיל",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "60e71fb192d83188bb6c67f6",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "דאבל ריינבורגר",
+                    "price": 1400
+                }
+            ]
+        },
+        {
+            "defaultvalue": "60e71fea95daa6fd4d7e4b13",
+            "has_extra_info": false,
+            "id": "60e71fea95daa6fd4d7e4b15",
+            "name": "רגיל / דאבל ספרדי",
+            "type": "Bool",
+            "values": [
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "60e71fea95daa6fd4d7e4b13",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "רגיל",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "60e71fea95daa6fd4d7e4b14",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "דאבל ספרדי",
+                    "price": 1400
+                }
+            ]
+        },
+        {
+            "defaultvalue": "60e72016c0148bf67c7e4c1b",
+            "has_extra_info": false,
+            "id": "60e72016c0148bf67c7e4c1d",
+            "name": "רגיל / דאבל סנסשיונאל",
+            "type": "Bool",
+            "values": [
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": true,
+                    "id": "60e72016c0148bf67c7e4c1b",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "רגיל",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "60e72016c0148bf67c7e4c1c",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "דאבל סנסשיונאל",
+                    "price": 1600
+                }
+            ]
+        },
+        {
+            "defaultvalue": "60e7204a9f4353501844a6f9",
+            "has_extra_info": false,
+            "id": "60e7204a9f4353501844a6fb",
+            "name": "רגיל / דאבל ביונד",
+            "type": "Bool",
+            "values": [
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "60e7204a9f4353501844a6f9",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "רגיל",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "60e7204a9f4353501844a6fa",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "דאבל ביונד",
+                    "price": 2000
+                }
+            ]
+        },
+        {
+            "defaultvalue": "60e7212b8356a3c5fde1a1de",
+            "has_extra_info": false,
+            "id": "60e7212b8356a3c5fde1a1e0",
+            "name": "רגיל / דאבל שניצל",
+            "type": "Bool",
+            "values": [
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "60e7212b8356a3c5fde1a1de",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "רגיל",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "60e7212b8356a3c5fde1a1df",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "דאבל שניצל",
+                    "price": 1400
+                }
+            ]
+        },
+        {
+            "defaultvalue": "60e72193bbcaf9741199a649",
+            "has_extra_info": false,
+            "id": "60e72193bbcaf9741199a64e",
+            "name": "שדרוג להמבורגר",
+            "type": "Choice",
+            "values": [
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "60e72193bbcaf9741199a649",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "רגיל",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "60e72193bbcaf9741199a64a",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "צ׳יזבורגר צ׳דר",
+                    "price": 600
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "60e72193bbcaf9741199a64b",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "קינג (צ׳דר+בצה+ביקון)",
+                    "price": 2000
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "60e72193bbcaf9741199a64c",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "ספיישל הוואי (צ׳דר + אננס + חריף)",
+                    "price": 1400
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "60e72193bbcaf9741199a64d",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "ספיישל אמריקן (קולסאו + ביקון + בצל מקורמל)",
+                    "price": 1700
+                }
+            ]
+        },
+        {
+            "defaultvalue": "60e721c26c59281b202009ea",
+            "has_extra_info": false,
+            "id": "60e721c26c59281b202009ee",
+            "name": "אקסטרה רוטב בצד",
+            "type": "Choice",
+            "values": [
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "60e721c26c59281b202009ea",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "ללא רוטב נוסף",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "60e721c26c59281b202009eb",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "קטשופ נוסף בצד",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "60e721c26c59281b202009ec",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "מיונז נוסף בצד",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "60e721c26c59281b202009ed",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "אלף האיים נוסף בצד",
+                    "price": 0
+                }
+            ]
+        },
+        {
+            "defaultvalue": "60e72223872c34c75f07b3ae",
+            "has_extra_info": false,
+            "id": "60e72223872c34c75f07b3b5",
+            "name": "שינויים בשניצל",
+            "type": "Multichoice",
+            "values": [
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "60e72223872c34c75f07b3ae",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 0,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "בלי מיונז חרדל",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "60e72223872c34c75f07b3af",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 0,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "מיונז חרדל בצד",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "60e72223872c34c75f07b3b0",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 0,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "ללא ירקות כלל",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "60e72223872c34c75f07b3b1",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 0,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "בלי חסה",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "60e72223872c34c75f07b3b2",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 0,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "בלי עגבניה",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "60e72223872c34c75f07b3b3",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 0,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "בלי בצל סגול",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "60e72223872c34c75f07b3b4",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 0,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "בלי מלפפון חמוץ",
+                    "price": 0
+                }
+            ]
+        },
+        {
+            "defaultvalue": "6182c62f1494350b7625291e",
+            "has_extra_info": false,
+            "id": "6182c62f1494350b76252924",
+            "name": "בורגר לבחירה",
+            "type": "Choice",
+            "values": [
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "6182c62f1494350b7625291e",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "ריינבורגר",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "6182c62f1494350b7625291f",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "ריינביט",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "6182c62f1494350b76252921",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "סנסשיונאל",
+                    "price": 600
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "6182c62f1494350b76252922",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "רידיפיין מיט",
+                    "price": 900
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "6182c62f1494350b76252923",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "ביונד",
+                    "price": 1200
+                }
+            ]
+        },
+        {
+            "defaultvalue": "6183abe0c843a460aac6136d",
+            "has_extra_info": false,
+            "id": "6183abe0c843a460aac6136f",
+            "name": "רגיל / דאבל רידיפיין",
+            "type": "Bool",
+            "values": [
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": true,
+                    "id": "6183abe0c843a460aac6136d",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "רגיל",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "6183abe0c843a460aac6136e",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "דאבל רידיפיין",
+                    "price": 1400
+                }
+            ]
+        },
+        {
+            "defaultvalue": "6190c0b93f99d76db4d0159e",
+            "has_extra_info": false,
+            "id": "6190c0b93f99d76db4d015a4",
+            "name": "שינויים בכריך וונה",
+            "type": "Multichoice",
+            "values": [
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "6190c0b93f99d76db4d0159e",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 0,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "מיונז נוסף בצד",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "6190c0b93f99d76db4d0159f",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 0,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "בלי ירקות כלל",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "6190c0b93f99d76db4d015a0",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 0,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "בלי חסה",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "6190c0b93f99d76db4d015a1",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 0,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "בלי עגבניה",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "6190c0b93f99d76db4d015a2",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 0,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "בלי בצל סגול",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "6190c0b93f99d76db4d015a3",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 0,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "בלי חמוצים",
+                    "price": 0
+                }
+            ]
+        },
+        {
+            "defaultvalue": "62719640e57407509471c337",
+            "has_extra_info": false,
+            "id": "62719640e57407509471c33b",
+            "name": "משקל לבחירה (רטבים)",
+            "type": "Choice",
+            "values": [
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "62719640e57407509471c337",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "125 גרם ",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "62719640e57407509471c338",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "250 גרם",
+                    "price": 1300
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "62719640e57407509471c339",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "500 גרם",
+                    "price": 2500
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "62719640e57407509471c33a",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "1000 גרם",
+                    "price": 3800
+                }
+            ]
+        },
+        {
+            "defaultvalue": "6271991f3dec0786d46db1da",
+            "has_extra_info": false,
+            "id": "6271991f3dec0786d46db1dd",
+            "name": "משקל לבחירה",
+            "type": "Choice",
+            "values": [
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "6271991f3dec0786d46db1da",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "250 גרם",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "6271991f3dec0786d46db1db",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "500 גרם",
+                    "price": 2500
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "6271991f3dec0786d46db1dc",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "1000 גרם",
+                    "price": 7500
+                }
+            ]
+        },
+        {
+            "defaultvalue": "62719a89cb835c7962bff8d9",
+            "has_extra_info": false,
+            "id": "62719a89cb835c7962bff8dc",
+            "name": "משקל לבחירה (סלט וונה)",
+            "type": "Choice",
+            "values": [
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "62719a89cb835c7962bff8d9",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "250 גרם",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "62719a89cb835c7962bff8da",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "500 גרם",
+                    "price": 3500
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "62719a89cb835c7962bff8db",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "1000 גרם",
+                    "price": 10500
+                }
+            ]
+        }
+    ],
+    "recommendations": [
+        {
+            "item": "5f4a4721a2fde90b7b30fc51",
+            "options": []
+        }
+    ],
+    "recommended_items": [
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 1600,
+            "category": "5c02c9e70441fd000b6d9b60",
+            "checksum": "368b29d8e793f86e3a2a71d32c1b4dc3",
+            "description": "צ'יפס קלאסי אקסטרה קריספי",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "5f4a4721a2fde90b7b30fc51",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5e36bc4539d84a39ee8fc759/2e915c1e-e0b7-11ea-81e0-3a82300c0121______.jpeg",
+            "image_blurhash": "jfUJLd;:HLd5vdllp4KXrLhnsOOS",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "צ'יפס קריספי",
+            "no_contact_delivery_allowed": true,
+            "options": [
+                {
+                    "free_selections": 2,
+                    "id": "5ed74b5444b063cdcf305a5e",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 2,
+                    "minimum_total_selections": 1,
+                    "name": "בחרו רטבים",
+                    "parent": "5f4a4721a2fde90b7b30fc35",
+                    "required_option_selections": []
+                }
+            ],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        }
+    ]
+}

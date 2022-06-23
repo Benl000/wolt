@@ -1,0 +1,3616 @@
+{
+    "categories": [
+        {
+            "description": "",
+            "id": "000000000000000000000002",
+            "image": null,
+            "image_blurhash": null,
+            "item_count": 0,
+            "layout": "grouped",
+            "name": "Wolt Specials"
+        },
+        {
+            "description": "",
+            "id": "61224683d08585eb189c222f",
+            "image": null,
+            "image_blurhash": null,
+            "item_count": 0,
+            "layout": "grouped",
+            "name": "Otello X Van Gogh"
+        },
+        {
+            "description": "",
+            "id": "6028ddbd17df954c4ecac651",
+            "image": null,
+            "image_blurhash": null,
+            "item_count": 0,
+            "layout": "grouped",
+            "name": "‫מארזי ולנטיין מיוחדים ❤️"
+        },
+        {
+            "description": "",
+            "id": "5fbd1d20628de60905559fad",
+            "image": null,
+            "image_blurhash": null,
+            "item_count": 0,
+            "layout": "grouped",
+            "name": "🍓 Winter Special 🍓"
+        },
+        {
+            "description": "רוצים להוסיף ברכה? 💌 תציינו בהערות למסעדה מה תרצו שנכתוב",
+            "id": "5f50c1b0a2f916524df62e94",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c371881eab074000c3bd072/707da46c-f0e7-11ea-8e8d-366748c881f7_________________2.jpeg",
+            "image_blurhash": "jcMHT4TtmJtBTsKTpDKY;;KDgPpC",
+            "item_count": 2,
+            "layout": "grouped",
+            "name": "מתנות לכל אירוע 🎉"
+        },
+        {
+            "description": "",
+            "id": "5cb4afec139154000c11e6e5",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/606b076799ff8194f7dabec3/a0bda3e4-4e0f-11ec-9fbc-d26dd09b8b6a_wolt0401.jpeg",
+            "image_blurhash": "j3JHyZ4gfLGHTltkcQhqfLKXMNKS",
+            "item_count": 3,
+            "layout": "grouped",
+            "name": "גלידה"
+        },
+        {
+            "description": "",
+            "id": "5f7f4cf12b2e7201bf99f363",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c371881eab074000c3bd072/cf4b8568-6e96-11eb-88b5-c26847e374f9___________.jpeg",
+            "image_blurhash": "j7Ocv6;;;;cP;:cPcPPcPtGHcyKX",
+            "item_count": 4,
+            "layout": "grouped",
+            "name": "תוספות"
+        },
+        {
+            "description": "",
+            "id": "5cb4afec139154000c11e6e6",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c371881eab074000c3bd072/b64ff22c-6e98-11eb-86af-9e7c49db6495________________________.jpeg",
+            "image_blurhash": "jeRd7gXK;;BVGGpDGGCoTtlmcPGG",
+            "item_count": 9,
+            "layout": "grouped",
+            "name": "שוקולד בר"
+        },
+        {
+            "description": "",
+            "id": "5cb4afec139154000c11e6e7",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c371881eab074000c3bd072/22e14f0a-6e97-11eb-8390-da2310f4d188___________.jpeg",
+            "image_blurhash": "jcTdvlPc;;cPTth4lCPcX;l5cxPc",
+            "item_count": 18,
+            "layout": "grouped",
+            "name": "שוקולד"
+        },
+        {
+            "description": "",
+            "id": "5cb4afec139154000c11e6e8",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c371881eab074000c3bd072/48fcb8ea-4f80-11eb-b247-0262bc5677f2________________.jpeg",
+            "image_blurhash": "j5:;DWBT;;KXPtCpgPtCPcCpllpC",
+            "item_count": 4,
+            "layout": "grouped",
+            "name": "שתיה"
+        }
+    ],
+    "extra_info_popup": null,
+    "id": "62373d517b9137bce68b64c1",
+    "items": [
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 16500,
+            "category": "5f50c1b0a2f916524df62e94",
+            "checksum": "3d05b516472c165a0aeeac2c991f6675",
+            "description": "‫חצי קילו גלידה | אוטלו בר קלאסי | אוטלו בר פיסטוק | ספרקלינג לבחירה | רושה שוייצרי | שוקולד בר לבחירה",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "62386ecc2119ec26a2b47df8",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c371881eab074000c3bd072/707da46c-f0e7-11ea-8e8d-366748c881f7_________________2.jpeg",
+            "image_blurhash": "jcMHT4TtmJtBTsKTpDKY;;KDgPpC",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "חצי קילו גלידה ופינוקים ♻️ "New Otello Box"",
+            "no_contact_delivery_allowed": true,
+            "options": [
+                {
+                    "free_selections": 0,
+                    "id": "5f5769626a552186a9e2e1fe",
+                    "maximum_single_selections": 3,
+                    "maximum_total_selections": 3,
+                    "minimum_total_selections": 3,
+                    "name": "בחירת טעמים ",
+                    "parent": "62386ecc2119ec26a2b47d50",
+                    "required_option_selections": []
+                },
+                {
+                    "free_selections": 0,
+                    "id": "5f50c1bfc73c95c125196012",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 1,
+                    "minimum_total_selections": 1,
+                    "name": "‫שוקולד טהור לבחירה (בצד)",
+                    "parent": "62386ecc2119ec26a2b47d9f",
+                    "required_option_selections": []
+                },
+                {
+                    "free_selections": 0,
+                    "id": "5f59082dcfba1ff85698e67c",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 1,
+                    "minimum_total_selections": 1,
+                    "name": "שוקולד בר לבחירה",
+                    "parent": "62386ecc2119ec26a2b47d40",
+                    "required_option_selections": []
+                },
+                {
+                    "free_selections": 0,
+                    "id": "6172adb857af2a33b4ebd449",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 1,
+                    "minimum_total_selections": 1,
+                    "name": "ספרקלינג לבחירה",
+                    "parent": "62386ecc2119ec26a2b47dab",
+                    "required_option_selections": []
+                }
+            ],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [
+                {
+                    "id": "popular",
+                    "name": "פופולרי",
+                    "style": {
+                        "background_color": "#009de0",
+                        "decoration": "star",
+                        "text_color": "#ffffff"
+                    }
+                }
+            ],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 21900,
+            "category": "5f50c1b0a2f916524df62e94",
+            "checksum": "e7b02d2e749cb884647906c22928f58b",
+            "description": "‫קילו גלידה | אוטלו בר קלאסי | אוטלו בר פיסטוק | ספרקלינג לבחירה | רושה שוייצרי | שוקולד בר לבחירה",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "62386ecc2119ec26a2b47dd9",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c371881eab074000c3bd072/779f7072-f0e7-11ea-9ad5-de8e2d013211_____________2.jpeg",
+            "image_blurhash": "jdLHqYTKreNkTtpCllPb;;OWgPhm",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "קילו גלידה ופינוקים",
+            "no_contact_delivery_allowed": true,
+            "options": [
+                {
+                    "free_selections": 0,
+                    "id": "5f5769ab7878ee11bfe44d2f",
+                    "maximum_single_selections": 4,
+                    "maximum_total_selections": 4,
+                    "minimum_total_selections": 4,
+                    "name": "בחירת טעמים ",
+                    "parent": "62386ecc2119ec26a2b47d50",
+                    "required_option_selections": []
+                },
+                {
+                    "free_selections": 0,
+                    "id": "5f50c1c0a06f160b8684cd3d",
+                    "maximum_single_selections": 2,
+                    "maximum_total_selections": 2,
+                    "minimum_total_selections": 2,
+                    "name": "‫שוקולד טהור לבחירה (בצד)",
+                    "parent": "62386ecc2119ec26a2b47d9f",
+                    "required_option_selections": []
+                },
+                {
+                    "free_selections": 0,
+                    "id": "5f5909391c1343dc7e354cc5",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 1,
+                    "minimum_total_selections": 1,
+                    "name": "שוקולד בר לבחירה",
+                    "parent": "62386ecc2119ec26a2b47d40",
+                    "required_option_selections": []
+                },
+                {
+                    "free_selections": 0,
+                    "id": "6172ae359b0c587d64dab29a",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 1,
+                    "minimum_total_selections": 1,
+                    "name": "ספרקלינג לבחירה",
+                    "parent": "62386ecc2119ec26a2b47dab",
+                    "required_option_selections": []
+                }
+            ],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [
+                {
+                    "id": "popular",
+                    "name": "פופולרי",
+                    "style": {
+                        "background_color": "#009de0",
+                        "decoration": "star",
+                        "text_color": "#ffffff"
+                    }
+                }
+            ],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": {
+                "end_date": null,
+                "start_date": 1596445200000
+            },
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 4900,
+            "category": "5cb4afec139154000c11e6e5",
+            "checksum": "35cd6f71c0498281296c66a061e86a71",
+            "description": "ניתן לבחור עד 2 טעמים מגיע עם 6 מיני גביעים כוסות כפיות ו- שוקולד חם לבחירה בצד ♻️ 🍦🍦 המארזים החדשים והמתכלים שלנו ידידותיים יותר לסביבה 🍦🍦♻️",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "62386ecc2119ec26a2b47e04",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/606b076799ff8194f7dabec3/a0bda3e4-4e0f-11ec-9fbc-d26dd09b8b6a_wolt0401.jpeg",
+            "image_blurhash": "j3JHyZ4gfLGHTltkcQhqfLKXMNKS",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "גלידה 375 גרם ♻️ "New Otello Box"",
+            "no_contact_delivery_allowed": true,
+            "options": [
+                {
+                    "free_selections": 0,
+                    "id": "619fac2d10e522ec2db71f9a",
+                    "maximum_single_selections": 2,
+                    "maximum_total_selections": 2,
+                    "minimum_total_selections": 0,
+                    "name": "בחירת טעמים ",
+                    "parent": "62386ecc2119ec26a2b47d50",
+                    "required_option_selections": []
+                },
+                {
+                    "free_selections": 0,
+                    "id": "619fac2da22975590dac1d1b",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 1,
+                    "minimum_total_selections": 0,
+                    "name": "‫שוקולד טהור לבחירה (בצד)",
+                    "parent": "62386ecc2119ec26a2b47d4c",
+                    "required_option_selections": []
+                },
+                {
+                    "free_selections": 0,
+                    "id": "619fb09e8f82764918ae8709",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 1,
+                    "minimum_total_selections": 1,
+                    "name": "גביעים ?",
+                    "parent": "62386ecc2119ec26a2b47d90",
+                    "required_option_selections": []
+                },
+                {
+                    "free_selections": 0,
+                    "id": "619fac2e10e522ec2db71f9f",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 1,
+                    "minimum_total_selections": 1,
+                    "name": "כוסות וכפיות ?",
+                    "parent": "62386ecc2119ec26a2b47d8d",
+                    "required_option_selections": []
+                }
+            ],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [
+                {
+                    "id": "popular",
+                    "name": "פופולרי",
+                    "style": {
+                        "background_color": "#009de0",
+                        "decoration": "star",
+                        "text_color": "#ffffff"
+                    }
+                }
+            ],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 6500,
+            "category": "5cb4afec139154000c11e6e5",
+            "checksum": "10955a4d24b409ed98f7466b77040655",
+            "description": "ניתן לבחור עד 3 טעמים מגיע עם 3 גביעים כוסות כפיות ו- שוקולד חם לבחירה בצד ♻️ 🍦🍦 המארזים החדשים והמתכלים שלנו ידידותיים יותר לסביבה 🍦🍦♻️",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "62386ecc2119ec26a2b47dbf",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c371881eab074000c3bd072/af42d56e-6e96-11eb-bfe7-cab7732536a8_________.jpeg",
+            "image_blurhash": "j9Qc6Whlf;FllHplGXqXP;cPIyKW",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "גלידה 0,5 קילו ♻️ "New Otello Box"",
+            "no_contact_delivery_allowed": true,
+            "options": [
+                {
+                    "free_selections": 0,
+                    "id": "5cb4afec139154000c11e70d",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 3,
+                    "minimum_total_selections": 1,
+                    "name": "בחירת טעמים ",
+                    "parent": "62386ecc2119ec26a2b47d50",
+                    "required_option_selections": []
+                },
+                {
+                    "free_selections": 0,
+                    "id": "5cb4afec139154000c11e70e",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 1,
+                    "minimum_total_selections": 0,
+                    "name": "תוספת ‫שוקולד טהור",
+                    "parent": "62386ecc2119ec26a2b47d4c",
+                    "required_option_selections": []
+                },
+                {
+                    "free_selections": 0,
+                    "id": "5f801c4226ab304796e3a0a6",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 1,
+                    "minimum_total_selections": 1,
+                    "name": "גביעים ?",
+                    "parent": "62386ecc2119ec26a2b47d93",
+                    "required_option_selections": []
+                },
+                {
+                    "free_selections": 0,
+                    "id": "5f801c43905cfd66b9547321",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 1,
+                    "minimum_total_selections": 1,
+                    "name": "כוסות וכפיות ?",
+                    "parent": "62386ecc2119ec26a2b47daf",
+                    "required_option_selections": []
+                },
+                {
+                    "free_selections": 0,
+                    "id": "5cb4afec139154000c11e70f",
+                    "maximum_single_selections": 20,
+                    "maximum_total_selections": 20,
+                    "minimum_total_selections": 0,
+                    "name": "תוספת גביעים",
+                    "parent": "62386ecc2119ec26a2b47d87",
+                    "required_option_selections": []
+                }
+            ],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [
+                {
+                    "id": "popular",
+                    "name": "פופולרי",
+                    "style": {
+                        "background_color": "#009de0",
+                        "decoration": "star",
+                        "text_color": "#ffffff"
+                    }
+                }
+            ],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 11000,
+            "category": "5cb4afec139154000c11e6e5",
+            "checksum": "deedd956c79d210763c5244344b0d01c",
+            "description": "‫ניתן לבחור עד 4 טעמים. מגיע עם 6 גביעים, כוסות כפיות ו-2 שוקולד חם לבחירה בצד",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "62386ecc2119ec26a2b47dc7",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c371881eab074000c3bd072/c2271ece-6e96-11eb-8533-be41701dee94___________.jpeg",
+            "image_blurhash": "j9RcP5XKP;gPmYpkJllHLucPgOPc",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "גלידה 1 קילו",
+            "no_contact_delivery_allowed": true,
+            "options": [
+                {
+                    "free_selections": 0,
+                    "id": "5cb4afec139154000c11e711",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 4,
+                    "minimum_total_selections": 1,
+                    "name": "בחירת טעמים ",
+                    "parent": "62386ecc2119ec26a2b47d50",
+                    "required_option_selections": []
+                },
+                {
+                    "free_selections": 0,
+                    "id": "5cb4afec139154000c11e712",
+                    "maximum_single_selections": 2,
+                    "maximum_total_selections": 2,
+                    "minimum_total_selections": 0,
+                    "name": "‫שוקולד טהור לבחירה (בצד)",
+                    "parent": "62386ecc2119ec26a2b47d4c",
+                    "required_option_selections": []
+                },
+                {
+                    "free_selections": 0,
+                    "id": "5f801ce08030d9075b1d3aff",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 1,
+                    "minimum_total_selections": 1,
+                    "name": "גביעים ?",
+                    "parent": "62386ecc2119ec26a2b47da3",
+                    "required_option_selections": []
+                },
+                {
+                    "free_selections": 0,
+                    "id": "5f801ce0c2b8d651612c399b",
+                    "maximum_single_selections": 1,
+                    "maximum_total_selections": 1,
+                    "minimum_total_selections": 1,
+                    "name": "כוסות וכפיות ?",
+                    "parent": "62386ecc2119ec26a2b47d8d",
+                    "required_option_selections": []
+                },
+                {
+                    "free_selections": 0,
+                    "id": "5cb4afec139154000c11e713",
+                    "maximum_single_selections": 20,
+                    "maximum_total_selections": 20,
+                    "minimum_total_selections": 0,
+                    "name": "תוספת גביעים",
+                    "parent": "62386ecc2119ec26a2b47d87",
+                    "required_option_selections": []
+                }
+            ],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [
+                {
+                    "id": "popular",
+                    "name": "פופולרי",
+                    "style": {
+                        "background_color": "#009de0",
+                        "decoration": "star",
+                        "text_color": "#ffffff"
+                    }
+                }
+            ],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 1000,
+            "category": "5f7f4cf12b2e7201bf99f363",
+            "checksum": "b1c7a35a5c45c12345f9b39a4b6d107c",
+            "description": "",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "62386ecc2119ec26a2b47de2",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c371881eab074000c3bd072/cf4b8568-6e96-11eb-88b5-c26847e374f9___________.jpeg",
+            "image_blurhash": "j7Ocv6;;;;cP;:cPcPPcPtGHcyKX",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "תוספת קצפת",
+            "no_contact_delivery_allowed": true,
+            "options": [],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 400,
+            "category": "5f7f4cf12b2e7201bf99f363",
+            "checksum": "1c86f20456a0be8e982abf10bd4b387e",
+            "description": "",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "62386ecc2119ec26a2b47dc4",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c371881eab074000c3bd072/e3312fce-6e96-11eb-8ac2-8e244aaa6ec8_6____________.jpeg",
+            "image_blurhash": "jaSdji;;X;h4l4KXLcllTLllgyPc",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "🌱 ‫6 מיני גביעים",
+            "no_contact_delivery_allowed": true,
+            "options": [],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 1200,
+            "category": "5f7f4cf12b2e7201bf99f363",
+            "checksum": "deadb11970f73500215cd6a7600aad22",
+            "description": "",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "62386ecc2119ec26a2b47deb",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c371881eab074000c3bd072/ef5ceb58-6e96-11eb-ab8b-2a6f3e8ec223_3______________.jpeg",
+            "image_blurhash": "jbQZ3f;;;;llcOGGPtllLtllgPKX",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "🌱 ‫3 גביעים מצופים",
+            "no_contact_delivery_allowed": true,
+            "options": [],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 500,
+            "category": "5f7f4cf12b2e7201bf99f363",
+            "checksum": "0704c42083f07481091ef7a9db2d499c",
+            "description": "",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "62386ecc2119ec26a2b47dd1",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c371881eab074000c3bd072/0aa31252-6e97-11eb-bd99-5a624a699c72_______________________.jpeg",
+            "image_blurhash": "j8Stzo;;;;llh3GGPtllGXllgPKX",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "🌱 גביע מצופה שוקולד מריר",
+            "no_contact_delivery_allowed": true,
+            "options": [],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 3200,
+            "category": "5cb4afec139154000c11e6e6",
+            "checksum": "304b5856072c0658447f7d3db291d9e8",
+            "description": "שוקולד מריר 69%, קרם אגוזי לוז ואגוזי לוז בקרמל",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "62386ecc2119ec26a2b47dc5",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c371881eab074000c3bd072/b64ff22c-6e98-11eb-86af-9e7c49db6495________________________.jpeg",
+            "image_blurhash": "jeRd7gXK;;BVGGpDGGCoTtlmcPGG",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "Nocciolata Dark 🌱",
+            "no_contact_delivery_allowed": true,
+            "options": [],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 3200,
+            "category": "5cb4afec139154000c11e6e6",
+            "checksum": "996a89699890a2a068a0bf899df63f03",
+            "description": "שוקולד חלב 41% , קרם אגוזי לוז ואגוזי לוז בקרמל",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "62386ecc2119ec26a2b47dc1",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c371881eab074000c3bd072/c367707a-6e98-11eb-8213-2a6f3e8ec223______________________.jpeg",
+            "image_blurhash": "jdRJfhXK;;GGGXtDBTtTPtlmgOGG",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "Nocciolata Milk",
+            "no_contact_delivery_allowed": true,
+            "options": [],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 3200,
+            "category": "5cb4afec139154000c11e6e6",
+            "checksum": "d69fbd50cc46da10dd9fb861a134a90a",
+            "description": "שוקולד לבן מקורמל 29%, פיסטוקים מלוחים ופקאנים",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "62386ecc2119ec26a2b47dc2",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c371881eab074000c3bd072/cfc88426-6e98-11eb-9bb8-e2c494108184_________________________.jpeg",
+            "image_blurhash": "jcTtzkXKX;KXKGpCGGtTPtpCgOGp",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "Blondie",
+            "no_contact_delivery_allowed": true,
+            "options": [],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 3200,
+            "category": "5cb4afec139154000c11e6e6",
+            "checksum": "2371bdb958ef49ef15a6caee5fc08344",
+            "description": "שוקולד חלב מקורמל 41% , קריספי קרמל ופניני קרמל מלוח",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "62386ecc2119ec26a2b47df1",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c371881eab074000c3bd072/feb53de2-6e98-11eb-89be-0e27147000ad_________________________________________.jpeg",
+            "image_blurhash": "jdRZfiXK;;KYKXpDBCCpPtpCgPFS",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "Salted Caramel",
+            "no_contact_delivery_allowed": true,
+            "options": [],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 3200,
+            "category": "5cb4afec139154000c11e6e6",
+            "checksum": "c3006f58287fd6c3bdbaea7ebd2f8eb8",
+            "description": "שוקולד לבן 29% , קריספי קפוצ'ינו ופיסטוקים מלוחים",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "62386ecc2119ec26a2b47dcd",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c371881eab074000c3bd072/77640a58-6e98-11eb-aea4-8e244aaa6ec8___________________________________________.jpeg",
+            "image_blurhash": "jbSZzl;;X;KXKXpCpCtTLtlmgPGF",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "White Cino",
+            "no_contact_delivery_allowed": true,
+            "options": [],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 3200,
+            "category": "5cb4afec139154000c11e6e6",
+            "checksum": "413924cc2661806b8bc8fe7b656290ae",
+            "description": "שוקולד מריר 69% , קריספי קפוצ'ינו ופקאנים",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "62386ecc2119ec26a2b47dda",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c371881eab074000c3bd072/8a2c212a-6e98-11eb-9d6e-4e7a86963cd3___________________________________.jpeg",
+            "image_blurhash": "jdQs;fXK;;KXGFpDGGtSTtlmcPGG",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "Dark Cino",
+            "no_contact_delivery_allowed": true,
+            "options": [],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 3200,
+            "category": "5cb4afec139154000c11e6e6",
+            "checksum": "3dd5f6437a32ec847ca7bab6d8700ffb",
+            "description": "שוקולד חלב 41%, קרם פרצל מלוח ואגוזי לוז בקרמל",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "62386ecc2119ec26a2b47ddc",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c371881eab074000c3bd072/9c03f724-6e98-11eb-956e-9e7c49db6495____________________________________.jpeg",
+            "image_blurhash": "jdRZfiXK;;tGKXpDtVGpPtllgPGG",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "Pretzel",
+            "no_contact_delivery_allowed": true,
+            "options": [],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 3200,
+            "category": "5cb4afec139154000c11e6e6",
+            "checksum": "0e2ecc37019332a353fd61bd4fac5c1b",
+            "description": "שוקולד לבן 29% , אוראו מלוח ופניני שוקולד מריר",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "62386ecc2119ec26a2b47ddf",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c371881eab074000c3bd072/a9a10048-6e98-11eb-9ad2-76c899a87020______________________________.jpeg",
+            "image_blurhash": "jaSdvk;;;;KXGHpCGmCpPtlmcPpV",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "Salted Oreo",
+            "no_contact_delivery_allowed": true,
+            "options": [],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 3200,
+            "category": "5cb4afec139154000c11e6e6",
+            "checksum": "f268ed7f5adbb31eef176b90d279c047",
+            "description": "שוקולד חלב קראנץ' קרמל מלוח ופקאנים",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "62386ecc2119ec26a2b47de3",
+            "image": null,
+            "image_blurhash": null,
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "Limited Edition ⭐",
+            "no_contact_delivery_allowed": true,
+            "options": [],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 400,
+            "category": "5cb4afec139154000c11e6e7",
+            "checksum": "e44c04b6706dd6193845b7a4a41cbc7a",
+            "description": "30 מ''ל של שוקולד טהור",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "6238b731169bdf4c2f49ec6f",
+            "image": null,
+            "image_blurhash": null,
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "שוקולד פיסטוק",
+            "no_contact_delivery_allowed": true,
+            "options": [],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 400,
+            "category": "5cb4afec139154000c11e6e7",
+            "checksum": "5cc35db2a6e4df44e18858ab9acaf978",
+            "description": "30 מ״ל של שוקולד טהור",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "62386ecc2119ec26a2b47dc9",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c371881eab074000c3bd072/22e14f0a-6e97-11eb-8390-da2310f4d188___________.jpeg",
+            "image_blurhash": "jcTdvlPc;;cPTth4lCPcX;l5cxPc",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "שוקולד חלב 41%",
+            "no_contact_delivery_allowed": true,
+            "options": [],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 400,
+            "category": "5cb4afec139154000c11e6e7",
+            "checksum": "a3ed348ef3fd9e4cb3b0d9b960c7be04",
+            "description": "‫30 מ״ל של שוקולד טהור",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "62386ecc2119ec26a2b47dd4",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c371881eab074000c3bd072/32c2c426-6e97-11eb-9784-ded78d3e9ccb___________.jpeg",
+            "image_blurhash": "j5Ve3plkjv8yXKcPh4TtHLgQN1Tt",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "שוקולד לבן 29%",
+            "no_contact_delivery_allowed": true,
+            "options": [],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 400,
+            "category": "5cb4afec139154000c11e6e7",
+            "checksum": "8f1243d80797cc8cb2bf885fe89d9661",
+            "description": "‫30 מ''ל של שוקולד טהור",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "62386ecc2119ec26a2b47e02",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/606b076799ff8194f7dabec3/ff36253a-c477-11eb-9e39-521db7d0e0d3____________.jpeg",
+            "image_blurhash": "jcRJfiPc;;cPTth4qpPc;;h48hPc",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "שוקולד מריר 63%",
+            "no_contact_delivery_allowed": true,
+            "options": [],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 1400,
+            "category": "5cb4afec139154000c11e6e7",
+            "checksum": "0055be2a598e6e9f0d191cca11bd3554",
+            "description": "",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "62386ecc2119ec26a2b47dca",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c371881eab074000c3bd072/40d5a736-6e97-11eb-bb65-e28f16bab126_bonfis_2601.jpeg",
+            "image_blurhash": "jdPYPaXK;;GGKXGGFCpCTKpDcyKG",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "שוקולד קראנץ' עדשים",
+            "no_contact_delivery_allowed": true,
+            "options": [],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 1100,
+            "category": "5cb4afec139154000c11e6e7",
+            "checksum": "ebbba59aae98153b4734534945213598",
+            "description": "",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "62386ecc2119ec26a2b47dc8",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c371881eab074000c3bd072/50d59efc-6e97-11eb-9627-2a6f3e8ec223___________.jpeg",
+            "image_blurhash": "j6Sdzo;;;;Pch4pCPtpCPtllcPpC",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "ארנבון חלב",
+            "no_contact_delivery_allowed": true,
+            "options": [],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 1100,
+            "category": "5cb4afec139154000c11e6e7",
+            "checksum": "c5f011986f1d33c7f743e77982f722e5",
+            "description": "",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "62386ecc2119ec26a2b47dc0",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c371881eab074000c3bd072/5d5baf0e-6e97-11eb-830e-7e2b8e33d8f3___________.jpeg",
+            "image_blurhash": "j5TdPr;;XLPcORpCqIpCmIlmt3tS",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "ארנבון לבן",
+            "no_contact_delivery_allowed": true,
+            "options": [],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 900,
+            "category": "5cb4afec139154000c11e6e7",
+            "checksum": "e7e429e8d74800154ae12812e1bb1ab2",
+            "description": "*מגיע יחידה אחת*",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "62386ecc2119ec26a2b47de4",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c371881eab074000c3bd072/2afc06e8-6e98-11eb-9d62-8e244aaa6ec8_________.jpeg",
+            "image_blurhash": "j8PcLacP;;cPXtllh4PcX;h48yPc",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "רוקי רוד",
+            "no_contact_delivery_allowed": true,
+            "options": [],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 3800,
+            "category": "5cb4afec139154000c11e6e7",
+            "checksum": "87973939f22a2132c055e571d9c637b0",
+            "description": "פקאן בקרמל עטוף בשוקולד לבן",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "62386ecc2119ec26a2b47de8",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c371881eab074000c3bd072/7da3d778-6e97-11eb-9e51-a2d843714523_________.jpeg",
+            "image_blurhash": "j9QsP5PbX;qHTKllh4KXT;hlgOKW",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "פקאן לבן",
+            "no_contact_delivery_allowed": true,
+            "options": [],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 3900,
+            "category": "5cb4afec139154000c11e6e7",
+            "checksum": "1f0949c57f92062069a3fe4e714b0bc0",
+            "description": "אגוזי לוז בקרמל עטופים בפרלינה אגוזי לוז, שוקולד חלב ולבן",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "62386ecc2119ec26a2b47dbe",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c371881eab074000c3bd072/8c708f08-6e97-11eb-a4f6-5a624a699c72____________.jpeg",
+            "image_blurhash": "jcPIv2Pb;;lnTtuqhlKDX;h4cyPb",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "אגוזי אוטלו",
+            "no_contact_delivery_allowed": true,
+            "options": [],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 3100,
+            "category": "5cb4afec139154000c11e6e7",
+            "checksum": "b6889ebf5d0d1de27b4477098b9dc780",
+            "description": "פצפוצי אורז ואגוזי לוז עטופים בשוקולד מריר ולבן",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "62386ecc2119ec26a2b47dcb",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c371881eab074000c3bd072/9e170e4e-6e97-11eb-a0c4-c66d0df392b0____________.jpeg",
+            "image_blurhash": "jdNrWVTs;;lGTth4tlPcX;h5cyGm",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "רושה שוויצרי",
+            "no_contact_delivery_allowed": true,
+            "options": [],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 1400,
+            "category": "5cb4afec139154000c11e6e7",
+            "checksum": "251c5750f23395bde04fabdcb5975d7a",
+            "description": "שוקולד חלב במילוי פרלינה לוז, פייטה, מלח ים",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "62386ecc2119ec26a2b47dcf",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c371881eab074000c3bd072/04202edc-6e98-11eb-a0c4-c66d0df392b0_________.jpeg",
+            "image_blurhash": "j6Osv78y;;h4XJllh4KX;;pC4htC",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "אוטלו בר קלאסי",
+            "no_contact_delivery_allowed": true,
+            "options": [],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 1500,
+            "category": "5cb4afec139154000c11e6e7",
+            "checksum": "4ce9a5e771b50380346dd749c4aba3e3",
+            "description": "שוקולד לבן במילוי פרלינה פיסטוק , פייטה ומלח ים",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "62386ecc2119ec26a2b47dd6",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c371881eab074000c3bd072/1b58ae94-6e98-11eb-b23e-6e8634756d20________________.jpeg",
+            "image_blurhash": "j3QZbf8xLL8yXKh4gPKXT;h4cwTt",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "אוטלו בר פיסטוק",
+            "no_contact_delivery_allowed": true,
+            "options": [],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 2900,
+            "category": "5cb4afec139154000c11e6e7",
+            "checksum": "07a82af49d4eb990588763eb15482243",
+            "description": "כדורי דגנים עטופים בשוקולד חלב, פרלינה אגוזי לוז וקקאו",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "62386ecc2119ec26a2b47dec",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/606b076799ff8194f7dabec3/7eb62c76-9586-11ec-a432-8e4131440017__mg_1101.jpeg",
+            "image_blurhash": "jdVJH5ll;;PcTspCh4KX;:KX8yh4",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "ספרקלינג חלב",
+            "no_contact_delivery_allowed": true,
+            "options": [],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 2900,
+            "category": "5cb4afec139154000c11e6e7",
+            "checksum": "714ad9a3c37ab1174581aa061526b083",
+            "description": "כדורי דגנים עטופים בשוקולד לבן, פרלינה אגוזי לוז וקוקוס קלוי",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "62386ecc2119ec26a2b47dea",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/606b076799ff8194f7dabec3/96a5ed8a-9586-11ec-bbd8-52adbf9907f4__mg_1123_3.jpeg",
+            "image_blurhash": "j6XKbdpF;;PbTtllcQPcXKGD8ylm",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "ספרקלינג לבן",
+            "no_contact_delivery_allowed": true,
+            "options": [],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 2900,
+            "category": "5cb4afec139154000c11e6e7",
+            "checksum": "fda3beeace58f299fc623d4515d38cd6",
+            "description": "כדורי דגנים עטופים בשוקולד מריר, פרלינה אגוזי לוז וקקאו",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "62386ecc2119ec26a2b47dd3",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/606b076799ff8194f7dabec3/a63a00ec-9586-11ec-aa0a-d66b17f5f81a__mg_1173_2.jpeg",
+            "image_blurhash": "jbVZT8Ts;;8zh5CpPclm;:h58yTc",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "ספרקלינג מריר",
+            "no_contact_delivery_allowed": true,
+            "options": [],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 3600,
+            "category": "5cb4afec139154000c11e6e7",
+            "checksum": "cc094fb02ca45b4ddc00834402703481",
+            "description": "שוקולד פיסטוק , בלונדי פטל ומריר עם מגוון אגוזים בקרמל",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "62386ecc2119ec26a2b47e08",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/606b076799ff8194f7dabec3/c6066f56-9585-11ec-b9b2-2a6de598e12f___________________.jpeg",
+            "image_blurhash": "j8OYr4cPX;d4PbllllOX;;hl8hOX",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "קוביות שוקולד מיקס",
+            "no_contact_delivery_allowed": true,
+            "options": [],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 800,
+            "category": "5cb4afec139154000c11e6e7",
+            "checksum": "a7ed737e91ab8cb8e96bcc4604854e3c",
+            "description": "פרלינה פיסטוק עטוף בשוקולד לבן, אגוזי לוז בקרמל ושוקולד פיסטוק *מגיע יחידה אחת*",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "62386ecc2119ec26a2b47dd2",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c371881eab074000c3bd072/5c2ed088-6e98-11eb-aa33-3e68bd014b9c____________.jpeg",
+            "image_blurhash": "j9PYT9Tc;;GYTtlll4Pc;;lm8xFC",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "רושה פיסטוק",
+            "no_contact_delivery_allowed": true,
+            "options": [],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 900,
+            "category": "5cb4afec139154000c11e6e8",
+            "checksum": "e30ee7f1be9b60c10f554adb9ee0d83a",
+            "description": "0,50",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "62386ecc2119ec26a2b47de9",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c371881eab074000c3bd072/48fcb8ea-4f80-11eb-b247-0262bc5677f2________________.jpeg",
+            "image_blurhash": "j5:;DWBT;;KXPtCpgPtCPcCpllpC",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "מים מינרלים",
+            "no_contact_delivery_allowed": true,
+            "options": [],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 1200,
+            "category": "5cb4afec139154000c11e6e8",
+            "checksum": "4df913c1fc96592735f1354d61edfe4a",
+            "description": "0,33",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "62386ecc2119ec26a2b47def",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c371881eab074000c3bd072/50b9e49a-4f80-11eb-a313-860c634cfe62_coca_cola_zero_350ml_.jpeg",
+            "image_blurhash": "jbZLnQCG;;GFPtCph4pTTttTcPCp",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "קוקה קולה זירו",
+            "no_contact_delivery_allowed": true,
+            "options": [],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 1200,
+            "category": "5cb4afec139154000c11e6e8",
+            "checksum": "3a32391a4d8bc7396a87da66f22df02a",
+            "description": "0,33",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "62386ecc2119ec26a2b47ddb",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c371881eab074000c3bd072/59c2f5d6-4f80-11eb-835a-0265a0c40350_coca_cola_350ml.jpeg",
+            "image_blurhash": "jbZLnQCG;;GFTty9h4unPtu7gPCp",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "קוקה קולה",
+            "no_contact_delivery_allowed": true,
+            "options": [],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        },
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 900,
+            "category": "5cb4afec139154000c11e6e8",
+            "checksum": "3f12ac6ca9b914b9d647c6dd8acb36d4",
+            "description": "0,33",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "62386ecc2119ec26a2b47dee",
+            "image": null,
+            "image_blurhash": null,
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "מים מוגזים - פרללה",
+            "no_contact_delivery_allowed": true,
+            "options": [],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        }
+    ],
+    "language": "he",
+    "languages": [
+        {
+            "autotranslated": false,
+            "language": "he",
+            "name": "עברית",
+            "primary": true
+        },
+        {
+            "autotranslated": true,
+            "language": "en",
+            "name": "אנגלית",
+            "primary": false
+        },
+        {
+            "autotranslated": true,
+            "language": "fr",
+            "name": "צרפתית",
+            "primary": false
+        },
+        {
+            "autotranslated": true,
+            "language": "ru",
+            "name": "רוסית",
+            "primary": false
+        },
+        {
+            "autotranslated": true,
+            "language": "ar",
+            "name": "ערבית",
+            "primary": false
+        }
+    ],
+    "name": "Otello | TLV Port",
+    "options": [
+        {
+            "defaultvalue": "62386ecc2119ec26a2b47d41",
+            "has_extra_info": false,
+            "id": "62386ecc2119ec26a2b47d40",
+            "name": "שוקולד בר לבחירה",
+            "type": "Multichoice",
+            "values": [
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "62386ecc2119ec26a2b47d41",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 0,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "שוקולד לבן, קריספי קפוצ'ינו, פיסטוקים מלוחים",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "62386ecc2119ec26a2b47d42",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 0,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "שוקולד בלונדי, פיסטוקים מלוחים ופקאנים",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "62386ecc2119ec26a2b47d43",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 0,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "ג'נדויה חלב ואגוזי לוז",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "62386ecc2119ec26a2b47d44",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 0,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "שוקולד חלב, קרם פרצל מלוח ואגוזי לוז",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "62386ecc2119ec26a2b47d45",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 0,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "שוקולד חלב, קראנץ' קרמל מלוח וקריספי קרמל",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "62386ecc2119ec26a2b47d46",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 0,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "🌱 שוקולד מריר 63% קריספי קפוצ'ינו ופקאנים",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "62386ecc2119ec26a2b47d48",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 0,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "🌱 ג'נדויה מריר ואגוזי לוז",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "62386ecc2119ec26a2b47d4a",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 0,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "שוקולד אוראו מלוח וקראנץ' מריר",
+                    "price": 0
+                }
+            ]
+        },
+        {
+            "defaultvalue": "62386ecc2119ec26a2b47d4d",
+            "has_extra_info": false,
+            "id": "62386ecc2119ec26a2b47d4c",
+            "name": "‫שוקולד טהור לבחירה (בצד)",
+            "type": "Multichoice",
+            "values": [
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "62386ecc2119ec26a2b47d4d",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 2,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "שוקולד חלב 41%",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "62386ecc2119ec26a2b47d4e",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 2,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "שוקולד לבן 29%",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "62386ecc2119ec26a2b47d4f",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 2,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "שוקלד מריר 63%",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "6238b6d757124343fba6d51c",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 2,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "שוקולד פיסטוק ",
+                    "price": 0
+                }
+            ]
+        },
+        {
+            "defaultvalue": "62386ecc2119ec26a2b47d56",
+            "has_extra_info": false,
+            "id": "62386ecc2119ec26a2b47d50",
+            "name": "בחירת טעמים ",
+            "type": "Multichoice",
+            "values": [
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "62386ecc2119ec26a2b47d54",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "קרם לימון פיסטוק",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "62386ecc2119ec26a2b47d55",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "ג'נדויה אוטלו ( שוקולד חלב עם קרם אגוזי לוז ושברים של שוקולד פיסטוק)",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "62386ecc2119ec26a2b47d56",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "גרנדה 43% שוקולד חלב",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "62386ecc2119ec26a2b47d57",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "ויאטנם 64% שוקולד מריר",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "62386ecc2119ec26a2b47d58",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "וניל פלאניפוליה",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "62386ecc2119ec26a2b47d59",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "בלונדי פרצל",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "62386ecc2119ec26a2b47d5a",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "מסקרפונה פירות יער וקרמבל ",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "62386ecc2119ec26a2b47d5b",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "תות לבן ",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "62386ecc2119ec26a2b47d5c",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "שוקולד לבן ואגוזי לוז",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "62386ecc2119ec26a2b47d5e",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "בוטנים מלוחים ושוקולד ",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "62386ecc2119ec26a2b47d5f",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "פיסטוק טהור ",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "62386ecc2119ec26a2b47d60",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "נוצ'ולה (קרם אגוזי לוז)",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "62386ecc2119ec26a2b47d61",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "קרמל מלוח",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "62386ecc2119ec26a2b47d62",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "קוקיז אנד קרים",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "62386ecc2119ec26a2b47d63",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "קרם חלב",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "62386ecc2119ec26a2b47d65",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "🌱 מנגו פאשן",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "62386ecc2119ec26a2b47d66",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "🌱 פטל ליים",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "62386ecc2119ec26a2b47d67",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "🌱 מישמיש סאוור",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "62386ecc2119ec26a2b47d68",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "🌱קפה שקדים ושוקולד",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "62386ecc2119ec26a2b47d69",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "🌱קרם לוטוס ",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "62386ecc2119ec26a2b47d6a",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "🌱 חוף השנהב 69% שוקולד מריר",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "62386ecc2119ec26a2b47d6b",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "🌱 מוחיטו",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "62386ecc2119ec26a2b47d6c",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "🌱 אוראו מלוח",
+                    "price": 0
+                }
+            ]
+        },
+        {
+            "defaultvalue": "62386ecc2119ec26a2b47d88",
+            "has_extra_info": false,
+            "id": "62386ecc2119ec26a2b47d87",
+            "name": "תוספת גביעים",
+            "type": "Multichoice",
+            "values": [
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "62386ecc2119ec26a2b47d88",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 5,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "‫3 גביעי וופל 🌱",
+                    "price": 600
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "62386ecc2119ec26a2b47d89",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 5,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "🌱 ‫3 גביעי וופל מצופים",
+                    "price": 1200
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "62386ecc2119ec26a2b47d8a",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 5,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "‫6 ״מיני״ גביעים 🌱",
+                    "price": 400
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "62386ecc2119ec26a2b47d8b",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 5,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "‫גביע מצופה שוקולד מריר 🌱",
+                    "price": 500
+                }
+            ]
+        },
+        {
+            "defaultvalue": "62386ecc2119ec26a2b47d8e",
+            "has_extra_info": false,
+            "id": "62386ecc2119ec26a2b47d8d",
+            "name": "כוסות וכפיות ?",
+            "type": "Choice",
+            "values": [
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "62386ecc2119ec26a2b47d8e",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "עם כוסות וכפיות",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "62386ecc2119ec26a2b47d8f",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "ללא כוסות וכפיות",
+                    "price": 0
+                }
+            ]
+        },
+        {
+            "defaultvalue": "62386ecc2119ec26a2b47d91",
+            "has_extra_info": false,
+            "id": "62386ecc2119ec26a2b47d90",
+            "name": "גביעים ?",
+            "type": "Choice",
+            "values": [
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "62386ecc2119ec26a2b47d91",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "ללא גביעים",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "62386ecc2119ec26a2b47d92",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "עם גביעים",
+                    "price": 0
+                }
+            ]
+        },
+        {
+            "defaultvalue": "62386ecc2119ec26a2b47d94",
+            "has_extra_info": false,
+            "id": "62386ecc2119ec26a2b47d93",
+            "name": "גביעים ?",
+            "type": "Choice",
+            "values": [
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "62386ecc2119ec26a2b47d94",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "עם גביעים",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "62386ecc2119ec26a2b47d95",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "ללא גביעים",
+                    "price": 0
+                }
+            ]
+        },
+        {
+            "defaultvalue": "62386ecc2119ec26a2b47da0",
+            "has_extra_info": false,
+            "id": "62386ecc2119ec26a2b47d9f",
+            "name": "‫שוקולד טהור לבחירה (בצד)",
+            "type": "Multichoice",
+            "values": [
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "62386ecc2119ec26a2b47da0",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 2,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "שוקולד חלב 41%",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "62386ecc2119ec26a2b47da1",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 2,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "שוקולד לבן 29%",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "62386ecc2119ec26a2b47da2",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 2,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "שוקלד מריר 63%",
+                    "price": 0
+                }
+            ]
+        },
+        {
+            "defaultvalue": "62386ecc2119ec26a2b47da4",
+            "has_extra_info": false,
+            "id": "62386ecc2119ec26a2b47da3",
+            "name": "גביעים ?",
+            "type": "Choice",
+            "values": [
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "62386ecc2119ec26a2b47da4",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "עם גביעים",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "62386ecc2119ec26a2b47da5",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "ללא גביעים",
+                    "price": 0
+                }
+            ]
+        },
+        {
+            "defaultvalue": "62386ecc2119ec26a2b47da7",
+            "has_extra_info": false,
+            "id": "62386ecc2119ec26a2b47da6",
+            "name": "כוסות וכפיות ?",
+            "type": "Choice",
+            "values": [
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "62386ecc2119ec26a2b47da7",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "ללא כוסות וכפיות",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "62386ecc2119ec26a2b47da8",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "עם כוסות וכפיות",
+                    "price": 0
+                }
+            ]
+        },
+        {
+            "defaultvalue": "62386ecc2119ec26a2b47dac",
+            "has_extra_info": false,
+            "id": "62386ecc2119ec26a2b47dab",
+            "name": "ספרקלינג לבחירה",
+            "type": "Multichoice",
+            "values": [
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "62386ecc2119ec26a2b47dac",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 0,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "ספרקלינג חלב",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "62386ecc2119ec26a2b47dad",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 0,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "ספרקלינג לבן",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "62386ecc2119ec26a2b47dae",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 0,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "ספרקלינג מריר",
+                    "price": 0
+                }
+            ]
+        },
+        {
+            "defaultvalue": "62386ecc2119ec26a2b47db0",
+            "has_extra_info": false,
+            "id": "62386ecc2119ec26a2b47daf",
+            "name": "כוסות וכפיות ?",
+            "type": "Choice",
+            "values": [
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "62386ecc2119ec26a2b47db0",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "עם כוסות וכפיות",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "62386ecc2119ec26a2b47db1",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 1,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "ללא כוסות וכפיות",
+                    "price": 0
+                }
+            ]
+        },
+        {
+            "defaultvalue": "62386ecc2119ec26a2b47db6",
+            "has_extra_info": false,
+            "id": "62386ecc2119ec26a2b47db5",
+            "name": "בחירת טעמים",
+            "type": "Multichoice",
+            "values": [
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "62386ecc2119ec26a2b47db6",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 3,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "אסאי",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "62386ecc2119ec26a2b47db7",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 3,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "דאבל אספרסו",
+                    "price": 0
+                },
+                {
+                    "dietary_preferences": [],
+                    "hide_when_selected": false,
+                    "id": "62386ecc2119ec26a2b47db8",
+                    "mandatory_warnings": [],
+                    "maximum_selections": 3,
+                    "minimum_selections": 0,
+                    "multichoice_weight": 1,
+                    "name": "אננס",
+                    "price": 0
+                }
+            ]
+        }
+    ],
+    "recommendations": [
+        {
+            "item": "62386ecc2119ec26a2b47dd4",
+            "options": []
+        }
+    ],
+    "recommended_items": [
+        {
+            "alcohol_percentage": 0,
+            "allowed_delivery_methods": [
+                "takeaway",
+                "homedelivery"
+            ],
+            "baseprice": 400,
+            "category": "5cb4afec139154000c11e6e7",
+            "checksum": "a3ed348ef3fd9e4cb3b0d9b960c7be04",
+            "description": "‫30 מ״ל של שוקולד טהור",
+            "dietary_preferences": [],
+            "disabled_info": null,
+            "enabled": true,
+            "has_extra_info": false,
+            "id": "62386ecc2119ec26a2b47dd4",
+            "image": "https://wolt-menu-images-cdn.wolt.com/menu-images/5c371881eab074000c3bd072/32c2c426-6e97-11eb-9784-ded78d3e9ccb___________.jpeg",
+            "image_blurhash": "j5Ve3plkjv8yXKcPh4TtHLgQN1Tt",
+            "mandatory_warnings": [],
+            "max_quantity_per_purchase": null,
+            "name": "שוקולד לבן 29%",
+            "no_contact_delivery_allowed": true,
+            "options": [],
+            "original_price": null,
+            "quantity_left": null,
+            "quantity_left_visible": false,
+            "sell_by_weight_config": null,
+            "tags": [],
+            "times": [
+                {
+                    "available_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "available_end_date": 86400000,
+                    "available_start_date": 0,
+                    "visible_days_of_week": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "visible_end_date": 86400000,
+                    "visible_start_date": 0
+                }
+            ],
+            "type": "default",
+            "unit_info": null,
+            "unit_price": null,
+            "validity": null,
+            "vat_percentage": 17
+        }
+    ]
+}

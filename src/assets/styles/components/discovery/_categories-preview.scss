@@ -5,7 +5,14 @@
     background-color: rgb(255, 255, 255);
     box-shadow: rgb(0 0 0 / 6%) 0px 0px 0.125rem 0px, rgb(0 0 0 / 12%) 0px 0.125rem 0.125rem 0px;
     // transition: box-shadow 0.3s cubic-bezier(0.45, 0, 0.55, 1) 0s, background 100ms ease-out 0s;
-
+    img {
+        // position: absolute;
+        top: 0px;
+        left: 0px;
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
     &-header {
         display: flex;
         justify-content: space-between;
