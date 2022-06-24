@@ -9,9 +9,9 @@ export const CategoriesPreview = ({ category }) => {
     };
 
     return (
-        <section className="category-preview" onClick={() => goTo(category.id)}>
+        <section className="category-preview" >
             <img src={category.img} alt={category.name} />
-            <div className="category-preview-header">
+            <div className="category-preview-header" onClick={() => goTo(category.id)}>
                 <h3>{category.name}</h3>
                 <h4>xxx places</h4>
             </div>

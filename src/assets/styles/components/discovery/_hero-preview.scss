@@ -1,19 +1,43 @@
 .hero-preview {
-    // background-color: rgb(255, 255, 255);
-    // box-shadow: rgb(0 0 0 / 6%) 0px 0px 0.125rem 0px, rgb(0 0 0 / 12%) 0px 0.125rem 0.125rem 0px;
-    // border-radius: 0.5rem;
+    position: relative;
+    min-width: 50%;
+    // width: 50%;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(0 0 0 / 6%) 0px 0px 0.125rem 0px, rgb(0 0 0 / 12%) 0px 0.125rem 0.125rem 0px;
+    border-radius: 0.5rem;
+    margin-right: 16px;
+    height: inherit;
     img {
-        // position: relative;
-        // top: 0px;
-        // bottom: 0px;
-        // object-fit: fill;
-        // width: 100%;
-        // height: 100%;
+        position: relative;
+        border-radius: 0.5rem;
+        overflow: hidden;
+        top: 0px;
+        bottom: 0px;
+        object-fit: fill;
+        width: 100%;
+        height: 100%;
     }
     &-details {
         position: absolute;
+        padding: 1.5rem;
         bottom: 0;
         left: 0;
-        color: black;
+        color: rgb(255, 255, 255);
     }
 }
+
+// margin: 0px 0.5rem;
+// }
+// <style>
+// .fTCgCW {
+//     background-color: rgb(255, 255, 255);
+//     box-shadow: rgb(0 0 0 / 6%) 0px 0px 0.125rem 0px, rgb(0 0 0 / 12%) 0px 0.125rem 0.125rem 0px;
+//     border-radius: 0.5rem;
+
+//     position: absolute;
+//     top: 0px;
+//     left: 0px;
+//     width: 100%;
+//     height: 100%;
+//     transition: transform 300ms ease-in-out 0s;
