@@ -48,7 +48,7 @@ export const RestaurantsCarouselList = ({ restaurants }) => {
             </div>
             <Slider className="restaurant-list-slider"  {...sliderSettings} ref={customeSlider}>
                 {restaurants && restaurants.map(restaurant =>
-                    <RestaurantsCarouselPreview key={restaurant.id} restaurant={restaurant} />)}
+                    <RestaurantsCarouselPreview key={restaurant.results[0].id} restaurant={restaurant} />)}
             </Slider>
         </section>
     );

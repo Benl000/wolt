@@ -23,7 +23,7 @@ export const HeroCarouselList = () => {
         slidesToShow: 2,
         speed: 3000,
         swipeToSlide: true,
-        arrows: true,
+        arrows: false,
         responsive: [
             {
                 breakpoint: 1024,
