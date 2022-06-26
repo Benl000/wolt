@@ -1,7 +1,7 @@
-import woltLogo from '../assets/svgs/woltLogo.svg';
-import profileLogo from '../assets/svgs/profile.svg';
-import arrowLogo from '../assets/svgs/arrowHeaderBtn.svg';
-import searchLogo from '../assets/svgs/magnifying-glass.svg';
+import woltLogo from '../assets/svgs/header/woltLogo.svg';
+import profileLogo from '../assets/svgs/header/profile.svg';
+import arrowLogo from '../assets/svgs/header/arrowHeaderBtn.svg';
+import searchLogo from '../assets/svgs/header/magnifying-glass.svg';
 
 export const Header = () => {
     return (

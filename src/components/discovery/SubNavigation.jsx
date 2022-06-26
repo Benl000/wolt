@@ -1,7 +1,7 @@
 import { NavLink } from 'react-router-dom';
-import { ReactComponent as DiscoveryLogo } from '../../assets/svgs/discoveryBtn.svg';
-import { ReactComponent as RestaurantsLogo } from '../../assets/svgs/restaurantsBtn.svg';
-import { ReactComponent as LocationLogo } from '../../assets/svgs/locationBtn.svg';
+import { ReactComponent as DiscoveryLogo } from '../../assets/svgs/discovery/discoveryBtn.svg';
+import { ReactComponent as RestaurantsLogo } from '../../assets/svgs/discovery/restaurantsBtn.svg';
+import { ReactComponent as LocationLogo } from '../../assets/svgs/discovery/locationBtn.svg';
 
 export const SubNavigation = () => {
     return (

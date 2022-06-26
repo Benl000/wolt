@@ -2,14 +2,28 @@ import { CategoriesPreview } from './CatergoriesPreview';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import React from 'react';
+import { useState } from 'react';
+import { CarouselNavButtons } from './buttons';
 
 export const CategoriesList = ({ categories }) => {
-    var settings = {
+
+    const customeSlider = React.createRef();
+
+    const gotoNext = () => {
+        customeSlider.current.slickNext();
+    };
+
+    const gotoPrev = () => {
+        customeSlider.current.slickPrev();
+    };
+
+    const [sliderSettings, setSliderSettings] = useState({
         dots: false,
         infinite: false,
         slidesToShow: 6,
         swipeToSlide: true,
-        arrows: true,
+        arrows: false,
         responsive: [
             {
                 breakpoint: 1200,
@@ -30,13 +44,16 @@ export const CategoriesList = ({ categories }) => {
                 }
             },
         ]
-    };
+    });
+
+
     return (
         <section className="category-list">
             <div className="category-list-header">
                 <h1> Categories</h1>
+                <CarouselNavButtons preSlide={() => gotoPrev()} nextButton={() => gotoNext()} />
             </div>
-            <Slider className="category-list-slider" {...settings}>
+            <Slider className="category-list-slider" {...sliderSettings} ref={customeSlider}>
                 {categories && categories.map(category =>
                     <CategoriesPreview key={category.id} category={category} />)}
             </Slider>

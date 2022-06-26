@@ -19,8 +19,9 @@ export const HeroCarouselList = () => {
     var settings = {
         dots: false,
         autoplay: true,
-        autoplaySpeed: 10000,
+        autoplaySpeed: 8000,
         slidesToShow: 2,
+        speed: 3000,
         swipeToSlide: true,
         arrows: true,
         responsive: [
