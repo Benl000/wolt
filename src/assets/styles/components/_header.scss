@@ -21,6 +21,7 @@
             top: 0.1rem;
             display: flex;
             justify-content: start;
+            margin-right: -1rem;
             & .logo {
                 width: 7.5rem;
                 height: 4.25rem;
@@ -65,16 +66,6 @@
                 display: flex;
                 position: relative;
             }
-            @media screen and (max-width: 1314px) {
-                div {
-                    width: 250px;
-                }
-            }
-            @media screen and (max-width: 1024px) {
-                div {
-                    display: none;
-                }
-            }
             button {
                 background-color: $clr1;
                 border: none;
@@ -84,6 +75,9 @@
             .profile-btn {
                 display: flex;
                 align-items: center;
+            }
+            .profile-btn {
+                display: none;
             }
             & .signup-btn span {
                 padding: 0.4rem 1rem;
@@ -99,6 +93,19 @@
             .profileLogo {
                 width: 2rem;
                 height: 2rem;
+            }
+            @media screen and (max-width: 1314px) {
+                div {
+                    width: 250px;
+                }
+            }
+            @media screen and (max-width: 1024px) {
+                div {
+                    display: none;
+                }
+                .profile-btn {
+                    display: flex;
+                }
             }
         }
     }

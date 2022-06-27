@@ -4,7 +4,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import React from 'react';
 import { useState } from 'react';
-import { CarouselNavButtons } from './buttons';
+import { CarouselNavButtons } from './Buttons';
 
 export const RestaurantsCarouselList = ({ restaurants }) => {
 
@@ -23,7 +23,7 @@ export const RestaurantsCarouselList = ({ restaurants }) => {
         infinite: false,
         slidesToShow: 4,
         swipeToSlide: true,
-        arrows: true,
+        arrows: false,
         responsive: [
             {
                 breakpoint: 1200,

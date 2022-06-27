@@ -4,7 +4,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import React from 'react';
 import { useState } from 'react';
-import { CarouselNavButtons } from './buttons';
+import { CarouselNavButtons } from './Buttons';
 
 export const CategoriesList = ({ categories }) => {
 

@@ -4,6 +4,7 @@ import arrowLogo from '../assets/svgs/header/arrowHeaderBtn.svg';
 import searchLogo from '../assets/svgs/header/magnifying-glass.svg';
 
 export const Header = () => {
+
     return (
         <header className='header'>
             <section className='header-main'>

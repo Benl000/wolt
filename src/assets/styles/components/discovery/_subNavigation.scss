@@ -83,6 +83,11 @@
             }
         }
     }
+    @media screen and (max-width: 640px) {
+        &-center {
+            display: none;
+        }
+    }
     &-end {
         flex: 1 1 0%;
     }
