@@ -3,7 +3,8 @@ import categories from '../data/category'
 
 export const restaurantService = {
     query,
-    getCategories
+    getCategories,
+    getCategoryById
 }
 
 // async function query() {
@@ -22,6 +23,10 @@ async function query(filterBy) {
 
 function getCategories() {
     return categories
+}
+
+function getCategoryById(id) {
+    return categories.find(category=>category.id===id)
 }
 
 

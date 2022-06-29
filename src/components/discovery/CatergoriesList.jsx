@@ -6,7 +6,7 @@ import React from 'react';
 import { useState } from 'react';
 import { CarouselNavButtons } from './Buttons';
 
-export const CategoriesList = ({ categories }) => {
+export const CategoriesList = ({ categories ,restaurants}) => {
 
     const customeSlider = React.createRef();
 
@@ -55,7 +55,7 @@ export const CategoriesList = ({ categories }) => {
             </div>
             <Slider className="category-list-slider" {...sliderSettings} ref={customeSlider}>
                 {categories && categories.map(category =>
-                    <CategoriesPreview key={category.id} category={category} />)}
+                    <CategoriesPreview key={category.id} category={category} restaurants={restaurants} />)}
             </Slider>
         </section>
     );

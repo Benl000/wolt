@@ -32,3 +32,14 @@ export function loadCategories() {
         }
     };
 }
+
+export function loadCategory(id) {
+    return async (dispatch) => {
+        try {
+            const category = await restaurantService.getCategoryById(id);
+            dispatch({ type: 'SET_CATEGORY', category });
+        } catch (err) {
+            console.log(err);
+        }
+    };
+}

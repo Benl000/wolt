@@ -28,7 +28,7 @@ export const Discovery = () => {
             <section className="discovery-page">
                 <HeroCarouselList />
                 {/* <HeroCarousel /> */}
-                <CategoriesList categories={categories.slice(0, 10)} />
+                <CategoriesList categories={categories.slice(0, 10)} restaurants={restaurants} />
                 <RestaurantsCarouselList restaurants={restaurants} />
                 <RestaurantsCarouselList restaurants={restaurants} />
                 <RestaurantsCarouselList restaurants={restaurants} />

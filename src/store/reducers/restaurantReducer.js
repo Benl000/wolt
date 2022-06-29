@@ -1,7 +1,8 @@
 const INITIAL_STATE = {
     restaurants: null,
     restaurant: null,
-    categories: null
+    categories: null,
+    category: null
 };
 
 export function restaurantReducer(state = INITIAL_STATE, action) {
@@ -22,16 +23,16 @@ export function restaurantReducer(state = INITIAL_STATE, action) {
                 ...state,
                 restaurant: [...state.restaurant, action.restaurant],
             };
-        case 'REMOVE_RESTAURANT':
-            return {
-                ...state,
+            case 'REMOVE_RESTAURANT':
+                return {
+                    ...state,
                 restaurant: state.restaurant.filter((restaurant) => restaurant._id !== action.restaurantId),
             };
-        case 'UPDATE_RESTAURANT':
-            return {
+            case 'UPDATE_RESTAURANT':
+                return {
                 ...state,
                 restaurant: state.restaurant.map((restaurant) =>
-                    restaurant._id === action.restaurant._id ? action.restaurant : restaurant
+                restaurant._id === action.restaurant._id ? action.restaurant : restaurant
                 ),
             };
         case 'SET_CATEGORIES':
@@ -39,7 +40,14 @@ export function restaurantReducer(state = INITIAL_STATE, action) {
                 ...state,
                 categories: [...action.categories]
             };
-        default:
-            return state;
-    }
-}
+            case 'SET_CATEGORY': {
+                return {
+                    ...state,
+                    category: action.category,
+                }
+            };
+            default:
+                return state;
+            }
+        }
+        

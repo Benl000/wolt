@@ -35,7 +35,7 @@ export const Category = () => {
         <section className="categoty-page">
             <SubNavigation/>
             {restaurants?
-            <RestaurantsWrap restaurants={restaurants} category={type}/>: 
+            <RestaurantsWrap restaurants={restaurants} categoryId={type}/>: 
             <h4>The categoryis empty</h4>}
         </section>
     ) 
