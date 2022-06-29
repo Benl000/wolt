@@ -4,6 +4,7 @@ import './assets/styles/main.scss';
 import { Header } from './components/Header';
 import { Footer } from './components/Footer';
 import { Category } from './pages/Category';
+import { Restaurant } from './pages/Restaurant';
 
 export function App() {
   return (
@@ -13,6 +14,7 @@ export function App() {
         <Routes>
           <Route path="/" element={<Discovery />} />
           <Route path="/category/:type" element={<Category />} />
+          <Route path="/restaurants/:name" element={<Restaurant />} />
         </Routes>
         <Footer/>
       </div>

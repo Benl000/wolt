@@ -14,7 +14,7 @@ export function loadRestaurants(filterBy) {
 export function loadRestaurant(id) {
     return async (dispatch) => {
         try {
-            const restaurant = await restaurantService.getById(id);
+            const restaurant = await restaurantService.getRestaurantById(id);
             dispatch({ type: 'SET_RESTAURANT', restaurant });
         } catch (err) {
             console.log(err);

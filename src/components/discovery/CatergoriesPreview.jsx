@@ -6,7 +6,8 @@ export const CategoriesPreview = ({ category ,restaurants}) => {
     const navigate = useNavigate();
     const [count, setCount] = useState(null)
 
-    const goTo = (categoryId) => {
+    const goTo = (ev,categoryId) => {
+        console.log(ev);
         navigate(`/category/${categoryId}`);
     };
 
@@ -17,7 +18,7 @@ export const CategoriesPreview = ({ category ,restaurants}) => {
     return (
         <section className="category-preview" >
             <img src={category.img} alt={category.name} />
-            <div className="category-preview-header" onClick={() => goTo(category.id)}>
+            <div className="category-preview-header" onClick={(ev) => goTo(ev ,category.id)}>
                 <h3>{category.name}</h3>
                 <h4>{count} places</h4>
             </div>

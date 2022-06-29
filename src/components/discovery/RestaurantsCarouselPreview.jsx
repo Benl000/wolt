@@ -6,13 +6,13 @@ export const RestaurantsCarouselPreview = ({ restaurant }) => {
     const currResturant = restaurant.results[0];
     const resturantName = currResturant.name[0].value;
 
-    const goTo = (resturantName) => {
-        navigate(`/restaurants/${resturantName}`);
+    const goTo = (slug) => {
+        navigate(`/restaurants/${slug}`);
     };
 
 
     return (
-        <section className="restaurant-preview" onClick={() => goTo(resturantName)}>
+        <section className="restaurant-preview" onClick={() => goTo(currResturant.slug)}>
             <img src={currResturant.listimage} alt={currResturant.name[0].value} />
             <div className="restaurant-preview-header">
                 <div className="headlines">

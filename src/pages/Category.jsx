@@ -9,7 +9,6 @@ export const Category = () => {
     const { restaurants } = useSelector((state) => state.restaurantModule);
     const { type } = useParams()
     const dispatch = useDispatch();
-    console.log(type);
    
     useEffect(() => {
         try {
