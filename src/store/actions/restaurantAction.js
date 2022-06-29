@@ -1,9 +1,9 @@
 import { restaurantService } from '../../services/restaurant.service';
 
-export function loadRestaurants() {
+export function loadRestaurants(filterBy) {
     return async (dispatch) => {
         try {
-            const restaurants = await restaurantService.query();
+            const restaurants = await restaurantService.query(filterBy);
             dispatch({ type: 'SET_RESTAURANTS', restaurants });
         } catch (err) {
             console.log(err);

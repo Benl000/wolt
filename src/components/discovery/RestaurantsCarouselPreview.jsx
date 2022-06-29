@@ -4,13 +4,15 @@ import { useNavigate } from "react-router-dom";
 export const RestaurantsCarouselPreview = ({ restaurant }) => {
     const navigate = useNavigate();
     const currResturant = restaurant.results[0];
+    const resturantName = currResturant.name[0].value;
 
-    // const goTo = (categoryId) => {
-    //     navigate(`/category/${categoryId}`);
-    // };
+    const goTo = (resturantName) => {
+        navigate(`/restaurants/${resturantName}`);
+    };
+
 
     return (
-        <section className="restaurant-preview">
+        <section className="restaurant-preview" onClick={() => goTo(resturantName)}>
             <img src={currResturant.listimage} alt={currResturant.name[0].value} />
             <div className="restaurant-preview-header">
                 <div className="headlines">

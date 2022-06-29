@@ -1,0 +1,30 @@
+.restaurant-wrap {
+    max-width: 1600px;
+    margin: 0px auto;
+    padding: 2rem 30px 0;
+    min-height: calc(100vh);
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    &-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+        gap: 1rem;
+        padding-bottom: 1.25rem;
+        h1 {
+            font-size: 2.875rem;
+            line-height: 3.5rem;
+            font-weight: 700;
+            margin: 0px;
+        }
+    }
+    &-main {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0px, 1fr));
+        gap: 1rem;
+        align-items: center;
+        @media screen and (max-width: 1024) {
+            grid-template-columns: repeat(2, minmax(0px, 1fr));
+        }
+    }
+}

@@ -26,6 +26,9 @@
                 width: 7.5rem;
                 height: 4.25rem;
             }
+            img:hover {
+                cursor: pointer;
+            }
         }
         &-search {
             flex: 2 1 0%;

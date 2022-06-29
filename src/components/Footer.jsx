@@ -31,10 +31,8 @@ export const Footer=()=> {
             </span>
           </div>
         </ul>
-        <div className="main-footer_footer-right">
-          <span>
+        <div className="main-footer_footer-right">         
           ©️ Ben's Wolt 2022
-          </span>
         </div>
       </div>
     </section>
