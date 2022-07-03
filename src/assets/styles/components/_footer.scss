@@ -11,6 +11,9 @@
     .main-footer {
         max-width: 1600px;
         padding: 2.5rem 30px;
+        @media screen and (max-width: 640px) {
+            padding: 2.5rem 10px;
+        }
         width: 100%;
         // display: flex;
 

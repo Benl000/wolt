@@ -12,6 +12,9 @@
         margin: 0px auto;
         display: flex;
         width: calc(100vw - 60px);
+        @media screen and (max-width: 640px) {
+            width: calc(100vw - 10px);
+        }
         align-items: center;
         justify-content: space-between;
         &-logo {
@@ -55,9 +58,13 @@
                 }
                 &::placeholder {
                     color: $clr5;
+                    text-overflow: ellipsis;
                 }
                 &:hover {
                     background-color: $clr6;
+                }
+                @media screen and (max-width: 500px) {
+                    width: 40vw;
                 }
             }
         }

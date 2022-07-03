@@ -1,5 +1,8 @@
 .discovery-nav {
     padding: 1.5rem 30px;
+    @media screen and (max-width: 640px) {
+        padding: 1.5rem 10px;
+    }
     max-width: 1550px;
     margin: auto;
     display: flex;
