@@ -45,6 +45,7 @@
     width: 2.5rem;
     height: 2.5rem;
     border-radius: 50%;
+    box-shadow: rgb(0 0 0 / 6%) 0px 0px 0.375rem 0px, rgb(0 0 0 / 12%) 0px 0.375rem 0.375rem 0px;
     transition: background-color 120ms ease-out 0s;
     background-color: rgb(235, 247, 253);
 
@@ -61,7 +62,7 @@
 }
 
 .slick-next {
-    right: 10px;
+    right: 5px;
     &::before {
         content: "";
     }
@@ -69,7 +70,7 @@
 
 .slick-prev {
     z-index: 1;
-    left: -17px;
+    left: -10px;
     &::before {
         content: "";
     }

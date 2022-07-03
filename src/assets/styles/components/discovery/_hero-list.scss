@@ -1,26 +1,15 @@
 .hero-list {
-    // &-slider {
-    //     padding: 1rem 0.2rem;
-    //     margin: -1rem -0.5rem;
+    &-slider {
+        padding: 1rem 0.2rem;
+        margin: -1rem -0.5rem;
 
-    // .slick-slide {
-    //     height: inherit;
-    //     div {
-    //         height: inherit;
-    //     }
-    // }
-    //     @media screen and (max-width: 1600px) {
-    //         .slick-list {
-    //             overflow: visible;
-    //         }
-    //     }
-    //     .slick-arrow::before {
-    //         color: aqua;
-    //     }
-    // }
-    @media screen and (max-width: 1600px) {
-        .slick-list {
-            overflow: visible;
+        .slick-track {
+            padding-bottom: 5px;
+        }
+        @media screen and (max-width: 1600px) {
+            .slick-list {
+                overflow: visible;
+            }
         }
     }
 }
