@@ -2,6 +2,7 @@ import { HeroCarouselPreview } from './HeroCarouselPreview';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import { SampleNextArrow, SamplePrevArrow } from './Buttons';
 
 export const HeroCarouselList = () => {
 
@@ -23,7 +24,9 @@ export const HeroCarouselList = () => {
         slidesToShow: 2,
         speed: 3000,
         swipeToSlide: true,
-        arrows: false,
+        arrows: true,
+        nextArrow: <SampleNextArrow />,
+        prevArrow: <SamplePrevArrow />,
         responsive: [
             {
                 breakpoint: 1024,
