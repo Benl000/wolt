@@ -1,45 +1,55 @@
-.main-footer {
+.main-footer-container {
     background: rgb(20, 20, 20);
-    padding: 2.5rem 30px calc(2rem + env(safe-area-inset-bottom));
     fill: rgb(255, 255, 255);
     color: rgb(255, 255, 255);
     margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    .main-footer {
+        max-width: 1600px;
+        padding: 2.5rem 30px;
+        width: 100%;
+        // display: flex;
 
-    &_header {
-        &-logo {
-            fill: rgb(255, 255, 255);
-            width: 4.625rem;
-            margin-bottom: 1.75rem;
+        &_header {
+            &-logo {
+                fill: rgb(255, 255, 255);
+                width: 4.625rem;
+                margin-bottom: 1.75rem;
+            }
         }
-    }
 
-    &_footer {
-        display: flex;
-        gap: 1.5rem;
-        -webkit-box-pack: justify;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        font-size: 0.75rem;
-        line-height: 1rem;
-        font-weight: 400;
-
-        &-left {
+        &_footer {
             display: flex;
             gap: 1.5rem;
+            -webkit-box-pack: justify;
+            justify-content: space-between;
             flex-wrap: wrap;
+            font-size: 0.75rem;
+            line-height: 1rem;
+            font-weight: 400;
 
-            .subFooterBtn {
-                position: relative;
-                text-align: start;
+            &-left {
                 display: flex;
-                align-items: center;
-                gap: 0.5rem;
-                color: rgb(255, 255, 255);
-                cursor: pointer;
+                gap: 1.5rem;
+                flex-wrap: wrap;
 
-                svg {
-                    width: 0.75rem;
-                    height: 0.75rem;
+                .subFooterBtn {
+                    position: relative;
+                    text-align: start;
+                    display: flex;
+                    align-items: center;
+                    gap: 0.5rem;
+                    color: rgb(255, 255, 255);
+                    cursor: pointer;
+
+                    svg {
+                        width: 0.75rem;
+                        height: 0.75rem;
+                    }
                 }
             }
         }

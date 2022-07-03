@@ -11,12 +11,14 @@ export function App() {
     <Router>
       <div className="App">
         <Header />
-        <Routes>
-          <Route path="/" element={<Discovery />} />
-          <Route path="/category/:type" element={<Category />} />
-          <Route path="/restaurants/:name" element={<Restaurant />} />
-        </Routes>
-        <Footer/>
+        <main className="app-body">
+          <Routes>
+            <Route path="/" element={<Discovery />} />
+            <Route path="/category/:type" element={<Category />} />
+            <Route path="/restaurants/:name" element={<Restaurant />} />
+          </Routes>
+        </main>
+        <Footer />
       </div>
     </Router>
   );
