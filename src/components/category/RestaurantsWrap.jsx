@@ -5,17 +5,17 @@ import { loadCategory } from '../../store/actions/restaurantAction';
 
 import React from 'react';
 
-export const RestaurantsWrap = ({categoryId, restaurants }) => {
+export const RestaurantsWrap = ({ categoryId, restaurants }) => {
     const { category } = useSelector((state) => state.restaurantModule);
     const dispatch = useDispatch();
 
     useEffect(() => {
-            dispatch(loadCategory(categoryId));
+        dispatch(loadCategory(categoryId));
     }, []);
 
     return (
         <section className="restaurant-wrap">
-            
+
             <div className="restaurant-wrap-header">
                 <h1>{category && category.name}</h1>
             </div>

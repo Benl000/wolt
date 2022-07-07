@@ -1,0 +1,10 @@
+.category-page {
+    max-width: 1600px;
+    margin: 0px auto;
+    padding: 0 30px 2rem;
+    background-color: #ffffff;
+    overflow: hidden;
+    @media screen and (max-width: 640px) {
+        padding: 2rem 10px 0;
+    }
+}

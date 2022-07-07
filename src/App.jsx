@@ -5,6 +5,7 @@ import { Header } from './components/Header';
 import { Footer } from './components/Footer';
 import { Category } from './pages/Category';
 import { Restaurant } from './pages/Restaurant';
+import { Restaurants } from './pages/Restaurants.jsx';
 
 export function App() {
   return (
@@ -13,8 +14,11 @@ export function App() {
         <Header />
         <main className="app-body">
           <Routes>
+            {/* <Redirect exact from="/" to="/discovery" /> */}
             <Route path="/" element={<Discovery />} />
+            <Route path="/discovery" element={<Discovery />} />
             <Route path="/category/:type" element={<Category />} />
+            <Route path="/restaurants" element={<Restaurants />} />
             <Route path="/restaurants/:name" element={<Restaurant />} />
           </Routes>
         </main>
