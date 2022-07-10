@@ -26,7 +26,7 @@ body {
     color: var(--cb-textPrimary);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-family: try, system-ui, -apple-system, BlinkMacSystemFont, "Roboto", "Open Sans", sans-serif;
+    font-family: OmnesRegular, system-ui, -apple-system, BlinkMacSystemFont, "Roboto", "Open Sans", sans-serif;
 }
 
 #app {
@@ -46,14 +46,14 @@ textarea,
 input,
 select,
 button {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Roboto", "Open Sans", sans-serif;
+    font-family: OmnesRegular, system-ui, -apple-system, BlinkMacSystemFont, "Roboto", "Open Sans", sans-serif;
 }
 
 ::-webkit-input-placeholder,
 ::-moz-placeholder,
 :-ms-input-placeholder,
 input:-moz-placeholder {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Roboto", "Open Sans", sans-serif;
+    font-family: OmnesRegular, system-ui, -apple-system, BlinkMacSystemFont, "Roboto", "Open Sans", sans-serif;
     color: var(--cb-textTertiary);
 }
 
@@ -126,7 +126,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Roboto", "Open Sans", sans-serif;
+    font-family: OmnesRegular, system-ui, -apple-system, BlinkMacSystemFont, "Roboto", "Open Sans", sans-serif;
     font-style: normal;
     font-weight: normal;
     color: inherit;
