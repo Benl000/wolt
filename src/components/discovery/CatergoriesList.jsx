@@ -6,15 +6,15 @@ import React from 'react';
 import { useState } from 'react';
 import { CarouselNavButtons } from './Buttons';
 
-export const CategoriesList = ({ categories ,restaurants}) => {
+export const CategoriesList = ({ categories, restaurants }) => {
 
     const customeSlider = React.createRef();
 
-    const gotoNext = () => {
+    const goToNext = () => {
         customeSlider.current.slickNext();
     };
 
-    const gotoPrev = () => {
+    const goToPrev = () => {
         customeSlider.current.slickPrev();
     };
 
@@ -22,7 +22,7 @@ export const CategoriesList = ({ categories ,restaurants}) => {
         dots: false,
         infinite: false,
         slidesToShow: 6,
-        swipeToSlide: true,
+        slidesToScroll: 6,
         arrows: false,
         responsive: [
             {
@@ -46,12 +46,11 @@ export const CategoriesList = ({ categories ,restaurants}) => {
         ]
     });
 
-
     return (
         <section className="category-list">
             <div className="category-list-header">
                 <h1> Categories</h1>
-                <CarouselNavButtons preSlide={() => gotoPrev()} nextButton={() => gotoNext()} />
+                <CarouselNavButtons preSlide={() => goToPrev()} nextButton={() => goToNext()} />
             </div>
             <Slider className="category-list-slider" {...sliderSettings} ref={customeSlider}>
                 {categories && categories.map(category =>
