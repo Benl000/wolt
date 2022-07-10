@@ -1,39 +1,37 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
-import { loadRestaurant } from '../store/actions/restaurantAction';
-// import { RestaurantsWrap } from '../components/category/RestaurantsWrap';
-// import { SubNavigation } from '../components/discovery/SubNavigation';
+import { loadRestaurants, loadCategories } from '../store/actions/restaurantAction';
+import { RestaurantsWrap } from '../components/category/RestaurantsWrap';
+import { SubNavigation } from '../components/discovery/SubNavigation';
+import { CategoriesList } from '../components/discovery/CatergoriesList';
+
 
 export const Restaurant = () => {
-    const { restaurant } = useSelector((state) => state.restaurantModule);
-    const { name } = useParams();
+    const { restaurants } = useSelector((state) => state.restaurantModule);
+    const { categories } = useSelector((state) => state.restaurantModule);
+    const { type } = useParams();
     const dispatch = useDispatch();
 
     useEffect(() => {
         try {
-            dispatch(loadRestaurant(name));
+            dispatch(loadRestaurants(type));
+            dispatch(loadCategories());
         } catch (err) {
             console.log(err);
         }
-    }, []);
+    }, [type]);
 
-    return restaurant ? (
-        <section className="restaurant-page">
-            <section className="restaurant-hero">
-                <div className="restaurant-hero_background">
-                    <img src={restaurant.results[0].mainimage} alt="" />
-                    <div className="restaurant-hero_background--darker"></div>
+    return categories && restaurants ? (
+        <>
+            <SubNavigation />
+            <section className="restaurants-page">
+                <CategoriesList categories={categories.slice(0, 10)} restaurants={restaurants} />
+                <div className="restaurants-page-header">
+                    <h1>All restaurants</h1>
                 </div>
-                <div className="restaurant-hero_titles">
-                    <div className="restaurant-hero_titles--main">
-                        <h1>{restaurant.results[0].slug}</h1>
-                        <p>{restaurant.results[0].short_description[0].value}</p>
-                    </div>
-                    <button>MIN. ORDER: 50.00</button>
-                </div>
-                {/* <div></div> */}
+                <RestaurantsWrap restaurants={restaurants} categoryId={type} />
             </section>
-        </section>
+        </>
     ) : null;
 };

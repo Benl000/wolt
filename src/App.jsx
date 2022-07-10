@@ -4,8 +4,8 @@ import './assets/styles/main.scss';
 import { Header } from './components/Header';
 import { Footer } from './components/Footer';
 import { Category } from './pages/Category';
-import { Restaurant } from './pages/Restaurant';
-import { Restaurants } from './pages/Restaurants.jsx';
+import { RestaurantDetails } from './pages/RestaurantDetails.jsx';
+import { Restaurant } from './pages/Restaurant.jsx';
 
 export function App() {
   return (
@@ -18,8 +18,8 @@ export function App() {
             <Route path="/" element={<Discovery />} />
             <Route path="/discovery" element={<Discovery />} />
             <Route path="/category/:type" element={<Category />} />
-            <Route path="/restaurant" element={<Restaurants />} />
-            <Route path="/restaurant/:name" element={<Restaurant />} />
+            <Route path="/restaurant" element={<Restaurant />} />
+            <Route path="/restaurant/:name" element={<RestaurantDetails />} />
           </Routes>
         </main>
         <Footer />
