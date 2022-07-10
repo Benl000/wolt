@@ -18,8 +18,8 @@ export function App() {
             <Route path="/" element={<Discovery />} />
             <Route path="/discovery" element={<Discovery />} />
             <Route path="/category/:type" element={<Category />} />
-            <Route path="/restaurants" element={<Restaurants />} />
-            <Route path="/restaurants/:name" element={<Restaurant />} />
+            <Route path="/restaurant" element={<Restaurants />} />
+            <Route path="/restaurant/:name" element={<Restaurant />} />
           </Routes>
         </main>
         <Footer />

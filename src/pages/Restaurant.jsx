@@ -21,10 +21,19 @@ export const Restaurant = () => {
     return restaurant ? (
         <section className="restaurant-page">
             <section className="restaurant-hero">
-                <img src={restaurant.results[0].mainimage} alt="" />
+                <div className="restaurant-hero_background">
+                    <img src={restaurant.results[0].mainimage} alt="" />
+                    <div className="restaurant-hero_background--darker"></div>
+                </div>
+                <div className="restaurant-hero_titles">
+                    <div className="restaurant-hero_titles--main">
+                        <h1>{restaurant.results[0].slug}</h1>
+                        <p>{restaurant.results[0].short_description[0].value}</p>
+                    </div>
+                    <button>MIN. ORDER: 50.00</button>
+                </div>
                 {/* <div></div> */}
             </section>
-            <h1>{restaurant.results[0].slug}</h1>
         </section>
     ) : null;
 };

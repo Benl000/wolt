@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
-import { loadRestaurants } from '../store/actions/restaurantAction';
+import { loadRestaurants, loadCategories } from '../store/actions/restaurantAction';
 import { RestaurantsWrap } from '../components/category/RestaurantsWrap';
 import { SubNavigation } from '../components/discovery/SubNavigation';
 import { CategoriesList } from '../components/discovery/CatergoriesList';
@@ -16,12 +16,13 @@ export const Restaurants = () => {
     useEffect(() => {
         try {
             dispatch(loadRestaurants(type));
+            dispatch(loadCategories());
         } catch (err) {
             console.log(err);
         }
     }, [type]);
 
-    return (
+    return categories && restaurants ? (
         <>
             <SubNavigation />
             <section className="restaurants-page">
@@ -29,10 +30,8 @@ export const Restaurants = () => {
                 <div className="restaurants-page-header">
                     <h1>All restaurants</h1>
                 </div>
-                {restaurants ?
-                    <RestaurantsWrap restaurants={restaurants} categoryId={type} /> :
-                    <h4>The categoryis empty</h4>}
+                <RestaurantsWrap restaurants={restaurants} categoryId={type} />
             </section>
         </>
-    );
+    ) : null;
 };

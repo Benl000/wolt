@@ -7,7 +7,7 @@ export const RestaurantsCarouselPreview = ({ restaurant }) => {
     const resturantName = currResturant.name[0].value;
 
     const goTo = (slug) => {
-        navigate(`/restaurants/${slug}`);
+        navigate(`/restaurant/${slug}`);
     };
 
 

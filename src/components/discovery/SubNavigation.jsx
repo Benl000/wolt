@@ -19,7 +19,7 @@ export const SubNavigation = () => {
                     <DiscoveryLogo />
                     <span>Discovery</span>
                 </NavLink>
-                <NavLink className='discovery-nav-center-link' to={'/restaurants'}>
+                <NavLink className='discovery-nav-center-link' to={'/restaurant'}>
                     <RestaurantsLogo />
                     <span>Restaurants</span>
                 </NavLink>
