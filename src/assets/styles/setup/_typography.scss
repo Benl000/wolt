@@ -1,14 +1,17 @@
 @font-face {
-    font-family: try;
-    // src: url(~@/style/fonts/Roboto-Regular.ttf);
+    font-family: OmnesBold;
     src: url(../../fonts/omnes/OmnesBold.ttf);
 }
 
-// @font-face {
-//     font-family: Sofia;
-//     // src: url(~@/style/fonts/Roboto-Regular.ttf);
-//     src: url(../fonts/sofiapro-light.ttf);
-// }
+@font-face {
+    font-family: OmnesRegular;
+    src: url(../../fonts/omnes/OmnesRegular.ttf);
+}
+
+@font-face {
+    font-family: OmnesSemiBold;
+    src: url(../../fonts/omnes/OmnesSemiBold.ttf);
+}
 
 // @font-face {
 //     font-family: Wolt;
