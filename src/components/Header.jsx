@@ -3,33 +3,27 @@ import profileLogo from '../assets/svgs/header/profile.svg';
 import arrowLogo from '../assets/svgs/header/arrowHeaderBtn.svg';
 import searchLogo from '../assets/svgs/header/magnifying-glass.svg';
 import { useNavigate, useParams, useLocation } from "react-router-dom";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 export const Header = () => {
 
     const navigate = useNavigate();
-    // const dispatch = useDispatch();
     let { pathname } = useLocation();
-    // const { name, type } = useParams();
+    const [detailPage, setDetailPage] = useState(false);
 
     const goTo = () => {
         navigate(`/`);
     };
 
     useEffect(() => {
-        // dispatch(name);
-        console.log(pathname);
-        // console.log(name);
-        // console.log(type);
-
-        // return () => {
-        //     second;
-        // };
+        const params = pathname.split('/');
+        // params = [ '' , page , id]
+        setDetailPage((params[1] === 'restaurant' && params[2]) ? true : false);
     }, [pathname]);
 
 
     return (
-        <header className='header'>
+        <header className={detailPage ? "header details" : "header"}>
             <section className='header-main'>
                 <section className='header-main-logo' onClick={() => goTo()}>
                     <img className='logo' src={woltLogo} />

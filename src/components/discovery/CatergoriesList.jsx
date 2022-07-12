@@ -22,7 +22,7 @@ export const CategoriesList = ({ categories, restaurants }) => {
         dots: false,
         infinite: false,
         slidesToShow: 6,
-        slidesToScroll: 6,
+        swipeToSlide: true,
         arrows: false,
         responsive: [
             {

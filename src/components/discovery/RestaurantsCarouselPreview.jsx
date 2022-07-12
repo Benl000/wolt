@@ -1,18 +1,34 @@
-import React from "react";
+import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 export const RestaurantsCarouselPreview = ({ restaurant }) => {
     const navigate = useNavigate();
+    const [clientXonMouseDown, setClientXonMouseDown] = useState(null);
+    const [clientYonMouseDown, setClientYonMouseDown] = useState(null);
+
     const currResturant = restaurant.results[0];
     const resturantName = currResturant.name[0].value;
 
-    const goTo = (slug) => {
+    // const goTo = (slug) => {
+    //     navigate(`/restaurant/${slug}`);
+    // };
+    const handleOnMouseDown = (ev) => {
+        setClientXonMouseDown(ev.clientX);
+        setClientYonMouseDown(ev.clientY);
+        ev.preventDefault();
+    };
+
+    const handleOnClick = (ev, { slug }) => {
+        ev.stopPropagation();
+        if (clientXonMouseDown !== ev.clientX || clientYonMouseDown !== ev.clientY) {
+            ev.preventDefault();
+            return;
+        }
         navigate(`/restaurant/${slug}`);
     };
 
-
     return (
-        <section className="restaurant-preview" onClick={() => goTo(currResturant.slug)}>
+        <section className="restaurant-preview" onMouseDown={(ev) => handleOnMouseDown(ev)} onClick={(ev) => handleOnClick(ev, currResturant)}>
             <img src={currResturant.listimage} alt={currResturant.name[0].value} />
             <div className="restaurant-preview-header">
                 <div className="headlines">

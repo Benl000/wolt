@@ -90,7 +90,7 @@
                 display: none;
             }
             & .signup-btn span {
-                padding: 0.4rem 1rem;
+                padding: 0.2rem 1rem;
                 border: 1px solid #eee;
                 border-radius: 2px;
             }
@@ -116,6 +116,44 @@
                 .profile-btn {
                     display: flex;
                 }
+            }
+        }
+    }
+}
+
+.details {
+    display: flex;
+    background-color: transparent;
+    border: none;
+    .header-main {
+        max-width: 1200px;
+        padding: 0 30px;
+        &-logo {
+            filter: invert(100%);
+        }
+        &-search {
+            & img {
+                filter: invert(100%);
+            }
+            & input {
+                transition: background-color 70ms linear 0s;
+                caret-color: rgb(0, 157, 224);
+                background: #f2f2f23d;
+                &::placeholder {
+                    color: white;
+                    font-weight: bold;
+                }
+            }
+        }
+        &-nav {
+            fill: white;
+            button {
+                background-color: transparent;
+                color: white;
+            }
+            .arrowLogo,
+            .profileLogo {
+                filter: brightness(0) invert(1);
             }
         }
     }
