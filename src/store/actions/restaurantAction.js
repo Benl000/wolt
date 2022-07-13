@@ -16,6 +16,7 @@ export function loadRestaurant(id) {
         try {
             const restaurant = await restaurantService.getRestaurantById(id);
             dispatch({ type: 'SET_RESTAURANT', restaurant });
+            return restaurant;
         } catch (err) {
             console.log(err);
         }
@@ -38,6 +39,17 @@ export function loadCategory(id) {
         try {
             const category = await restaurantService.getCategoryById(id);
             dispatch({ type: 'SET_CATEGORY', category });
+        } catch (err) {
+            console.log(err);
+        }
+    };
+}
+
+export function loadMenu(id) {
+    return async (dispatch) => {
+        try {
+            const menu = await restaurantService.getMenuById(id);
+            dispatch({ type: 'SET_MENU', menu });
         } catch (err) {
             console.log(err);
         }

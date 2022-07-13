@@ -2,7 +2,8 @@ const INITIAL_STATE = {
     restaurants: null,
     restaurant: null,
     categories: null,
-    category: null
+    category: null,
+    menu: null
 };
 
 export function restaurantReducer(state = INITIAL_STATE, action) {
@@ -16,23 +17,23 @@ export function restaurantReducer(state = INITIAL_STATE, action) {
             return {
                 ...state,
                 restaurant: action.restaurant,
-            }
+            };
         };
         case 'ADD_RESTAURANT':
             return {
                 ...state,
                 restaurant: [...state.restaurant, action.restaurant],
             };
-            case 'REMOVE_RESTAURANT':
-                return {
-                    ...state,
+        case 'REMOVE_RESTAURANT':
+            return {
+                ...state,
                 restaurant: state.restaurant.filter((restaurant) => restaurant._id !== action.restaurantId),
             };
-            case 'UPDATE_RESTAURANT':
-                return {
+        case 'UPDATE_RESTAURANT':
+            return {
                 ...state,
                 restaurant: state.restaurant.map((restaurant) =>
-                restaurant._id === action.restaurant._id ? action.restaurant : restaurant
+                    restaurant._id === action.restaurant._id ? action.restaurant : restaurant
                 ),
             };
         case 'SET_CATEGORIES':
@@ -40,14 +41,19 @@ export function restaurantReducer(state = INITIAL_STATE, action) {
                 ...state,
                 categories: [...action.categories]
             };
-            case 'SET_CATEGORY': {
-                return {
-                    ...state,
-                    category: action.category,
-                }
+        case 'SET_CATEGORY': {
+            return {
+                ...state,
+                category: action.category,
             };
-            default:
-                return state;
-            }
-        }
-        
+        };
+        case 'SET_MENU': {
+            return {
+                ...state,
+                menu: action.menu,
+            };
+        };
+        default:
+            return state;
+    }
+}

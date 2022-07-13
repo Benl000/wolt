@@ -6,7 +6,7 @@ export const RestaurantsCarouselPreview = ({ restaurant }) => {
     const [clientXonMouseDown, setClientXonMouseDown] = useState(null);
     const [clientYonMouseDown, setClientYonMouseDown] = useState(null);
 
-    const currResturant = restaurant.results[0];
+    const currResturant = restaurant;
     const resturantName = currResturant.name[0].value;
 
     // const goTo = (slug) => {
