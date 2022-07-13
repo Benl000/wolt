@@ -1957,7 +1957,7 @@
                     "maximum_single_selections": 1,
                     "maximum_total_selections": 1,
                     "minimum_total_selections": 1,
-                    "name": "‫סכו"ם חד"פ 🍴",
+                    "name": "סכום חדפ 🍴",
                     "parent": "5f83ec2b3a445f4992361b7b",
                     "required_option_selections": []
                 }
@@ -3703,7 +3703,7 @@
                     "maximum_single_selections": 1,
                     "maximum_total_selections": 1,
                     "minimum_total_selections": 1,
-                    "name": "‫סכו"ם חד"פ 🍴",
+                    "name": "סכום חדפ 🍴",
                     "parent": "5f83ec2b3a445f4992361b7b",
                     "required_option_selections": []
                 }
@@ -3834,8 +3834,8 @@
             "baseprice": 600,
             "category": "5e73b2e4bf76927ae7d7b6cc",
             "checksum": "acba8da91040e38535d74552619d9a01",
-            "description": "‫100 מ"ל",
-    "dietary_preferences": [],
+            "description": "100 מל",
+            "dietary_preferences": [],
             "disabled_info": null,
             "enabled": true,
             "has_extra_info": false,
@@ -3893,8 +3893,8 @@
             "baseprice": 600,
             "category": "5e73b2e4bf76927ae7d7b6cc",
             "checksum": "721cbcc41bd3935e2ccc2e60c2274794",
-            "description": "‫100 מ"ל",
-    "dietary_preferences": [],
+            "description": "100 מל",
+            "dietary_preferences": [],
             "disabled_info": null,
             "enabled": true,
             "has_extra_info": false,
@@ -3952,8 +3952,8 @@
             "baseprice": 600,
             "category": "5e73b2e4bf76927ae7d7b6cc",
             "checksum": "3752ceb0bba130b70dab93effd9ab750",
-            "description": "‫100 מ"ל הגירסה שלנו לאלף האיים",
-    "dietary_preferences": [],
+            "description": "הגירסה שלנו לאלף האיים",
+            "dietary_preferences": [],
             "disabled_info": null,
             "enabled": true,
             "has_extra_info": false,
@@ -4011,8 +4011,8 @@
             "baseprice": 500,
             "category": "5e73b2e4bf76927ae7d7b6cc",
             "checksum": "ac42d1d722d72243616d6ba50367788d",
-            "description": "‫100 מ"ל",
-    "dietary_preferences": [],
+            "description": "100 מל",
+            "dietary_preferences": [],
             "disabled_info": null,
             "enabled": true,
             "has_extra_info": false,
@@ -6746,7 +6746,7 @@
             "defaultvalue": "5f83ec2b3a445f4992361b79",
             "has_extra_info": false,
             "id": "5f83ec2b3a445f4992361b7b",
-            "name": "‫סכו"ם חד"פ 🍴",
+            "name": "סכום חדפ 🍴",
             "type": "Choice",
             "values": [
                 {
@@ -6757,8 +6757,8 @@
                     "maximum_selections": 1,
                     "minimum_selections": 0,
                     "multichoice_weight": 1,
-                    "name": "בלי סכו"ם",
-    "price": 0
+                    "name": "בלי סכום",
+                    "price": 0
                 },
                 {
                     "dietary_preferences": [],
@@ -6768,8 +6768,8 @@
                     "maximum_selections": 1,
                     "minimum_selections": 0,
                     "multichoice_weight": 1,
-                    "name": "עם סכו"ם",
-    "price": 0
+                    "name": "עם סכום",
+                    "price": 0
                 }
             ]
         },

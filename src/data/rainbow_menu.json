@@ -3699,8 +3699,8 @@
                     "maximum_selections": 1,
                     "minimum_selections": 0,
                     "multichoice_weight": 1,
-                    "name": "כן סכו"ם",
-    "price": 0
+                    "name": "כן סכום",
+                    "price": 0
                 },
                 {
                     "dietary_preferences": [],
@@ -3710,8 +3710,8 @@
                     "maximum_selections": 1,
                     "minimum_selections": 0,
                     "multichoice_weight": 1,
-                    "name": "לא סכו"ם",
-    "price": 0
+                    "name": "לא סכום",
+                    "price": 0
                 }
             ]
         },
