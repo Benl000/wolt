@@ -10,6 +10,7 @@ export const RestaurantsWrap = ({ categoryId, restaurants }) => {
     const dispatch = useDispatch();
 
     useEffect(() => {
+        console.log(restaurants);
         dispatch(loadCategory(categoryId));
     }, []);
 
@@ -21,7 +22,7 @@ export const RestaurantsWrap = ({ categoryId, restaurants }) => {
             </div>
             <div className="restaurant-wrap-main">
                 {restaurants && restaurants.map(restaurant =>
-                    <RestaurantsCarouselPreview key={JSON.stringify(restaurant.results[0].id)} restaurant={restaurant} />)}
+                    <RestaurantsCarouselPreview key={JSON.stringify(restaurant.id)} restaurant={restaurant} />)}
             </div>
         </section>
     );

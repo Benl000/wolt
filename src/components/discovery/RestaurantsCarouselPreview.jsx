@@ -6,9 +6,6 @@ export const RestaurantsCarouselPreview = ({ restaurant }) => {
     const [clientXonMouseDown, setClientXonMouseDown] = useState(null);
     const [clientYonMouseDown, setClientYonMouseDown] = useState(null);
 
-    const currResturant = restaurant;
-    const resturantName = currResturant.name[0].value;
-
     // const goTo = (slug) => {
     //     navigate(`/restaurant/${slug}`);
     // };
@@ -28,15 +25,15 @@ export const RestaurantsCarouselPreview = ({ restaurant }) => {
     };
 
     return (
-        <section className="restaurant-preview" onMouseDown={(ev) => handleOnMouseDown(ev)} onClick={(ev) => handleOnClick(ev, currResturant)}>
-            <img src={currResturant.listimage} alt={currResturant.name[0].value} />
+        <section className="restaurant-preview" onMouseDown={(ev) => handleOnMouseDown(ev)} onClick={(ev) => handleOnClick(ev, restaurant)}>
+            <img src={restaurant.listimage} alt={restaurant.name[0].value} />
             <div className="restaurant-preview-header">
                 <div className="headlines">
-                    <h3>{currResturant.name[0].value}</h3>
-                    <h6>{currResturant.short_description[0].value}</h6>
+                    <h3>{restaurant.name[0].value}</h3>
+                    <h6>{restaurant.short_description[0].value}</h6>
                 </div>
                 <div className="time">
-                    <h4>{currResturant.completion_estimates.delivery}</h4>
+                    <h4>{restaurant.completion_estimates.delivery}</h4>
                     <h6>min</h6>
                 </div>
             </div>
@@ -44,9 +41,9 @@ export const RestaurantsCarouselPreview = ({ restaurant }) => {
                 <div className="footer-container">
                     <span className="footer-container_deliveryCost">
                         <span>🚴‍♀️</span>
-                        {(currResturant.delivery_specs.delivery_pricing.base_price / 100).toLocaleString('en-US', {
+                        {(restaurant.delivery_specs.delivery_pricing.base_price / 100).toLocaleString('en-US', {
                             style: 'currency',
-                            currency: (currResturant.currency),
+                            currency: (restaurant.currency),
                         })} ·
                     </span>
                     <span className="footer-container_cost">
@@ -54,7 +51,7 @@ export const RestaurantsCarouselPreview = ({ restaurant }) => {
                     </span>
                     <span className="footer-container_rating">
                         <span>🙂 </span>
-                        <span>{currResturant.rating.score}</span>
+                        <span>{restaurant.rating.score}</span>
                     </span>
                 </div>
             </div>

@@ -13,12 +13,11 @@ export const restaurantService = {
 async function query(filterBy) {
     // const restaurants = await storageService.query()
     const restaurants = await httpService.get('restaurant');
-    console.log(restaurants);
     if (!filterBy) return restaurants;
-    // return restaurants.filter(restaurant => {
-    //     const { categories } = restaurant.results[0]
-    //     return categories.some(category => category.slug === filterBy)
-    // })
+    return restaurants.filter(restaurant => {
+        const { categories } = restaurant
+        return categories.some(category => category.slug === filterBy)
+    })
 }
 
 async function getRestaurantById(id) {
