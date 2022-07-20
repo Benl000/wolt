@@ -4,7 +4,8 @@ import { useDispatch, useSelector } from 'react-redux';
 import { loadRestaurant, loadMenu } from '../store/actions/restaurantAction';
 import walkingMenLogo from '../assets/svgs/detailsPage/walkinman.svg';
 import bikeMenLogo from '../assets/svgs/detailsPage/bikeman.svg';
-import smileyLogo from '../assets/svgs/detailsPage/smiley.svg';
+import { DetailsHero } from '../components/details/DetailsHero';
+import { DetailsContact } from '../components/details/DetailsContact.jsx';
 
 
 export const RestaurantDetails = () => {
@@ -43,37 +44,9 @@ export const RestaurantDetails = () => {
                 <div className="restaurant-takeaway__right">
                 </div>
             </section>
-            <section className="restaurant-hero">
-                <div className="restaurant-hero_background">
-                    <img src={restaurant.mainimage} alt="" />
-                    <div className="restaurant-hero_background--darker"></div>
-                </div>
-                <div className="restaurant-hero_titles">
-                    <div className="restaurant-hero_titles--main">
-                        <h1>{restaurant.slug.charAt(0).toUpperCase() + restaurant.slug.slice(1)}</h1>
-                        <h4>{restaurant.short_description[0].value}</h4>
-                    </div>
-                    <p>MIN. ORDER: 50.00</p>
-                </div>
-            </section>
-            <section className="contact">
-                <div className="contact-seprator">
-                    <div className="contact-seprator_module">
-                        <div className="contact-seprator_module--description">
-                            <div className="rating">
-                                <img src={smileyLogo} alt="" />
-                                <span className="score">{restaurant.rating.score}</span>
-                                <span className="outOf"> out of 10</span>
-                            </div>
-                            <div className="favourite"></div>
-                        </div>
-                        <div className="contact-seprator_module--search">
-                            <input type="text" />
-                        </div>
-                    </div>
-                </div>
-                <div className="contact-menu"></div>
-            </section>
+            <DetailsHero restaurant={restaurant} />
+            <DetailsContact restaurant={restaurant} />
+
         </section>
     ) : null;
 };

@@ -30,10 +30,12 @@
 @import "components/category/category-page";
 @import "components/category/restaurants-wrap";
 
+// Restaurant-details
+
+@import "components/restaurantDetails/restaurantDetails-page";
+@import "components/restaurantDetails/restaurantDetails-hero";
+@import "components/restaurantDetails/restaurantDetails-contact";
+
 // Restaurant
 
 @import "components/restaurant/restaurant-page";
-
-// Restaurants
-
-@import "components/restaurants/restaurants-page";
