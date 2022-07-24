@@ -1,0 +1,9 @@
+.restaurant-menu {
+    position: relative;
+    max-width: 1200px;
+    padding: 0 30px;
+    width: 100%;
+    margin: 45px auto 2rem;
+    display: grid;
+    grid-template-columns: 13.5% 4% 53.5% 4% 25%;
+}

@@ -46,7 +46,6 @@ export const RestaurantDetails = () => {
             </section>
             <DetailsHero restaurant={restaurant} />
             <DetailsContact restaurant={restaurant} />
-
         </section>
     ) : null;
 };
