@@ -158,8 +158,8 @@
                 padding: 0.75rem;
                 font-size: 0.875rem;
                 width: 250px;
-                &::placeholder {
-                    padding: 0 30px;
+                &[type="text"] {
+                    padding-left: 40px; //change it base on your desired output
                 }
             }
         }
