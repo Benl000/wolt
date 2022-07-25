@@ -3,11 +3,11 @@ import { DetailsSeprator } from './DetailsSeprator.jsx';
 import { DetailsMenu } from './DetailsMenu.jsx';
 
 
-export const DetailsContact = ({ restaurant }) => {
-    return restaurant ? (
+export const DetailsContact = ({ restaurant, menu }) => {
+    return restaurant && menu ? (
         <section className="restaurant-contact">
             <DetailsSeprator restaurant={restaurant} />
-            <DetailsMenu restaurant={restaurant} />
+            <DetailsMenu restaurant={restaurant} menu={menu} />
         </section>
     ) : null;
 };

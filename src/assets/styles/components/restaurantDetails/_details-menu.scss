@@ -6,4 +6,14 @@
     margin: 45px auto 2rem;
     display: grid;
     grid-template-columns: 13.5% 4% 53.5% 4% 25%;
+    &--nav {
+        grid-column: 1;
+        grid-column-start: 1;
+    }
+    &--main {
+        grid-column: 3 / 4;
+    }
+    &--information {
+        grid-column: 5;
+    }
 }

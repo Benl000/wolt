@@ -44,8 +44,8 @@ export const RestaurantDetails = () => {
                 <div className="restaurant-takeaway__right">
                 </div>
             </section>
-            <DetailsHero restaurant={restaurant} />
-            <DetailsContact restaurant={restaurant} />
+            <DetailsHero restaurant={restaurant} menu={menu} />
+            <DetailsContact restaurant={restaurant} menu={menu} />
         </section>
     ) : null;
 };
