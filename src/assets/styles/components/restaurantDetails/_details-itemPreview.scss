@@ -73,9 +73,12 @@
             }
         }
     }
+    // transform: translateZ(10px);
+    border-radius: 4px;
+    box-shadow: 0 2px 10px #ffffff00;
+    border: 1px solid rgba(255, 255, 255, 0);
 
     &:hover {
-        border-radius: 4px;
         box-shadow: 0 2px 10px #2021250f;
         border: 1px solid rgba(32, 33, 37, 0.12);
         transition: opacity 0.3s ease-in-out;

@@ -9,13 +9,10 @@
     .restaurant-takeaway {
         display: flex;
         align-items: center;
-        height: 70px;
         transform: translateZ(0);
-        position: absolute;
-        position: sticky;
         color: #fff;
         width: 100%;
-        top: 0;
+        height: 70px;
         z-index: 1000;
         margin: auto;
         max-width: 1200px;
@@ -53,6 +50,22 @@
             align-items: center;
             display: flex;
             justify-content: flex-end;
+        }
+    }
+    .sub-header {
+        position: absolute;
+        position: sticky;
+        top: 0;
+    }
+    .white {
+        background-color: #fff;
+        z-index: 100;
+        box-shadow: 0 1px #2021251f;
+        .restaurant-takeaway {
+            color: black;
+            img {
+                filter: none;
+            }
         }
     }
 }

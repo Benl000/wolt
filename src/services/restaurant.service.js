@@ -15,17 +15,17 @@ async function query(filterBy) {
     const restaurants = await httpService.get('restaurant');
     if (!filterBy) return restaurants;
     return restaurants.filter(restaurant => {
-        const { categories } = restaurant
-        return categories.some(category => category.slug === filterBy)
-    })
+        const { categories } = restaurant;
+        return categories.some(category => category.slug === filterBy);
+    });
 }
 
 async function getRestaurantById(id) {
     // const restaurants = await storageService.query();
     const restaurant = await httpService.get(`restaurant/${id}`);
     // return restaurants.find(restaurant => restaurant.results[0].slug === id);
-    console.log('id is:', id);
-    console.log(restaurant);
+    // console.log('id is:', id);
+    // console.log(restaurant);
     return restaurant;
 }
 
@@ -33,8 +33,8 @@ async function getMenuById(id) {
     // const restaurants = await storageService.query();
     const menu = await httpService.get(`menu/${id}`);
     // return restaurants.find(restaurant => restaurant.results[0].slug === id);
-    console.log('id is:', id);
-    console.log(menu);
+    // console.log('id is:', id);
+    // console.log(menu);
     return menu;
 }
 
