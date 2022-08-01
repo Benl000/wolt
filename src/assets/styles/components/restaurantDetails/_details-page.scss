@@ -52,6 +52,37 @@
             justify-content: flex-end;
         }
     }
+    .scroll-to-top {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 100%;
+        height: 2.25rem;
+        width: 2.25rem;
+        position: fixed;
+        right: 10%;
+        bottom: -2rem;
+        z-index: 1000;
+        background-color: #ebebeb;
+        transform: rotate(180deg);
+        cursor: pointer;
+        pointer-events: none;
+        border: 1px solid transparent;
+        opacity: 0;
+        transition: all 0.25s ease-out;
+        span {
+            margin-top: 0.2rem;
+            img {
+                width: 24px;
+                height: 24px;
+            }
+        }
+    }
+    .up {
+        bottom: 2rem;
+        opacity: 1;
+        pointer-events: auto;
+    }
     .sub-header {
         position: absolute;
         position: sticky;

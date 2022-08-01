@@ -7,6 +7,8 @@ import bikeMenLogo from '../assets/svgs/detailsPage/bikeman.svg';
 import { DetailsHero } from '../components/details/DetailsHero';
 import { DetailsContact } from '../components/details/DetailsContact.jsx';
 import { useScrollPosition } from '../hooks/scrollPosition';
+import arrowLogo from '../assets/svgs/detailsPage/arrow.svg';
+import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
 
 
 export const RestaurantDetails = () => {
@@ -14,7 +16,6 @@ export const RestaurantDetails = () => {
     const scrollPosition = useScrollPosition();
     const { name } = useParams();
     const dispatch = useDispatch();
-    // console.log(':)', menu);
 
     useEffect(() => {
         const fetchData = async () => {
@@ -28,11 +29,9 @@ export const RestaurantDetails = () => {
         fetchData();
     }, []);
 
-    // useEffect(() => {
-    // }, [scrollPosition]);
-
-
-    console.log(scrollPosition);
+    const scrollToTop = () => {
+        scroll.scrollToTop();
+    };
 
     return restaurant && menu ? (
         <section className="restaurantDetails-page">
@@ -56,6 +55,12 @@ export const RestaurantDetails = () => {
             </section>
             <DetailsHero restaurant={restaurant} menu={menu} />
             <DetailsContact restaurant={restaurant} menu={menu} />
+            <section className={(scrollPosition < 500) ? "scroll-to-top" : "scroll-to-top up"}
+                onClick={scrollToTop}>
+                <span>
+                    <img className='arrowLogo' src={arrowLogo} />
+                </span>
+            </section>
         </section>
     ) : null;
 };
