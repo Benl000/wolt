@@ -1,6 +1,8 @@
 .details-categoryPreview {
-    .head {
+    &:not(:first-child) {
         margin-top: 3rem;
+    }
+    .head {
         border-top: none;
         text-align: start;
         padding: 0 1.5rem;

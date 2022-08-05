@@ -9,6 +9,21 @@
     &--nav {
         grid-column: 1;
         grid-column-start: 1;
+        ul {
+            list-style: none;
+            font-size: 0.875rem;
+            margin: 0;
+            position: sticky;
+            top: 140px;
+            max-height: calc(100vh - 140px);
+            overflow-y: auto;
+            li {
+                font-weight: 500;
+                margin-bottom: 1rem;
+                color: rgba(32, 33, 37, 0.64);
+                cursor: pointer;
+            }
+        }
     }
     &--main {
         grid-column: 3 / 4;
