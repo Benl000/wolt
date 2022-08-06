@@ -87,6 +87,9 @@
         position: absolute;
         position: sticky;
         top: 0;
+        @media screen and (max-width: 1024px) {
+            display: none;
+        }
     }
     .white {
         background-color: #fff;

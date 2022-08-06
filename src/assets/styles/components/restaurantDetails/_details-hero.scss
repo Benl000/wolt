@@ -6,6 +6,21 @@
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
+    @media screen and (max-width: 1500px) {
+        flex-basis: 30vw;
+        padding-bottom: 7vw;
+    }
+    @media screen and (max-width: 1200px) {
+        flex-basis: 35vw;
+    }
+    @media screen and (max-width: 1024px) {
+        flex-basis: 43vw;
+    }
+    @media screen and (max-width: 640px) {
+        flex-basis: 30rem;
+        padding-bottom: 1.5rem;
+        justify-content: flex-end;
+    }
     &_background {
         position: absolute;
         overflow: hidden;
