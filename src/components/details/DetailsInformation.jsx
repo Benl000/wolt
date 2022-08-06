@@ -1,6 +1,15 @@
 import React from 'react';
+import { useNavigate } from "react-router-dom";
 
 export const DetailsInformation = ({ restaurant }) => {
+
+    const navigate = useNavigate();
+
+    const handleOnClick = (ev, categoryId) => {
+        ev.stopPropagation();
+        navigate(`/category/${categoryId}`);
+    };
+
     return restaurant ? (
         <section className='DetailsInformation'>
             <h2 className='main-header'>Restaurant information</h2>
@@ -49,9 +58,8 @@ export const DetailsInformation = ({ restaurant }) => {
             <div className='categories'>
                 <h3>Categories</h3>
                 <ul>
-
                     {restaurant.categories.map((category, i) => {
-                        return <li key={category.slug}>
+                        return <li key={category.slug} onClick={(ev) => handleOnClick(ev, category.slug)}>
                             {(i === 0) ? category.slug : ', ' + category.slug}
                         </li>;
                     }
