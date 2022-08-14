@@ -8,7 +8,7 @@ import { DetailsHero } from '../components/details/DetailsHero';
 import { DetailsContact } from '../components/details/DetailsContact.jsx';
 import { useScrollPosition } from '../hooks/scrollPosition';
 import arrowLogo from '../assets/svgs/detailsPage/arrow.svg';
-import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
+import { animateScroll as scroll } from 'react-scroll';
 
 
 export const RestaurantDetails = () => {

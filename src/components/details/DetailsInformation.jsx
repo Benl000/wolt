@@ -1,4 +1,5 @@
 import React from 'react';
+import { useState } from 'react';
 import { useNavigate } from "react-router-dom";
 
 export const DetailsInformation = ({ restaurant }) => {
@@ -10,6 +11,8 @@ export const DetailsInformation = ({ restaurant }) => {
         navigate(`/category/${categoryId}`);
     };
 
+
+
     return restaurant ? (
         <section className='DetailsInformation'>
             <h2 className='main-header'>Restaurant information</h2>
@@ -20,10 +23,13 @@ export const DetailsInformation = ({ restaurant }) => {
             </div>
             <div className='opening-times'>
                 <h3>Opening times</h3>
-                <h6> Restaurant</h6>
-                <ul>
+                <div className='opening-times-titles'>
+                    <h6> Restaurant</h6>
 
-                    {Object.keys(restaurant.opening_times).slice(1).map((day, i) => {
+                </div>
+
+                <ul className='restaurant'>
+                    {Object.keys(restaurant.opening_times).filter(x => restaurant.opening_times[x][0] !== undefined).map((day, i) => {
                         let openTime = new Date(restaurant.opening_times[day][0].value);
                         let closeTime = new Date(restaurant.opening_times[day][1].value);
                         let openPmAm = openTime.toLocaleTimeString('default', {
@@ -36,13 +42,12 @@ export const DetailsInformation = ({ restaurant }) => {
                         });
                         return <li key={i}>
                             <p>
-                                {Object.keys(restaurant.opening_times)[i]}
+                                {Object.keys(restaurant.opening_times).filter(x => restaurant.opening_times[x][0] !== undefined)[i]}
                             </p>
                             <span>
                                 {openPmAm + '-' + closePmAm}
                             </span>
                         </li>;
-
                     })}
 
                 </ul>

@@ -49,12 +49,79 @@
     }
     .opening-times {
         margin-bottom: 1.5rem;
-        h6 {
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
-            display: block;
-            line-height: 1.2;
+        &-titles {
+            position: relative;
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+            h6 {
+                font-weight: 500;
+                margin-bottom: 1rem;
+                cursor: pointer;
+                position: relative;
+                text-align: left;
+                text-align: start;
+                line-height: initial;
+                max-width: -webkit-fit-content;
+                max-width: -moz-fit-content;
+                max-width: fit-content;
+                & {
+                    display: flex;
+                    margin: 0.2rem 0;
+                    position: relative;
+                    text-decoration: none;
+                }
+
+                &:hover,
+                .underline {
+                    color: #000;
+                }
+
+                &::before {
+                    content: "";
+                    position: absolute;
+                    display: block;
+                    width: 100%;
+                    height: 2px;
+                    bottom: 0;
+                    left: 0;
+                    background-color: #000;
+                    transform: scaleX(0);
+                    transition: transform 0.3s ease;
+                }
+
+                &:hover::before,
+                .underline::before {
+                    transform: scaleX(1);
+                }
+                &::before {
+                    content: "";
+                    position: absolute;
+                    display: block;
+                    width: 100%;
+                    height: 2px;
+                    bottom: 0;
+                    left: 0;
+                    background-color: #000;
+                    transform: scaleX(0);
+                    transform-origin: top left;
+                    transition: transform 0.3s ease;
+                }
+                &::before {
+                    content: "";
+                    position: absolute;
+                    display: block;
+                    width: 100%;
+                    height: 2px;
+                    bottom: 0;
+                    left: 0;
+                    background-color: #000;
+                    transform: scaleX(0);
+                    transform-origin: top left;
+                    transition: transform 0.3s ease;
+                }
+            }
         }
         ul {
             padding-top: 1rem;

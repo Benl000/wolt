@@ -1082,12 +1082,6 @@
             "opening_times": {
                 "friday": [
                     {
-                        "type": "close",
-                        "value": {
-                            "$date": 2700000
-                        }
-                    },
-                    {
                         "type": "open",
                         "value": {
                             "$date": 43200000
@@ -1147,6 +1141,12 @@
                         "type": "open",
                         "value": {
                             "$date": 43200000
+                        }
+                    },
+                    {
+                        "type": "close",
+                        "value": {
+                            "$date": 2700000
                         }
                     }
                 ],
