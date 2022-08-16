@@ -3,13 +3,8 @@ import { DetailsSeprator } from './DetailsSeprator.jsx';
 import { DetailsMininav } from './DetailsMininav.jsx';
 import { DetailsMiniSeprator } from './DetailsMiniSeprator.jsx';
 import { DetailsMenu } from './DetailsMenu.jsx';
-import { useMediaQuery } from 'react-responsive';
 
-
-
-export const DetailsContact = ({ restaurant, menu }) => {
-
-    const isBigScreen = useMediaQuery({ query: '(min-width: 1024px)' });
+export const DetailsContact = ({ restaurant, menu, isBigScreen }) => {
 
     return restaurant && menu ? (
         <section className="restaurant-contact">

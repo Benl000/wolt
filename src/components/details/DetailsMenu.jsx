@@ -4,7 +4,6 @@ import { DetailsCategoryPreview } from './DetailsCategoryPreview.jsx';
 import { DetailsInformation } from './DetailsInformation.jsx';
 // import { Link } from 'react-scroll';
 // import { DetailsMininav } from './DetailsMininav.jsx';
-
 import { Link, animateScroll as scroll } from 'react-scroll';
 
 export const DetailsMenu = ({ restaurant, menu, isBigScreen }) => {

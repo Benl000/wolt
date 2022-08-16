@@ -9,13 +9,15 @@ import { DetailsContact } from '../components/details/DetailsContact.jsx';
 import { useScrollPosition } from '../hooks/scrollPosition';
 import arrowLogo from '../assets/svgs/detailsPage/arrow.svg';
 import { animateScroll as scroll } from 'react-scroll';
-
+import { useMediaQuery } from 'react-responsive';
 
 export const RestaurantDetails = () => {
     const { restaurant, menu } = useSelector((state) => state.restaurantModule);
     const scrollPosition = useScrollPosition();
     const { name } = useParams();
     const dispatch = useDispatch();
+
+    const isBigScreen = useMediaQuery({ query: '(min-width: 1025px)' });
 
     useEffect(() => {
         const fetchData = async () => {
@@ -54,7 +56,7 @@ export const RestaurantDetails = () => {
                 </section>
             </section>
             <DetailsHero restaurant={restaurant} menu={menu} />
-            <DetailsContact restaurant={restaurant} menu={menu} />
+            <DetailsContact restaurant={restaurant} menu={menu} isBigScreen={isBigScreen} />
             <section className={(scrollPosition < 500) ? "scroll-to-top" : "scroll-to-top up"}
                 onClick={scrollToTop}>
                 <span>
