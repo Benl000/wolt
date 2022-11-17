@@ -22,6 +22,7 @@ async function query(filterBy) {
 
 async function getRestaurantById(id) {
     // const restaurants = await storageService.query();
+    console.log('restaurant id is:', id);
     const restaurant = await httpService.get(`restaurant/${id}`);
     // return restaurants.find(restaurant => restaurant.results[0].slug === id);
     // console.log('id is:', id);
@@ -31,7 +32,8 @@ async function getRestaurantById(id) {
 
 async function getMenuById(id) {
     // const restaurants = await storageService.query();
-    const menu = await httpService.get(`menu/${id}`);
+    console.log('menu id is:', id);
+    const menu = await httpService.get(`menu/${JSON.stringify(id)}`);
     // return restaurants.find(restaurant => restaurant.results[0].slug === id);
     // console.log('id is:', id);
     // console.log(menu);

@@ -5,6 +5,7 @@ import { loadRestaurant, loadMenu } from '../store/actions/restaurantAction';
 import walkingMenLogo from '../assets/svgs/detailsPage/walkinman.svg';
 import bikeMenLogo from '../assets/svgs/detailsPage/bikeman.svg';
 import { DetailsHero } from '../components/details/DetailsHero';
+import { DetailsItemModal } from '../components/details/DetailsItemModal';
 import { DetailsContact } from '../components/details/DetailsContact.jsx';
 import { useScrollPosition } from '../hooks/scrollPosition';
 import arrowLogo from '../assets/svgs/detailsPage/arrow.svg';
@@ -14,15 +15,21 @@ import { useMediaQuery } from 'react-responsive';
 export const RestaurantDetails = () => {
     const { restaurant, menu } = useSelector((state) => state.restaurantModule);
     const scrollPosition = useScrollPosition();
-    const { name } = useParams();
+    const { name, item } = useParams();
     const dispatch = useDispatch();
 
     const isBigScreen = useMediaQuery({ query: '(min-width: 1025px)' });
+
+    // console.log('name', name);
+    // console.log('menu', menu);
+    // console.log('restaurant', restaurant);
 
     useEffect(() => {
         const fetchData = async () => {
             try {
                 const restaurantData = await dispatch(loadRestaurant(name));
+                console.log("restaurantData", restaurantData);
+                console.log("restaurantData.active_menu", restaurantData.active_menu);
                 dispatch(loadMenu(restaurantData.active_menu));
             } catch (err) {
                 console.log(err);
@@ -63,6 +70,7 @@ export const RestaurantDetails = () => {
                     <img className='arrowLogo' src={arrowLogo} />
                 </span>
             </section>
+            {item ? <DetailsItemModal itemId={item} menu={menu} /> : null}
         </section>
     ) : null;
 };

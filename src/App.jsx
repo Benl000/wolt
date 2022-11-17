@@ -20,6 +20,7 @@ export function App() {
             <Route path="/category/:type" element={<Category />} />
             <Route path="/restaurant" element={<Restaurant />} />
             <Route path="/restaurant/:name" element={<RestaurantDetails />} />
+            <Route path="/restaurant/:name/:item" element={<RestaurantDetails />} />
           </Routes>
         </main>
         <Footer />

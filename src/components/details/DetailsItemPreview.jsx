@@ -1,9 +1,20 @@
 import React from 'react';
+import { Link } from 'react-scroll';
+import { useNavigate, useLocation, useParams } from "react-router-dom";
 
 export const DetailsItemPreview = ({ item }) => {
+
+    const navigate = useNavigate();
+    const location = useLocation();
+
+    const handleOnClick = (ev, item) => {
+        ev.stopPropagation();
+        navigate(`${location.pathname + '/' + item.id}`);
+    };
+
     return item ? (
         <section className='details-itemPreview'>
-            <a href="http://">
+            <Link to={location.pathname + '/' + item.id} onClick={(ev) => handleOnClick(ev, item)}>
                 <div className='contant'>
                     <div className='info'>
                         <h6>
@@ -26,7 +37,7 @@ export const DetailsItemPreview = ({ item }) => {
                         </div>
                         : null}
                 </div>
-            </a>
+            </Link>
         </section>
     ) : null;
 };
