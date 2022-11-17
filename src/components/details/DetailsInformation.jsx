@@ -27,29 +27,30 @@ export const DetailsInformation = ({ restaurant }) => {
                     <h6> Restaurant</h6>
 
                 </div>
-
                 <ul className='restaurant'>
-                    {Object.keys(restaurant.opening_times).filter(x => restaurant.opening_times[x][0] !== undefined).map((day, i) => {
-                        let openTime = new Date(restaurant.opening_times[day][0].value);
-                        let closeTime = new Date(restaurant.opening_times[day][1].value);
-                        let openPmAm = openTime.toLocaleTimeString('default', {
-                            hour: '2-digit',
-                            minute: '2-digit',
-                        });
-                        let closePmAm = closeTime.toLocaleTimeString('default', {
-                            hour: '2-digit',
-                            minute: '2-digit',
-                        });
-                        return <li key={i}>
+                    {Object.keys(restaurant.opening_times).map((day) => {
+                        let openTime;
+                        let closeTime;
+                            for (let item in restaurant.opening_times[day]) {
+                            let time = new Date(restaurant.opening_times[day][item].value.$date).toLocaleTimeString('default', {
+                                hour: '2-digit',
+                                minute: '2-digit',
+                            });
+                            if (restaurant.opening_times[day][item].type === 'open') {
+                                openTime = time;
+                            } else if (restaurant.opening_times[day][item].type === 'close') {
+                                closeTime = time;
+                            };
+                            }
+                        return <li key={day}>
                             <p>
-                                {Object.keys(restaurant.opening_times).filter(x => restaurant.opening_times[x][0] !== undefined)[i]}
+                                {day}
                             </p>
                             <span>
-                                {openPmAm + '-' + closePmAm}
+                                {openTime + '-' + closeTime}
                             </span>
                         </li>;
                     })}
-
                 </ul>
 
             </div>
