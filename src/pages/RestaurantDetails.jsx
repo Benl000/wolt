@@ -14,6 +14,7 @@ import { useMediaQuery } from 'react-responsive';
 
 export const RestaurantDetails = () => {
     const { restaurant, menu } = useSelector((state) => state.restaurantModule);
+    // const [restaurant, menu] = useSelector((state) => [state.restaurantModule.restaurant, state.restaurantModule.menu]);
     const scrollPosition = useScrollPosition();
     const { name, item } = useParams();
     const dispatch = useDispatch();
@@ -21,6 +22,7 @@ export const RestaurantDetails = () => {
     const isBigScreen = useMediaQuery({ query: '(min-width: 1025px)' });
 
     // console.log('name', name);
+    // console.log('restaurant', restaurant);
     // console.log('menu', menu);
     // console.log('restaurant', restaurant);
 
@@ -28,9 +30,15 @@ export const RestaurantDetails = () => {
         const fetchData = async () => {
             try {
                 const restaurantData = await dispatch(loadRestaurant(name));
+                // await dispatch(loadRestaurant(name));
                 console.log("restaurantData", restaurantData);
-                console.log("restaurantData.active_menu", restaurantData.active_menu);
-                dispatch(loadMenu(restaurantData.active_menu));
+                // console.log("restaurantData.active_menu", restaurant.active_menu);
+                // dispatch(loadMenu(restaurantData.active_menu));
+                if (restaurantData) {
+                    const x = await dispatch(loadMenu(restaurantData.active_menu));
+                    console.log('xxxxx', x);
+                }
+                // console.log(restaurantData);
             } catch (err) {
                 console.log(err);
             }

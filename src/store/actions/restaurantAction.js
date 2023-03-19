@@ -11,18 +11,6 @@ export function loadRestaurants(filterBy) {
     };
 }
 
-export function loadRestaurant(id) {
-    return async (dispatch) => {
-        try {
-            console.log('id is:', id);
-            const restaurant = await restaurantService.getRestaurantById(id);
-            dispatch({ type: 'SET_RESTAURANT', restaurant });
-            return restaurant;
-        } catch (err) {
-            console.log(err);
-        }
-    };
-}
 
 export function loadCategories() {
     return async (dispatch) => {
@@ -51,6 +39,20 @@ export function loadMenu(id) {
         try {
             const menu = await restaurantService.getMenuById(id);
             dispatch({ type: 'SET_MENU', menu });
+            return menu;
+        } catch (err) {
+            console.log(err);
+        }
+    };
+}
+
+export function loadRestaurant(id) {
+    return async (dispatch) => {
+        try {
+            console.log('id is:', id);
+            const restaurant = await restaurantService.getRestaurantById(id);
+            dispatch({ type: 'SET_RESTAURANT', restaurant });
+            return restaurant;
         } catch (err) {
             console.log(err);
         }
