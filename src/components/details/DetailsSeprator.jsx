@@ -1,8 +1,7 @@
-import React from 'react';
 import smileyLogo from '../../assets/svgs/detailsPage/smiley.svg';
 import heartLogo from '../../assets/svgs/detailsPage/heart.svg';
 
-export const DetailsSeprator = ({ restaurant, isBigScreen }) => {
+export const DetailsSeprator = ({ restaurant }) => {
 
     return restaurant ? (
         <div className="restaurant-seprator">

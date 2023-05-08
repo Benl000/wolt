@@ -1,20 +1,17 @@
+import Slider from "react-slick";
+import { Link } from 'react-scroll';
+
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Slider from "react-slick";
-import { Link, animateScroll as scroll } from 'react-scroll';
 
-
-export const DetailsMininav = ({ restaurant, menu }) => {
+export const DetailsMininav = ({  menu }) => {
 
     var settings = {
         dots: false,
         autoplay: false,
         swipeToSlide: true,
-        // draggable: true,
         variableWidth: true,
         infinite: false,
-        // focusOnSelect: true,
-        // centerMode: true,
     };
 
     return (

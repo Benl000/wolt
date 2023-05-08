@@ -1,12 +1,10 @@
-import React from 'react';
-// import category from '../../data/category';
+import { Link } from 'react-scroll';
+
 import { DetailsCategoryPreview } from './DetailsCategoryPreview.jsx';
 import { DetailsInformation } from './DetailsInformation.jsx';
-// import { Link } from 'react-scroll';
-// import { DetailsMininav } from './DetailsMininav.jsx';
-import { Link, animateScroll as scroll } from 'react-scroll';
 
 export const DetailsMenu = ({ restaurant, menu, isBigScreen }) => {
+
     return restaurant && menu ? (
         <section className="restaurant-menu">
             {isBigScreen ?

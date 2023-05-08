@@ -1,5 +1,3 @@
-import React from 'react';
-import { useState } from 'react';
 import { useNavigate } from "react-router-dom";
 
 export const DetailsInformation = ({ restaurant }) => {
@@ -10,8 +8,6 @@ export const DetailsInformation = ({ restaurant }) => {
         ev.stopPropagation();
         navigate(`/category/${categoryId}`);
     };
-
-
 
     return restaurant ? (
         <section className='DetailsInformation'>

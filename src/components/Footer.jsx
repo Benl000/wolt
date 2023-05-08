@@ -1,10 +1,10 @@
-import React from 'react';
 import { ReactComponent as LocationLogo } from '../assets/svgs/footer/location.svg';
 import { ReactComponent as LangLogo } from '../assets/svgs/footer/lang.svg';
 import { ReactComponent as AccssibilityLogo } from '../assets/svgs/footer/accssibility.svg';
 import { ReactComponent as WoltLogo } from '../assets/svgs/footer/logo.svg';
 
 export const Footer = () => {
+
   return (
     <footer className="main-footer-container">
       <section className="main-footer">

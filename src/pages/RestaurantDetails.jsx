@@ -1,44 +1,36 @@
 import { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
+import { useMediaQuery } from 'react-responsive';
+import { animateScroll as scroll } from 'react-scroll';
+
 import { loadRestaurant, loadMenu } from '../store/actions/restaurantAction';
-import walkingMenLogo from '../assets/svgs/detailsPage/walkinman.svg';
-import bikeMenLogo from '../assets/svgs/detailsPage/bikeman.svg';
+import { useScrollPosition } from '../hooks/scrollPosition';
+
 import { DetailsHero } from '../components/details/DetailsHero';
 import { DetailsItemModal } from '../components/details/DetailsItemModal';
 import { DetailsContact } from '../components/details/DetailsContact.jsx';
-import { useScrollPosition } from '../hooks/scrollPosition';
+
+import bikeMenLogo from '../assets/svgs/detailsPage/bikeman.svg';
 import arrowLogo from '../assets/svgs/detailsPage/arrow.svg';
-import { animateScroll as scroll } from 'react-scroll';
-import { useMediaQuery } from 'react-responsive';
 
 export const RestaurantDetails = () => {
+    
     const { restaurant, menu } = useSelector((state) => state.restaurantModule);
-    // const [restaurant, menu] = useSelector((state) => [state.restaurantModule.restaurant, state.restaurantModule.menu]);
     const scrollPosition = useScrollPosition();
     const { name, item } = useParams();
     const dispatch = useDispatch();
 
     const isBigScreen = useMediaQuery({ query: '(min-width: 1025px)' });
 
-    // console.log('name', name);
-    // console.log('restaurant', restaurant);
-    // console.log('menu', menu);
-    // console.log('restaurant', restaurant);
-
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const restaurantData = await dispatch(loadRestaurant(name));
-                // await dispatch(loadRestaurant(name));
+                const restaurantData = dispatch(loadRestaurant(name));
                 console.log("restaurantData", restaurantData);
-                // console.log("restaurantData.active_menu", restaurant.active_menu);
-                // dispatch(loadMenu(restaurantData.active_menu));
                 if (restaurantData) {
-                    const x = await dispatch(loadMenu(restaurantData.active_menu));
-                    console.log('xxxxx', x);
+                    dispatch(loadMenu(restaurantData.active_menu));
                 }
-                // console.log(restaurantData);
             } catch (err) {
                 console.log(err);
             }

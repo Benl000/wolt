@@ -1,8 +1,10 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+
 import { utilService } from "../../services/util.service.js";
 
 export const CategoriesPreview = ({ category, restaurants }) => {
+    
     const navigate = useNavigate();
     const [count, setCount] = useState(null);
     const [clientXonMouseDown, setClientXonMouseDown] = useState(null);

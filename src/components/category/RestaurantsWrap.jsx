@@ -1,11 +1,11 @@
-import { RestaurantsCarouselPreview } from '../discovery/RestaurantsCarouselPreview';
+import { useEffect} from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { useEffect, useState } from 'react';
+
+import { RestaurantsCarouselPreview } from '../discovery/RestaurantsCarouselPreview';
 import { loadCategory } from '../../store/actions/restaurantAction';
 
-import React from 'react';
-
 export const RestaurantsWrap = ({ categoryId, restaurants }) => {
+    
     const { category } = useSelector((state) => state.restaurantModule);
     const dispatch = useDispatch();
 

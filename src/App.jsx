@@ -1,11 +1,11 @@
-import { HashRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import { Discovery } from './pages/Discovery';
-import './assets/styles/main.scss';
 import { Header } from './components/Header';
 import { Footer } from './components/Footer';
 import { Category } from './pages/Category';
 import { RestaurantDetails } from './pages/RestaurantDetails.jsx';
 import { Restaurant } from './pages/Restaurant.jsx';
+import './assets/styles/main.scss';
 
 export function App() {
   return (

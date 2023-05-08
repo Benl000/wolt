@@ -1,6 +1,5 @@
-import React from 'react';
 import { DetailsItemPreview } from './DetailsItemPreview.jsx';
-import { Element, animateScroll as scroll } from 'react-scroll';
+import { Element} from 'react-scroll';
 
 export const DetailsCategoryPreview = ({ category, menu }) => {
     return (

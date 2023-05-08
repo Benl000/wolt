@@ -1,8 +1,10 @@
+import Slider from "react-slick";
+
 import { HeroCarouselPreview } from './HeroCarouselPreview';
+import { SampleNextArrow, SamplePrevArrow } from './Buttons';
+
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Slider from "react-slick";
-import { SampleNextArrow, SamplePrevArrow } from './Buttons';
 
 export const HeroCarouselList = () => {
 

@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
+
 import { ReactComponent as MinusLogo } from '../../assets/svgs/detailsPage/minus.svg';
 import { ReactComponent as PlusLogo } from '../../assets/svgs/detailsPage/plus.svg';
 import { ReactComponent as XLogo } from '../../assets/svgs/detailsPage/x.svg';
@@ -9,7 +10,7 @@ export const DetailsItemModal = ({ itemId, menu }) => {
     const [itemAmount, setItemAmount] = useState(1);
 
 
-    const exitModal = (ev) => {
+    const exitModal = () => {
         console.log('exitModal');
     };
 

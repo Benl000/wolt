@@ -1,9 +1,10 @@
+import { useEffect, useState } from "react";
+import { useNavigate, useLocation } from "react-router-dom";
+
 import woltLogo from '../assets/svgs/header/woltLogo.svg';
 import profileLogo from '../assets/svgs/header/profile.svg';
 import arrowLogo from '../assets/svgs/header/arrowHeaderBtn.svg';
 import searchLogo from '../assets/svgs/header/magnifying-glass.svg';
-import { useNavigate, useParams, useLocation } from "react-router-dom";
-import { useEffect, useState } from "react";
 
 export const Header = () => {
 
@@ -17,7 +18,6 @@ export const Header = () => {
 
     useEffect(() => {
         const params = pathname.split('/');
-        // params = [ '' , page , id]
         setDetailPage((params[1] === 'restaurant' && params[2]) ? true : false);
     }, [pathname]);
 

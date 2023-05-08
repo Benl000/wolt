@@ -1,15 +1,17 @@
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
+
 import { loadRestaurants, loadCategories } from '../store/actions/restaurantAction';
+
 import { RestaurantsWrap } from '../components/category/RestaurantsWrap';
 import { SubNavigation } from '../components/discovery/SubNavigation';
 import { CategoriesList } from '../components/discovery/CatergoriesList';
 
 
 export const Restaurant = () => {
-    const { restaurants } = useSelector((state) => state.restaurantModule);
-    const { categories } = useSelector((state) => state.restaurantModule);
+
+    const { restaurants, categories } = useSelector((state) => state.restaurantModule);
     const { type } = useParams();
     const dispatch = useDispatch();
 

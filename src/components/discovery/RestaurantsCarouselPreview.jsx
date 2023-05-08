@@ -1,14 +1,12 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 export const RestaurantsCarouselPreview = ({ restaurant }) => {
+
     const navigate = useNavigate();
     const [clientXonMouseDown, setClientXonMouseDown] = useState(null);
     const [clientYonMouseDown, setClientYonMouseDown] = useState(null);
 
-    // const goTo = (slug) => {
-    //     navigate(`/restaurant/${slug}`);
-    // };
     const handleOnMouseDown = (ev) => {
         setClientXonMouseDown(ev.clientX);
         setClientYonMouseDown(ev.clientY);

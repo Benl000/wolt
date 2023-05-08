@@ -1,7 +1,5 @@
-import React from 'react';
 
 export const DetailsHero = ({ restaurant, menu }) => {
-
 
     return restaurant && menu ? (
         <section className="restaurant-hero">

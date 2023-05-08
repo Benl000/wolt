@@ -1,4 +1,3 @@
-import React from 'react';
 import { ReactComponent as NextArrowSvg } from '../../assets/svgs/discovery/HeroCarousel/carouselNextArrow.svg';
 import { ReactComponent as PrevArrowSvg } from '../../assets/svgs/discovery/HeroCarousel/carouselPrevArrow.svg';
 

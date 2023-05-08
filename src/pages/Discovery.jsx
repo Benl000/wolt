@@ -1,17 +1,17 @@
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
+
 import { loadCategories, loadRestaurants } from '../store/actions/restaurantAction';
+
 import { SubNavigation } from '../components/discovery/SubNavigation';
-// import { HeroCarousel } from '../components/discovery/HeroCarousel';
 import { HeroCarouselList } from '../components/discovery/HeroCarouselList';
 import { CategoriesList } from '../components/discovery/CatergoriesList';
 import { RestaurantsCarouselList } from '../components/discovery/RestaurantsCarouselList';
 
 export const Discovery = () => {
+
     const dispatch = useDispatch();
-    const { restaurants } = useSelector((state) => state.restaurantModule);
-    const { categories } = useSelector((state) => state.restaurantModule);
-    // const [restaurants, setRestaurants] = useState(null);
+    const restaurants = useSelector((state) => state.restaurantModule.restaurants);
 
     useEffect(() => {
         try {
@@ -22,13 +22,12 @@ export const Discovery = () => {
         }
     }, []);
 
-    return restaurants && categories ? (
+    return restaurants ? (
         <>
             <SubNavigation />
             <section className="discovery-page">
                 <HeroCarouselList />
-                {/* <HeroCarousel /> */}
-                <CategoriesList categories={categories.slice(0, 10)} restaurants={restaurants} />
+                <CategoriesList restaurants={restaurants} />
                 <RestaurantsCarouselList restaurants={restaurants} />
                 <RestaurantsCarouselList restaurants={restaurants} />
                 <RestaurantsCarouselList restaurants={restaurants} />

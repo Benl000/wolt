@@ -1,9 +1,11 @@
 import { NavLink } from 'react-router-dom';
+
 import { ReactComponent as DiscoveryLogo } from '../../assets/svgs/discovery/discoveryBtn.svg';
 import { ReactComponent as RestaurantsLogo } from '../../assets/svgs/discovery/restaurantsBtn.svg';
 import { ReactComponent as LocationLogo } from '../../assets/svgs/discovery/locationBtn.svg';
 
 export const SubNavigation = () => {
+    
     return (
         <nav className='discovery-nav'>
             <section className='discovery-nav-start'>
