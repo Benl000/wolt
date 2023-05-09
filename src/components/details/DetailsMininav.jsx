@@ -4,7 +4,7 @@ import { Link } from 'react-scroll';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-export const DetailsMininav = ({  menu }) => {
+export const DetailsMininav = ({ menu }) => {
 
     var settings = {
         dots: false,

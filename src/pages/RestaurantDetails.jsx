@@ -15,7 +15,6 @@ import bikeMenLogo from '../assets/svgs/detailsPage/bikeman.svg';
 import arrowLogo from '../assets/svgs/detailsPage/arrow.svg';
 
 export const RestaurantDetails = () => {
-    
     const { restaurant, menu } = useSelector((state) => state.restaurantModule);
     const scrollPosition = useScrollPosition();
     const { name, item } = useParams();
@@ -26,10 +25,11 @@ export const RestaurantDetails = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const restaurantData = dispatch(loadRestaurant(name));
+                const restaurantData = await dispatch(loadRestaurant(name));
                 console.log("restaurantData", restaurantData);
                 if (restaurantData) {
-                    dispatch(loadMenu(restaurantData.active_menu));
+                    const x = await dispatch(loadMenu(restaurantData.active_menu));
+                    console.log('xxxxx', x);
                 }
             } catch (err) {
                 console.log(err);
