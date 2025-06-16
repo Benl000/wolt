@@ -1,34 +1,19 @@
 import { restaurantService } from '../../services/restaurant.service';
 
 // Load all restaurants (flattened safely)
-export function loadRestaurant(id) {
+export function loadRestaurants(filterBy) {
     return async (dispatch) => {
         try {
-            console.log('🔍 Loading restaurant with ID:', id);
-            const restaurant = await restaurantService.getRestaurantById(id);
-
-            if (!restaurant) {
-                console.warn(`❌ Restaurant not found for ID "${id}"`);
-                return;
-            }
-
-            dispatch({ type: 'SET_RESTAURANT', restaurant });
-
-            const menuId = restaurant?.active_menu?.$oid || restaurant?.id?.$oid;
-            if (menuId) {
-                const menu = await restaurantService.getMenuById(menuId);
-                dispatch({ type: 'SET_MENU', menu });
-            } else {
-                console.warn(`❌ No menu ID found for restaurant "${restaurant?.slug || id}"`);
-            }
-
-            return restaurant;
+            const res = await restaurantService.query(filterBy);
+            const restaurants = Array.isArray(res)
+                ? res.flatMap(group => group.results || [])
+                : [];
+            dispatch({ type: 'SET_RESTAURANTS', restaurants });
         } catch (err) {
-            console.error('🚨 Failed to load restaurant and menu:', err);
+            console.error('Failed to load restaurants:', err);
         }
     };
 }
-
 
 // Load all categories
 export function loadCategories() {
@@ -60,19 +45,20 @@ export function loadRestaurant(id) {
         try {
             console.log('🔍 Loading restaurant with ID:', id);
             const restaurant = await restaurantService.getRestaurantById(id);
+
+            if (!restaurant) {
+                console.warn(`❌ Restaurant not found for ID "${id}"`);
+                return;
+            }
+
             dispatch({ type: 'SET_RESTAURANT', restaurant });
 
-            const menuId = restaurant?.active_menu?.$oid|| restaurant?.menu_id;;
-
+            const menuId = restaurant?.active_menu?.$oid || restaurant?.id?.$oid;
             if (menuId) {
                 const menu = await restaurantService.getMenuById(menuId);
                 dispatch({ type: 'SET_MENU', menu });
-            } else if (restaurant?.id?.$oid) {
-                console.warn(`⚠️ No active_menu ID found in restaurant "${restaurant?.slug}", using fallback ID`);
-                const menu = await restaurantService.getMenuById(restaurant.id.$oid);
-                dispatch({ type: 'SET_MENU', menu });
             } else {
-                console.warn(`❌ No menu ID found for restaurant "${restaurant?.slug}"`);
+                console.warn(`❌ No menu ID found for restaurant "${restaurant?.slug || id}"`);
             }
 
             return restaurant;
@@ -81,6 +67,7 @@ export function loadRestaurant(id) {
         }
     };
 }
+
 
 
 // Load menu for a restaurant by ID
