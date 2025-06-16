@@ -43,24 +43,30 @@ export function loadCategory(id) {
 export function loadRestaurant(id) {
     return async (dispatch) => {
         try {
-            console.log('Loading restaurant with ID:', id);
+            console.log('🔍 Loading restaurant with ID:', id);
             const restaurant = await restaurantService.getRestaurantById(id);
             dispatch({ type: 'SET_RESTAURANT', restaurant });
 
             const menuId = restaurant?.active_menu?.$oid;
+
             if (menuId) {
                 const menu = await restaurantService.getMenuById(menuId);
                 dispatch({ type: 'SET_MENU', menu });
+            } else if (restaurant?.id?.$oid) {
+                console.warn(`⚠️ No active_menu ID found in restaurant "${restaurant?.slug}", using fallback ID`);
+                const menu = await restaurantService.getMenuById(restaurant.id.$oid);
+                dispatch({ type: 'SET_MENU', menu });
             } else {
-                console.warn('No active_menu ID found in restaurant');
+                console.warn(`❌ No menu ID found for restaurant "${restaurant?.slug}"`);
             }
 
             return restaurant;
         } catch (err) {
-            console.error('Failed to load restaurant and menu:', err);
+            console.error('🚨 Failed to load restaurant and menu:', err);
         }
     };
 }
+
 
 // Load menu for a restaurant by ID
 export function loadMenu(id) {
