@@ -5,12 +5,9 @@ export function loadRestaurants(filterBy) {
     return async (dispatch) => {
         try {
             const res = await restaurantService.query(filterBy);
-
-            // Flatten and validate structure
             const restaurants = Array.isArray(res)
                 ? res.flatMap(group => group.results || [])
                 : [];
-
             dispatch({ type: 'SET_RESTAURANTS', restaurants });
         } catch (err) {
             console.error('Failed to load restaurants:', err);
@@ -30,6 +27,18 @@ export function loadCategories() {
     };
 }
 
+// ✅ Add back this missing function
+export function loadCategory(id) {
+    return async (dispatch) => {
+        try {
+            const category = await restaurantService.getCategoryById(id);
+            dispatch({ type: 'SET_CATEGORY', category });
+        } catch (err) {
+            console.error('Failed to load category:', err);
+        }
+    };
+}
+
 // Load a single restaurant by ID and its menu
 export function loadRestaurant(id) {
     return async (dispatch) => {
@@ -38,7 +47,6 @@ export function loadRestaurant(id) {
             const restaurant = await restaurantService.getRestaurantById(id);
             dispatch({ type: 'SET_RESTAURANT', restaurant });
 
-            // Load related menu using internal menu ID
             const menuId = restaurant?.active_menu?.$oid;
             if (menuId) {
                 const menu = await restaurantService.getMenuById(menuId);
