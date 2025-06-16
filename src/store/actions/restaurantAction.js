@@ -1,13 +1,10 @@
 import { restaurantService } from '../../services/restaurant.service';
 
-// Load all restaurants (flattened safely)
+// Load all restaurants (already flattened in service)
 export function loadRestaurants(filterBy) {
     return async (dispatch) => {
         try {
-            const res = await restaurantService.query(filterBy);
-            const restaurants = Array.isArray(res)
-                ? res.flatMap(group => group.results || [])
-                : [];
+            const restaurants = await restaurantService.query(filterBy);
             dispatch({ type: 'SET_RESTAURANTS', restaurants });
         } catch (err) {
             console.error('Failed to load restaurants:', err);
@@ -27,7 +24,7 @@ export function loadCategories() {
     };
 }
 
-// ✅ Add back this missing function
+// Load single category by ID
 export function loadCategory(id) {
     return async (dispatch) => {
         try {
@@ -39,30 +36,30 @@ export function loadCategory(id) {
     };
 }
 
-// Load a single restaurant by ID and its menu
+// Load restaurant + menu
 export function loadRestaurant(id) {
     return async (dispatch) => {
         try {
-            console.log('Loading restaurant with ID:', id);
+            console.log('🔍 Loading restaurant with ID:', id);
             const restaurant = await restaurantService.getRestaurantById(id);
             dispatch({ type: 'SET_RESTAURANT', restaurant });
 
-            const menuId = restaurant?.active_menu?.$oid;
+            const menuId = restaurant?.active_menu?.$oid || restaurant?.id?.$oid;
             if (menuId) {
                 const menu = await restaurantService.getMenuById(menuId);
                 dispatch({ type: 'SET_MENU', menu });
             } else {
-                console.warn('No active_menu ID found in restaurant');
+                console.warn(`❌ No menu ID found for restaurant "${restaurant?.slug || id}"`);
             }
 
             return restaurant;
         } catch (err) {
-            console.error('Failed to load restaurant and menu:', err);
+            console.error('🚨 Failed to load restaurant and menu:', err);
         }
     };
 }
 
-// Load menu for a restaurant by ID
+// Load menu by ID
 export function loadMenu(id) {
     return async (dispatch) => {
         try {
