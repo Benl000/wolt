@@ -14,23 +14,19 @@ export const restaurantService = {
 async function query(filterBy) {
     const res = await httpService.get('restaurant');
 
-    // If it's already flat (e.g., array of restaurants)
-    if (Array.isArray(res) && res.every(item => item.slug)) {
-        console.log('🟢 Flat restaurant array');
-        return res.filter(r => !filterBy || r.categories?.some(c => c.slug === filterBy));
-    }
+    // 🟡 If response is nested like [{ results: [...] }, { results: [...] }]
+    const restaurants = Array.isArray(res)
+        ? res.flatMap(group => group.results || [])
+        : [];
 
-    // If it's nested inside { results: [...] }
-    if (Array.isArray(res)) {
-        console.log('🟡 Nested restaurant array');
-        return res.flatMap(group => group.results || []).filter(r => 
-            !filterBy || r.categories?.some(c => c.slug === filterBy)
-        );
-    }
+    if (!filterBy) return restaurants;
 
-    console.warn('🔴 Unexpected restaurant response format:', res);
-    return [];
+    return restaurants.filter(restaurant => {
+        const { categories } = restaurant;
+        return categories?.some(category => category.slug === filterBy);
+    });
 }
+
 
 
 // Fetch a single restaurant by slug/id (unwraps nested results)
