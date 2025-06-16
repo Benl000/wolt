@@ -38,8 +38,9 @@ async function getRestaurantById(id) {
 
 
 async function getMenuById(id) {
-    console.log('menu id is:', id);
-    const menu = await httpService.get(`menu/${id}`);
+    const menuId = typeof id === 'object' && id.$oid ? id.$oid : id;
+    console.log('📦 Fetching menu with ID:', menuId);
+    const menu = await httpService.get(`menu/${menuId}`);
     return menu;
 }
 
