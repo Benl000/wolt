@@ -14,7 +14,7 @@ export const restaurantService = {
 async function query(filterBy) {
     const res = await httpService.get('restaurant');
 
-    // 🔍 Flatten all groups into a single array of restaurants
+    // 🟢 Flatten all restaurant groups into a single array
     const restaurants = Array.isArray(res)
         ? res.flatMap(group => group.results || [])
         : [];
@@ -26,6 +26,7 @@ async function query(filterBy) {
         return categories?.some(category => category.slug === filterBy);
     });
 }
+
 
 
 
