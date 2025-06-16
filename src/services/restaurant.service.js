@@ -31,12 +31,8 @@ async function getRestaurantById(id) {
 }
 
 async function getMenuById(id) {
-    // const restaurants = await storageService.query();
     console.log('menu id is:', id);
-    const menu = await httpService.get(`menu/${JSON.stringify(id)}`);
-    // return restaurants.find(restaurant => restaurant.results[0].slug === id);
-    // console.log('id is:', id);
-    // console.log(menu);
+    const menu = await httpService.get(`menu/${id}`);
     return menu;
 }
 
