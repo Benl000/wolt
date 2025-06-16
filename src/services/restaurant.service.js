@@ -21,14 +21,15 @@ async function query(filterBy) {
 }
 
 async function getRestaurantById(id) {
-    // const restaurants = await storageService.query();
     console.log('restaurant id is:', id);
-    const restaurant = await httpService.get(`restaurant/${id}`);
-    // return restaurants.find(restaurant => restaurant.results[0].slug === id);
-    // console.log('id is:', id);
-    // console.log(restaurant);
+    const res = await httpService.get(`restaurant/${id}`);
+
+    // ✅ If the data is wrapped like { results: [...] }
+    const restaurant = Array.isArray(res?.results) ? res.results[0] : res;
+
     return restaurant;
 }
+
 
 async function getMenuById(id) {
     console.log('menu id is:', id);
