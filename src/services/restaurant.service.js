@@ -1,6 +1,7 @@
 import { storageService } from './async-storage.service';
 import { httpService } from './http.service';
 import categories from '../data/category';
+import menus from '../data/menu_db'; // ✅ make sure menu_db is imported correctly
 
 export const restaurantService = {
     query,
@@ -27,10 +28,6 @@ async function query(filterBy) {
     });
 }
 
-
-
-
-
 // Fetch a single restaurant by slug/id (unwraps nested results)
 async function getRestaurantById(id) {
     console.log('restaurant id is:', id);
@@ -45,12 +42,20 @@ async function getRestaurantById(id) {
     return res;
 }
 
+// ✅ New logic: find menu by restaurant ID or slug from local `menu_db.js`
+async function getMenuById(idOrSlug) {
+    console.log('📦 Resolving menu for:', idOrSlug);
 
-// Fetch a menu by internal menu ID or $oid wrapper
-async function getMenuById(id) {
-    const menuId = typeof id === 'object' && id.$oid ? id.$oid : id;
-    console.log('📦 Fetching menu with ID:', menuId);
-    return await httpService.get(`menu/${menuId}`);
+    const menu = menus.find(menu =>
+        menu.id === idOrSlug ||
+        menu.slug === idOrSlug
+    );
+
+    if (!menu) {
+        console.warn(`⚠️ No menu found for ID or slug: ${idOrSlug}`);
+    }
+
+    return menu;
 }
 
 // Get all categories
