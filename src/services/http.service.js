@@ -25,14 +25,13 @@ export const httpService = {
 async function ajax(endpoint, method = 'GET', data = null, query = null) {
   try {
     const res = await axios({
-      url: `${BASE_URL}${endpoint}`,
+      url: `${BASE_URL.replace(/\/$/, '')}/${endpoint}`,
       method,
       data,
-      params: query, //|| (method === 'GET') ? data : null,
+      params: query,
     });
     return res.data;
   } catch (err) {
-    // console.dir(err)
     if (err.response) {
       switch (err.response.status) {
         case 401:
