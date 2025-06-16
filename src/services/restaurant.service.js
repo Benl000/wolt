@@ -14,7 +14,7 @@ export const restaurantService = {
 async function query(filterBy) {
     const res = await httpService.get('restaurant');
 
-    // 🟡 If response is nested like [{ results: [...] }, { results: [...] }]
+    // 🔍 Flatten all groups into a single array of restaurants
     const restaurants = Array.isArray(res)
         ? res.flatMap(group => group.results || [])
         : [];
@@ -29,6 +29,7 @@ async function query(filterBy) {
 
 
 
+
 // Fetch a single restaurant by slug/id (unwraps nested results)
 async function getRestaurantById(id) {
     console.log('restaurant id is:', id);
@@ -40,8 +41,9 @@ async function getRestaurantById(id) {
         return restaurant;
     }
 
-    return res; // fallback if not wrapped
+    return res;
 }
+
 
 // Fetch a menu by internal menu ID or $oid wrapper
 async function getMenuById(id) {
