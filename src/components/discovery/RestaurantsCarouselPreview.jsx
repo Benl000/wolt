@@ -45,13 +45,11 @@ export const RestaurantsCarouselPreview = ({ restaurant }) => {
         <div className="footer-container">
           <span className="footer-container_deliveryCost">
             <span>🚴‍♀️</span>
-            {(restaurant?.delivery_specs?.delivery_pricing?.base_price ?? 0) / 100).toLocaleString(
-              "en-US",
-              {
-                style: "currency",
-                currency: restaurant?.currency || "ILS",
-              }
-            )}{" "}
+            {((restaurant?.delivery_specs?.delivery_pricing?.base_price ?? 0) / 100).toLocaleString("en-US", {
+  style: "currency",
+  currency: restaurant?.currency ?? "ILS",
+})}
+{" "}
             ·
           </span>
           <span className="footer-container_cost">$$$$ ·</span>
