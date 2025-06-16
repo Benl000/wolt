@@ -3,8 +3,8 @@ export const utilService = {
 };
 function getRestaurantsCount(filterBy, restaurants) {
     const count = restaurants.filter(restaurant => {
-        const { categories } = restaurant;
-        return categories.some(category => category.slug === filterBy);
+        const categories = restaurant?.categories;
+        return Array.isArray(categories) && categories.some(category => category?.slug === filterBy);
     });
     return count.length;
 }
