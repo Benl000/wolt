@@ -10,44 +10,50 @@ export const restaurantService = {
     getMenuById
 };
 
+// Load all restaurants, optionally filtered by category
 async function query(filterBy) {
-    // const restaurants = await storageService.query()
-    const restaurants = await httpService.get('restaurant');
+    const res = await httpService.get('restaurant');
+
+    // Flatten if needed
+    const restaurants = Array.isArray(res)
+        ? res.flatMap(group => group.results || [])
+        : [];
+
     if (!filterBy) return restaurants;
+
     return restaurants.filter(restaurant => {
         const { categories } = restaurant;
-        return categories.some(category => category.slug === filterBy);
+        return categories?.some(category => category.slug === filterBy);
     });
 }
 
+// Fetch a single restaurant by slug/id (unwraps nested results)
 async function getRestaurantById(id) {
     console.log('restaurant id is:', id);
     const res = await httpService.get(`restaurant/${id}`);
 
-    // If response is an array (e.g. [{ results: [restaurant] }])
     if (Array.isArray(res)) {
         const restaurant = res[0]?.results?.[0];
         console.log('👉 Parsed restaurant:', restaurant);
         return restaurant;
     }
 
-    // Fallback if it's already a restaurant object
-    return res;
+    return res; // fallback if not wrapped
 }
 
-
-
+// Fetch a menu by internal menu ID or $oid wrapper
 async function getMenuById(id) {
     const menuId = typeof id === 'object' && id.$oid ? id.$oid : id;
     console.log('📦 Fetching menu with ID:', menuId);
-    const menu = await httpService.get(`menu/${menuId}`);
-    return menu;
+    return await httpService.get(`menu/${menuId}`);
 }
 
+// Get all categories
 function getCategories() {
     return categories;
 }
 
+// Get category by ID
 function getCategoryById(id) {
     return categories.find(category => category.id === id);
 }
