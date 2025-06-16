@@ -1,10 +1,13 @@
 import { restaurantService } from '../../services/restaurant.service';
 
-// Load all restaurants (already flattened in service)
+// Load all restaurants (flattened safely)
 export function loadRestaurants(filterBy) {
     return async (dispatch) => {
         try {
-            const restaurants = await restaurantService.query(filterBy);
+            const res = await restaurantService.query(filterBy);
+            const restaurants = Array.isArray(res)
+                ? res.flatMap(group => group.results || [])
+                : [];
             dispatch({ type: 'SET_RESTAURANTS', restaurants });
         } catch (err) {
             console.error('Failed to load restaurants:', err);
@@ -24,7 +27,7 @@ export function loadCategories() {
     };
 }
 
-// Load single category by ID
+// Load category by ID
 export function loadCategory(id) {
     return async (dispatch) => {
         try {
@@ -36,7 +39,7 @@ export function loadCategory(id) {
     };
 }
 
-// Load restaurant + menu
+// Load a single restaurant by ID and its menu
 export function loadRestaurant(id) {
     return async (dispatch) => {
         try {
@@ -44,7 +47,12 @@ export function loadRestaurant(id) {
             const restaurant = await restaurantService.getRestaurantById(id);
             dispatch({ type: 'SET_RESTAURANT', restaurant });
 
-            const menuId = restaurant?.active_menu?.$oid || restaurant?.id?.$oid;
+            const menuId =
+                restaurant?.active_menu?.$oid ||
+                restaurant?.menu_id ||
+                restaurant?.id?.$oid ||
+                restaurant?.id;
+
             if (menuId) {
                 const menu = await restaurantService.getMenuById(menuId);
                 dispatch({ type: 'SET_MENU', menu });
@@ -59,7 +67,7 @@ export function loadRestaurant(id) {
     };
 }
 
-// Load menu by ID
+// Load menu for a restaurant by ID
 export function loadMenu(id) {
     return async (dispatch) => {
         try {
