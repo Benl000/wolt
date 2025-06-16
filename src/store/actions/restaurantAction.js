@@ -31,16 +31,29 @@ export function loadCategories() {
 }
 
 // Load single category
-export function loadCategory(id) {
+export function loadRestaurant(id) {
     return async (dispatch) => {
         try {
-            const category = await restaurantService.getCategoryById(id);
-            dispatch({ type: 'SET_CATEGORY', category });
+            console.log('Loading restaurant with ID:', id);
+            const restaurant = await restaurantService.getRestaurantById(id);
+            dispatch({ type: 'SET_RESTAURANT', restaurant });
+
+            // Load the related menu using internal menu ID
+            const menuId = restaurant?.active_menu?.$oid;
+            if (menuId) {
+                const menu = await restaurantService.getMenuById(menuId);
+                dispatch({ type: 'SET_MENU', menu });
+            } else {
+                console.warn('No active_menu ID found in restaurant');
+            }
+
+            return restaurant;
         } catch (err) {
-            console.error('Failed to load category:', err);
+            console.error('Failed to load restaurant:', err);
         }
     };
 }
+
 
 // Load menu for a restaurant
 export function loadMenu(id) {
