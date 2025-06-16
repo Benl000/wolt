@@ -49,7 +49,12 @@ export const RestaurantsCarouselList = ({ restaurants }) => {
             </div>
             <Slider className="restaurant-list-slider"  {...sliderSettings} ref={customeSlider}>
                 {restaurants && restaurants.map(restaurant =>
-                    <RestaurantsCarouselPreview key={restaurant._id} restaurant={restaurant} />)}
+    <RestaurantsCarouselPreview
+        key={restaurant.id?.$oid || restaurant.slug || restaurant.name?.[0]?.value}
+        restaurant={restaurant}
+    />
+)}
+
             </Slider>
         </section>
     );
