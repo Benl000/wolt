@@ -24,11 +24,17 @@ async function getRestaurantById(id) {
     console.log('restaurant id is:', id);
     const res = await httpService.get(`restaurant/${id}`);
 
-    // ✅ If the data is wrapped like { results: [...] }
-    const restaurant = Array.isArray(res?.results) ? res.results[0] : res;
+    // If response is an array (e.g. [{ results: [restaurant] }])
+    if (Array.isArray(res)) {
+        const restaurant = res[0]?.results?.[0];
+        console.log('👉 Parsed restaurant:', restaurant);
+        return restaurant;
+    }
 
-    return restaurant;
+    // Fallback if it's already a restaurant object
+    return res;
 }
+
 
 
 async function getMenuById(id) {
