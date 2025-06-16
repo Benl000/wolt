@@ -47,7 +47,7 @@ export function loadRestaurant(id) {
             const restaurant = await restaurantService.getRestaurantById(id);
             dispatch({ type: 'SET_RESTAURANT', restaurant });
 
-            const menuId = restaurant?.active_menu?.$oid;
+            const menuId = restaurant?.active_menu?.$oid|| restaurant?.menu_id;;
 
             if (menuId) {
                 const menu = await restaurantService.getMenuById(menuId);
